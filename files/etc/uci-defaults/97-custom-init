@@ -7,10 +7,10 @@
 # ⚠ 含 WiFi 密钥：本仓库是公开 fork，密钥会明文躺在仓库里，请自行评估。
 #    如介意可把下面的 WIFI_KEY 改成占位符，刷机后进 LuCI 再改。
 #
-# 说明：无线 section 名同时兼容 ra/rai0（MTK 私有驱动命名）与
-#       radio0/radio1（PonWrt 开源 mt76 驱动命名）。若指定的 section 名
-#       不存在，自动按频段（2g/5g）定位；wifi-device 默认是 disabled 的，
-#       这里会一并打开，否则配了 SSID 也不会广播。
+# 说明：无线 section 名直接使用 radio0（2.4G）/ radio1（5G）
+#      （2026-10-22 已在本机实测确认）。若将来 section 名有变化，
+#       脚本仍会按频段（2g/5g）自动定位兜底；wifi-device 默认是
+#       disabled 的，这里会一并打开，否则配了 SSID 也不会广播。
 
 # ---------------- 可调参数 ----------------
 WIFI_24_SSID='Pig'
@@ -18,8 +18,8 @@ WIFI_5_SSID='Pig_5G'
 WIFI_KEY='k13760405087'
 WIFI_24_CHANNEL='1'
 WIFI_5_CHANNEL='36'
-WIFI_24_DEV='ra';   WIFI_24_IFACE='ra0'    # 期望的 2.4G section 名
-WIFI_5_DEV='rai';   WIFI_5_IFACE='rai0'    # 期望的 5G section 名
+WIFI_24_DEV='radio0';         WIFI_24_IFACE='default_radio0'   # 2.4G
+WIFI_5_DEV='radio1';          WIFI_5_IFACE='default_radio1'    # 5G
 LAN_IP='172.16.9.1'
 # ------------------------------------------
 
