@@ -29,7 +29,9 @@ ADD_LUCKY=false        # luci-app-lucky（DDNS + socat）
 ADD_TAILSCALE=false    # luci-app-tailscale
 ADD_OPENLIST=false     # luci-app-openlist2（alist/openlist 挂载）
 ADD_SMARTDNS=false     # luci-app-smartdns
-ADD_EASYTIER=false     # luci-app-easytier（另需 kmod-tun + easytier 本体，Rust 编译较慢）
+ADD_EASYTIER=true      # easytier-noweb（预编译二进制，无 Web 面板）+ luci-app-easytier
+ADD_HOMI=true          # Homi（用户自有项目）：mihomo 内核 + homi 服务 + luci-app-homi 界面
+ADD_PARTEXP=true       # luci-app-partexp：一键分区扩容/自动挂载（含中文）
 ADD_POWEROFF=false     # luci-app-poweroffdevice（关机）
 ADD_OWQ_WOL=false      # luci-app-owq-wol（网络唤醒，依赖 etherwake）
 ADD_WATCHDOG=false     # luci-app-watchdog（看门狗，包在子目录，需特殊处理）
@@ -299,7 +301,67 @@ if [ "$ADD_FLUENT" = "true" ] || [ "$ADD_FLUENT_LITE" = "true" ] || [ "$ADD_FLUE
 fi
 
 if [ "$ADD_EASYTIER" = "true" ]; then
-  clone https://github.com/EasyTier/luci-app-easytier "$PKG_DIR/luci-app-easytier" main
+  # easytier-noweb：EasyTier 核心的 noweb 变体。Makefile 在编译时直接下载
+  # GitHub Releases 的预编译二进制（aarch64），不走 Rust 源码编译，速度快。
+  # 仓库是 monorepo（easytier/ + easytier-noweb/ + luci-app-easytier/），
+  # 只要 noweb 版 + LuCI 界面，拷出子目录（整仓丢进 package/custom 会让
+  # 包名对不上，参考 luci-app-watchdog 的注释）。
+  ET_TMP="$(mktemp -d)/easytier"
+  if ! clone https://github.com/EasyTier/luci-app-easytier "$ET_TMP" main; then
+    echo "::error::EasyTier/luci-app-easytier 拉取失败，easytier-noweb / luci-app-easytier 会被 defconfig 剔除"
+    exit 1
+  fi
+  for p in easytier-noweb luci-app-easytier; do
+    if [ ! -f "$ET_TMP/$p/Makefile" ]; then
+      echo "::error::$ET_TMP/$p/Makefile 不存在（上游改结构了？）"
+      exit 1
+    fi
+    rm -rf "$PKG_DIR/$p"
+    cp -a "$ET_TMP/$p" "$PKG_DIR/"
+    echo "✅ 已拷贝: $p"
+  done
+  rm -rf "$ET_TMP"
+fi
+
+# --- Homi（用户自有项目：Mihomo 极简 LuCI 应用）---
+# 源：pg-go/Homi。包在三个子目录：mihomo（内核，Go 源码编译 MetaCubeX/mihomo）、
+# homi（服务，DEPENDS +mihomo +yq +curl）、luci-app-homi（界面，中文原生无 po）。
+# 必须拷出子目录。注意 mihomo 是 Go 编译，会给固件构建增加约 10 分钟。
+if [ "$ADD_HOMI" = "true" ]; then
+  HOMI_TMP="$(mktemp -d)/homi"
+  if ! clone https://github.com/pg-go/Homi "$HOMI_TMP" main; then
+    echo "::error::pg-go/Homi 拉取失败，mihomo / homi / luci-app-homi 会被 defconfig 剔除"
+    exit 1
+  fi
+  for p in mihomo homi luci-app-homi; do
+    if [ ! -f "$HOMI_TMP/$p/Makefile" ]; then
+      echo "::error::$HOMI_TMP/$p/Makefile 不存在（上游改结构了？）"
+      exit 1
+    fi
+    rm -rf "$PKG_DIR/$p"
+    cp -a "$HOMI_TMP/$p" "$PKG_DIR/"
+    echo "✅ 已拷贝: $p"
+  done
+  rm -rf "$HOMI_TMP"
+fi
+
+# --- luci-app-partexp（一键分区扩容 / 自动挂载）---
+# 源：sirpdboy/luci-app-partexp。包在子目录 luci-app-partexp/，拷出子目录；
+# 自带 po/zh_Hans 中文（LUCI_BASENAME=partexp → luci-i18n-partexp-zh-cn）。
+if [ "$ADD_PARTEXP" = "true" ]; then
+  PE_TMP="$(mktemp -d)/partexp"
+  if ! clone https://github.com/sirpdboy/luci-app-partexp "$PE_TMP" main; then
+    echo "::error::sirpdboy/luci-app-partexp 拉取失败，luci-app-partexp 会被 defconfig 剔除"
+    exit 1
+  fi
+  if [ ! -f "$PE_TMP/luci-app-partexp/Makefile" ]; then
+    echo "::error::$PE_TMP/luci-app-partexp/Makefile 不存在（上游改结构了？）"
+    exit 1
+  fi
+  rm -rf "$PKG_DIR/luci-app-partexp"
+  cp -a "$PE_TMP/luci-app-partexp" "$PKG_DIR/"
+  echo "✅ 已拷贝: luci-app-partexp"
+  rm -rf "$PE_TMP"
 fi
 if [ "$ADD_POWEROFF" = "true" ]; then
   clone https://github.com/sirpdboy/luci-app-poweroffdevice "$PKG_DIR/luci-app-poweroffdevice" main
@@ -335,6 +397,16 @@ fi
 # natmode / pon-status 来自 qwe3017/luci-app（config 里也是 =y）
 for p in luci-app-natmode luci-app-pon-status; do
   if [ "$ADD_LUCI_APP" = "true" ] && [ ! -d "$PKG_DIR/$p" ]; then
+    echo "::error::$p 未拉到，config 里的 =y 会被 defconfig 剔除"
+    exit 1
+  fi
+done
+# EasyTier / Homi / partexp：默认开启，config 里都是 =y，拉不到就地报错
+for pair in "ADD_EASYTIER easytier-noweb" "ADD_EASYTIER luci-app-easytier" \
+            "ADD_HOMI mihomo" "ADD_HOMI homi" "ADD_HOMI luci-app-homi" \
+            "ADD_PARTEXP luci-app-partexp"; do
+  sw="${pair%% *}"; p="${pair#* }"
+  if [ "${!sw}" = "true" ] && [ ! -d "$PKG_DIR/$p" ]; then
     echo "::error::$p 未拉到，config 里的 =y 会被 defconfig 剔除"
     exit 1
   fi
