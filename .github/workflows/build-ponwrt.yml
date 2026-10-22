@@ -8,8 +8,8 @@ env:
   BUILD_ROOT: /workdir
   SOURCE: ${{ github.event.inputs.source || 'fork' }}
   # 唯一真相源：固件版本后缀的作者名（LuCI 概览页「固件版本」）
-  # 由 fw_author 输入项覆盖，留空则 qwe
-  FW_AUTHOR: ${{ github.event.inputs.fw_author || 'qwe' }}
+  # 由 fw_author 输入项覆盖；输入留空则取仓库所有者用户名（fork 后自动变成你的名字）
+  FW_AUTHOR: ${{ github.event.inputs.fw_author || github.repository_owner }}
   REPO_URL: ${{ github.event.inputs.source == 'pbs05/ponwrt' && 'https://github.com/pbs05/ponwrt' || 'https://github.com/qwe3017/ponwrt' }}
   FEEDS_CONF: ''
   DIY_P1_SH: diy-part1.sh
@@ -27,7 +27,7 @@ env:
   BUILD_SCOPE: ${{ github.event.inputs.scope || 'firmware' }}
   IGNORE_CACHE: ${{ github.event.inputs.ignore_cache || 'false' }}
   FW_BUILD_TIME: ''                 # 留空 = 自动取构建时时间（Asia/Shanghai）
-  FW_DESC_SUFFIX: ''               # 留空 = "· qwe · <构建时间>"；填了则完全自定义
+  FW_DESC_SUFFIX: ''               # 留空 = "· <作者名> · <构建时间>"；填了则完全自定义
 
   # =========================================================
   # 加密加速开关（★ 本次新增，写在这里才是 workflow 级 env）
@@ -149,11 +149,11 @@ on:
         options:
           - 'false'
           - 'true'
-      # 覆盖口：不填即为 env.FW_AUTHOR 的 "qwe"。保留输入项仅为临时指定其他作者。
+      # 覆盖口：不填即为 env.FW_AUTHOR（默认取仓库所有者用户名）。保留输入项仅为临时指定其他作者。
       fw_author:
-        description: '覆盖固件版本后缀的作者名（LuCI 概览页「固件版本」）。留空 = qwe'
+        description: '覆盖固件版本后缀的作者名（LuCI 概览页「固件版本」）。留空 = 仓库所有者用户名'
         required: false
-        default: 'qwe'
+        default: ''
       upload_release:
         description: '固件发布到 Release（false 则只传 Artifact）'
         required: false
@@ -318,7 +318,8 @@ jobs:
 
           # 输入项为空时回退到 workflow 级默认值，确保 diy-part2.sh 拿到的
           # 始终是确定值，而不是空串（空串会让 LuCI 概览页显示 "·  ·"）。
-          echo "FW_AUTHOR=${FW_AUTHOR:-qwe}" >> "$GITHUB_ENV"
+          # workflow 级 FW_AUTHOR 已是「输入值 || 仓库所有者」，这里只是固化。
+          echo "FW_AUTHOR=${FW_AUTHOR:-${{ github.repository_owner }}}" >> "$GITHUB_ENV"
 
           # 加密开关同样固化一遍：写进 GITHUB_ENV 后，即便哪天 workflow 级
           # env 表达式改了，本 job 后续步骤读到的仍是本次解析出的确定值。
