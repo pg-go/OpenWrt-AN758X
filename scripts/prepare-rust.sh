@@ -1,1 +1,218 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBwcmVwYXJlLXJ1c3Quc2gg4oCU4oCUIOeUqCBydW5uZXIg55qEIHJ1c3R1cCDmm7/ku6MgcnVzdGMg5rqQ56CB6Ieq5Li+77yI55yBIDMwfjYwIOWIhumSn++8iQojCiMgICDlhbPplK7vvJp0YXJnZXQgdHJpcGxlIOW/hemhu+WQkSBmZWVkIOimgeOAgeS4jeiDveiHquW3seaLvCDigJTigJQg6K+7CiMgICBmZWVkcy9wYWNrYWdlcy9sYW5nL3J1c3QvcnVzdC12YWx1ZXMubWsg55qEIFJVU1RDX1RBUkdFVF9BUkNI77yMCiMgICDmiY3og73kv53or4EgQ0kg6KOF55qEIHRhcmdldCDkuI4gT3BlbldydCDmnJ/mnJvnmoTkuIDoh7TjgIIKIyDimIUg5YWo6YOo6L2v5aSx6LSl77yacnVzdHVwIOe8uuWksSAvIGZlZWQg57uT5p6E5LiN5ZCMIC8g55uu5qCH6KOF5LiN5LiK77yM6YO95Y+qIHdhcm5pbmcg5bm2CiMgICDpgIDlm57mupDnoIHoh6rkuL7jgILnlKjms5U6IGJhc2ggcHJlcGFyZS1ydXN0LnNoIDxvcGVud3J0X2Rpcj4KIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpzZXQgLXVvIHBpcGVmYWlsCgpPVz0iJHsxOi0kUFdEfSIKY2QgIiRPVyIgfHwgeyBlY2hvICI6OmVycm9yOjrml6Dms5Xov5vlhaUgJE9XIjsgZXhpdCAxOyB9CgpTQ1JJUFRfRElSPSQoY2QgLS0gIiQoZGlybmFtZSAtLSAiJHtCQVNIX1NPVVJDRVswXX0iKSIgJiYgcHdkKQpSRVBPUlRfRElSPSIke0dJVEhVQl9XT1JLU1BBQ0U6LSRPV30vYnVpbGQtcmVwb3J0cyIKbWtkaXIgLXAgIiRSRVBPUlRfRElSIgpSRVBPUlQ9IiRSRVBPUlRfRElSL3J1c3QtdG9vbGNoYWluLnR4dCIKCmxvZygpIHsgZWNobyAiJDEiIHwgdGVlIC1hICIkUkVQT1JUIjsgfQp3YXJuKCkgeyBlY2hvICI6Ondhcm5pbmc6OiQxIjsgZWNobyAi6Lez6L+HOiAkMSIgPj4gIiRSRVBPUlQiOyB9Cgo6ID4gIiRSRVBPUlQiCmxvZyAiPT09PT0gUnVzdCDpooTnvJbor5Hlt6Xlhbfpk74gPT09PT0iCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDAuIOWJjee9ruajgOafpQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpSVVNUX0ZFRUQ9IiRQV0QvZmVlZHMvcGFja2FnZXMvbGFuZy9ydXN0IgppZiBbICEgLWYgIiRSVVNUX0ZFRUQvTWFrZWZpbGUiIF07IHRoZW4KICB3YXJuICJSdXN0OiDmoJHph4zmsqHmnIkgZmVlZHMvcGFja2FnZXMvbGFuZy9ydXN077yM6Lez6L+HIgogIGV4aXQgMApmaQoKaWYgWyAhIC1mICIkUlVTVF9GRUVEL3J1c3QtdmFsdWVzLm1rIiBdOyB0aGVuCiAgd2FybiAiUnVzdDog57y6IHJ1c3QtdmFsdWVzLm1r77yI5ou/5LiN5YiwIFJVU1RDX1RBUkdFVF9BUkNI77yJ77yM6YCA5Zue5rqQ56CB6Ieq5Li+IgogIGV4aXQgMApmaQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyAxLiDlkJEgZmVlZCDopoEgdGFyZ2V0IHRyaXBsZQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpSVVNUX1RBUkdFVD0kKG1ha2UgLS1uby1wcmludC1kaXJlY3RvcnkgLXMgLWYgLSBUT1BESVI9IiRQV0QiIGNpLXJ1c3QtdGFyZ2V0IDw8J01BS0UnIDI+L2Rldi9udWxsCmluY2x1ZGUgJChUT1BESVIpL3J1bGVzLm1rCmluY2x1ZGUgJChUT1BESVIpL2ZlZWRzL3BhY2thZ2VzL2xhbmcvcnVzdC9ydXN0LXZhbHVlcy5tawouUEhPTlk6IGNpLXJ1c3QtdGFyZ2V0CmNpLXJ1c3QtdGFyZ2V0OgoJQHByaW50ZiAnJXNcbicgJyQoUlVTVENfVEFSR0VUX0FSQ0gpJwpNQUtFCikKaWYgWyAteiAiJFJVU1RfVEFSR0VUIiBdOyB0aGVuCiAgd2FybiAiUnVzdDogUlVTVENfVEFSR0VUX0FSQ0gg5Li656m677yM6YCA5Zue5rqQ56CB6Ieq5Li+IgogIGV4aXQgMApmaQpsb2cgIlJ1c3QgdGFyZ2V0OiAkUlVTVF9UQVJHRVQiCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDIuIOaJviBydXN0dXDvvIhydW5uZXIg6aKE6KOF77yM5L2GIFBBVEgg5pyq5b+F5YyF5ZCrIH4vLmNhcmdvL2Jpbu+8iQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpSVVNUVVBfQklOPSQoY29tbWFuZCAtdiBydXN0dXAgfHwgdHJ1ZSkKaWYgWyAteiAiJFJVU1RVUF9CSU4iIF07IHRoZW4KICBmb3IgYyBpbiAiJEhPTUUvLmNhcmdvL2Jpbi9ydXN0dXAiIC91c3IvYmluL3J1c3R1cCAvdXNyL2xvY2FsL2Jpbi9ydXN0dXA7IGRvCiAgICBbIC14ICIkYyIgXSAmJiB7IFJVU1RVUF9CSU49JGM7IGJyZWFrOyB9CiAgZG9uZQpmaQppZiBbIC16ICIkUlVTVFVQX0JJTiIgXTsgdGhlbgogIHdhcm4gIlJ1c3Q6IHJ1bm5lciDmsqHmnIkgcnVzdHVw77yI6ZyAIGFwdCDlronoo4UgcnVzdHVw77yJ77yM6YCA5Zue5rqQ56CB6Ieq5Li+IgogIGV4aXQgMApmaQpQQVRIPSIkKGRpcm5hbWUgIiRSVVNUVVBfQklOIik6JFBBVEgiOyBleHBvcnQgUEFUSAoKUlVTVF9UT09MQ0hBSU49JChydXN0dXAgc2hvdyBhY3RpdmUtdG9vbGNoYWluIDI+L2Rldi9udWxsIHwgYXdrICd7cHJpbnQgJDF9JykKWyAtbiAiJFJVU1RfVE9PTENIQUlOIiBdIHx8IFJVU1RfVE9PTENIQUlOPXN0YWJsZQpsb2cgIlJ1c3QgdG9vbGNoYWluOiAkUlVTVF9UT09MQ0hBSU4iCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDMuIOijheWvueW6lOeahCB0YXJnZXQKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KaWYgISBydXN0dXAgdGFyZ2V0IGFkZCAtLXRvb2xjaGFpbiAiJFJVU1RfVE9PTENIQUlOIiAiJFJVU1RfVEFSR0VUIiAyPiYxIHwgdGVlIC1hICIkUkVQT1JUIjsgdGhlbgogIHdhcm4gIlJ1c3Q6IHJ1c3R1cCB0YXJnZXQgYWRkICRSVVNUX1RBUkdFVCDlpLHotKXvvIzpgIDlm57mupDnoIHoh6rkuL4iCiAgZXhpdCAwCmZpCgpSVVNUX1JPT1Q9JChydXN0dXAgcnVuICIkUlVTVF9UT09MQ0hBSU4iIHJ1c3RjIC0tcHJpbnQgc3lzcm9vdCAyPi9kZXYvbnVsbCkKaWYgWyAteiAiJFJVU1RfUk9PVCIgXSB8fCBbICEgLWQgIiRSVVNUX1JPT1QiIF07IHRoZW4KICB3YXJuICJSdXN0OiBydXN0YyAtLXByaW50IHN5c3Jvb3Qg5aSx6LSl77yM6YCA5Zue5rqQ56CB6Ieq5Li+IgogIGV4aXQgMApmaQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyA0LiDmoKHpqozvvJp0YXJnZXQg55qEIHN0ZCDkuI7kuInkuKrlt6Xlhbflv4XpobvnnJ/nmoTlnKgKIyAgICDlkKbliJnlkI7pnaLnvJbor5HkvJrlm6DkuLrnvLogc3RkIOiAjOWksei0pe+8jOS4jeWmgueOsOWcqOWwsemAgOWbngojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQppZiBbICEgLWQgIiRSVVNUX1JPT1QvbGliL3J1c3RsaWIvJFJVU1RfVEFSR0VUL2xpYiIgXTsgdGhlbgogIHdhcm4gIlJ1c3Q6IOe8uiAkUlVTVF9UQVJHRVQg55qEIHN0ZO+8iCRSVVNUX1JPT1QvbGliL3J1c3RsaWIvJFJVU1RfVEFSR0VUL2xpYu+8ie+8jOmAgOWbnua6kOeggeiHquS4viIKICBleGl0IDAKZmkKZm9yIHQgaW4gY2FyZ28gcnVzdGMgcnVzdGRvYzsgZG8KICBpZiBbICEgLXggIiRSVVNUX1JPT1QvYmluLyR0IiBdOyB0aGVuCiAgICB3YXJuICJSdXN0OiDnvLogJFJVU1RfUk9PVC9iaW4vJHTvvIzpgIDlm57mupDnoIHoh6rkuL4iCiAgICBleGl0IDAKICBmaQpkb25lCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDQuNCDlj6/pgInvvJrmjIkgZmVlZCDnmoTniYjmnKzlj6boo4XkuIDkuKogdG9vbGNoYWlu77yIUlVTVF9QSU5fRkVFRD0x77yJCiMKIyAgIOm7mOiupOeUqCBydW5uZXIg55qEIHN0YWJsZSDigJTigJQgMCDnp5LvvIzlpJ/nlKjjgILkvYYgc3RhYmxlIOS8mumaj+mVnOWDj+WNh+e6p++8jAojICAg5ZCM5LiA5LiqIGNvbW1pdCDpmpTlh6DlkajnvJblh7rmnaXnmoQgcnVzdCDkuozov5vliLYgY29kZWdlbiDlj6/og73kuI3lkIzjgIIKIyAgIOimgeaxguOAjOS6p+eJqeWPr+WkjeeOsCAvIOS4juWumOaWueaehOW7uumAkOWtl+iKguaOpei/keOAjeaXtuaJk+W8gOi/meS4quW8gOWFs++8mgojICAg5a6D6K+7IGZlZWRzL3BhY2thZ2VzL2xhbmcvcnVzdC9NYWtlZmlsZSDnmoQgUEtHX1ZFUlNJT07vvIwKIyAgIOijheS4gOS4quWQjOeJiOacrCB0b29sY2hhaW7vvIjnuqYgMX4zIOWIhumSn++8ie+8jOWksei0peWwsemAgOWbniBydW5uZXIg55qE44CCCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmlmIFsgIiR7UlVTVF9QSU5fRkVFRDotMH0iID0gIjEiIF07IHRoZW4KICBGRUVEX1ZFUj0kKHNlZCAtbiAncy9eUEtHX1ZFUlNJT046PS8vcCcgIiRSVVNUX0ZFRUQvTWFrZWZpbGUiIDI+L2Rldi9udWxsIHwgaGVhZCAtMSB8IHRyIC1kICcgXHInKQogIFBJTl9PSz0wCiAgaWYgWyAteiAiJEZFRURfVkVSIiBdOyB0aGVuCiAgICB3YXJuICJSdXN0OiDor7vkuI3liLAgZmVlZCDnmoQgUEtHX1ZFUlNJT07vvIznu6fnu63nlKggcnVubmVyIOeahCAkUlVTVF9UT09MQ0hBSU4iCiAgZWxzZQogICAgaWYgISBydXN0dXAgcnVuICIkRkVFRF9WRVIiIHJ1c3RjIC0tdmVyc2lvbiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgICAgbG9nICLmjIkgZmVlZCDniYjmnKzlronoo4UgdG9vbGNoYWluOiAkRkVFRF9WRVIiCiAgICAgIHJ1c3R1cCB0b29sY2hhaW4gaW5zdGFsbCAiJEZFRURfVkVSIiAtLXByb2ZpbGUgbWluaW1hbCA+PiIkUkVQT1JUIiAyPiYxIHx8IHRydWUKICAgIGZpCiAgICAjIOaXoOiuuuaYr+S4jeaYr+WImuijheeahO+8jOmDveimgeehruiupOi/meS4qiB0b29sY2hhaW4g5LiK5pyJ55uu5qCH5bmz5Y+w55qEIHN0ZAogICAgcnVzdHVwIHRhcmdldCBhZGQgLS10b29sY2hhaW4gIiRGRUVEX1ZFUiIgIiRSVVNUX1RBUkdFVCIgPj4iJFJFUE9SVCIgMj4mMSB8fCB0cnVlCiAgICBQSU5fUk9PVD0kKHJ1c3R1cCBydW4gIiRGRUVEX1ZFUiIgcnVzdGMgLS1wcmludCBzeXNyb290IDI+L2Rldi9udWxsIHx8IHRydWUpCiAgICBpZiBbIC1uICIkUElOX1JPT1QiIF0gJiYgWyAtZCAiJFBJTl9ST09UL2xpYi9ydXN0bGliLyRSVVNUX1RBUkdFVC9saWIiIF0gXAogICAgICAgJiYgWyAteCAiJFBJTl9ST09UL2Jpbi9ydXN0YyIgXTsgdGhlbgogICAgICBSVVNUX1RPT0xDSEFJTj0kRkVFRF9WRVIKICAgICAgUlVTVF9ST09UPSRQSU5fUk9PVAogICAgICBQSU5fT0s9MQogICAgICBsb2cgIuW3suWIh+WIsCBmZWVkIOeJiOacrDogcnVzdGMgJCgiJFJVU1RfUk9PVC9iaW4vcnVzdGMiIC0tdmVyc2lvbiAyPiYxKSIKICAgIGZpCiAgICBbICIkUElOX09LIiA9IDEgXSB8fCB3YXJuICJSdXN0OiAkRkVFRF9WRVIg5LiN5Y+v55So77yI5oiW5rKh5pyJICRSVVNUX1RBUkdFVCDnmoQgc3Rk77yJ77yM57un57ut55SoIHJ1bm5lciDnmoQgJFJVU1RfVE9PTENIQUlOIgogIGZpCmZpCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDQuNSDnuqDmraMgc3RhZ2luZ19kaXIg6YeM6YKj5LiJ5Liq44CM5oyH5ZCR5LiK5qyhIHJ1bm5lcuOAjeeahOespuWPt+mTvuaOpQojICAg57yT5a2Y5ZG95Lit5pe2IGhvc3QvYmluL3J1c3RjIOaYr+S4iuasoeeVmeS4i+eahOmTvuaOpe+8jOaMh+WQkSAvaG9tZS9ydW5uZXIvLnJ1c3R1cC/igKbjgIIKIyAgIOmVnOWDj+aNouS6hiBydXN0dXAg5biD5bGA5oiW5bel5YW36ZO+5ZCN77yM5a6D5bCx5oKs56m677yb6ICMIEhvc3QvSW5zdGFsbCDlj6rlnKggc3RhbXAg5aSx5pWICiMgICDml7bph43ot5HjgIHkuI3kvJroh6rlt7Hkv67vvIzkuo7mmK/miqUgL2Jpbi9zaDogLi4uL3N0YWdpbmdfZGlyL2hvc3QvYmluL3J1c3RjOiBub3QgZm91bmTvvIwKIyAgIOeci+i1t+adpeWDj+e8k+WtmOWdj+S6huOAgui/memHjOWwseWcsOaUueato++8jOWPquWKqOespuWPt+mTvuaOpeOAgeS4jeeisOecn+WunuS6jOi/m+WItuOAggojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpMSU5LRUQ9MApmb3IgZCBpbiAiJFBXRC9zdGFnaW5nX2Rpci9ob3N0L2JpbiIgIiRQV0Qvc3RhZ2luZ19kaXIvaG9zdHBrZy9iaW4iOyBkbwogIFsgLWQgIiRkIiBdIHx8IGNvbnRpbnVlCiAgZm9yIHQgaW4gY2FyZ28gcnVzdGMgcnVzdGRvYzsgZG8KICAgIGlmIFsgLUwgIiRkLyR0IiBdOyB0aGVuCiAgICAgIGxuIC1zZm4gIiRSVVNUX1JPT1QvYmluLyR0IiAiJGQvJHQiCiAgICAgIExJTktFRD0kKChMSU5LRUQgKyAxKSkKICAgIGZpCiAgZG9uZQpkb25lCmlmIFsgIiRMSU5LRUQiIC1ndCAwIF07IHRoZW4KICBsb2cgIuW3sue6oOatoyAkTElOS0VEIOS4qiBzdGFnaW5nX2RpciDph4znmoQgcnVzdCDnrKblj7fpk77mjqXvvIjnvJPlrZjmgaLlpI3nmoTmrovnlZnvvIkiCmZpCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIDQuNiDniYjmnKzlr7nnhafvvJpmZWVkIOacn+acm+eahCBydXN0YyB2cyBydW5uZXIg5a6e6ZmF5o+Q5L6b55qECiMgICBydW5uZXIg55qEIHN0YWJsZSDnnIEgMzB+NjAg5YiG6ZKf77yM5L2G5LiN5LiA5a6a562J5LqOIGZlZWQgcGluIOeahOeJiOacrCDigJTigJQgY29kZWdlbgojICAg6ZqP54mI5pys5Y+Y77yM5Lqn54mp5LiN5a6M5YWo55u45ZCM77yb5p6B5bCR5pWwIGNyYXRlIOWcqOaWsOeJiOS4iuS8muaKpemUme+8iOeJiOacrOebuOWFs++8jOS4jeaYrwojICAg6Z2Z6buY6ZSZ6K+v77yJ44CC5Lik5Liq54mI5pys5Y+35bm25o6S5omT5Ye65p2l77yM5Ye66Zeu6aKY5pe25LiA55y86IO95Yik5pat5piv5LiN5piv54mI5pys5byV6LW355qE44CCCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkZFRURfUlVTVF9WRVI9JChzZWQgLW4gJ3MvXlBLR19WRVJTSU9OOj0vL3AnICIkUlVTVF9GRUVEL01ha2VmaWxlIiAyPi9kZXYvbnVsbCB8IGhlYWQgLTEgfCB0ciAtZCAnIFxyJykKUlVOTkVSX1JVU1RfVkVSPSQoIiRSVVNUX1JPT1QvYmluL3J1c3RjIiAtLXZlcnNpb24gMj4vZGV2L251bGwgfCBhd2sgJ3twcmludCAkMn0nKQpsb2cgInJ1c3RjIOeJiOacrO+8mmZlZWQg5pyf5pybICR7RkVFRF9SVVNUX1ZFUjot5pyq55+lfSDvvZwg5a6e6ZmF5L2/55SoICR7UlVOTkVSX1JVU1RfVkVSOi3mnKrnn6V9IgppZiBbIC1uICIke0ZFRURfUlVTVF9WRVI6LX0iIF0gJiYgWyAtbiAiJHtSVU5ORVJfUlVTVF9WRVI6LX0iIF0gXAogICAmJiBbICIkRkVFRF9SVVNUX1ZFUiIgIT0gIiRSVU5ORVJfUlVTVF9WRVIiIF07IHRoZW4KICBsb2cgIiAg5Lik6ICF5LiN5ZCM5bGe5q2j5bi477yI6L+Z5bCx5piv55yB5LiLIDMwfjYwIOWIhumSn+eahOWOn+WboO+8ie+8m+iLpSBydXN0IOWMhee8luivkeaKpeeJiOacrOebuOWFs+mUmeivr++8jCIKICBsb2cgIiAg5oqKIHdvcmtmbG93IOeahCBSVVNUX1BJTl9GRUVEIOiuvuS4uiAx77yM5Lya5oyJIGZlZWQg55qE54mI5pys5Y+m6KOF5LiA5LiqIHRvb2xjaGFpbuOAgiIKZmkKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgNS4g5rOo5YWlIGNpLXByZWJ1aWx0Lm1r77yM5pu/5o2i5rqQ56CB6Ieq5Li+CiMKIyAgICDlv4XpobvlnKggT3BlbldydCDlsZXlvIAgSG9zdEJ1aWxkIOinhOWImeOAkOS5i+WJjeOAkeaPkuWFpe+8jAojICAgIOaJgOS7pSBzZWQg5o+S5YiwICQoZXZhbCAkKGNhbGwgSG9zdEJ1aWxkKSkg5LmL5YmN44CCCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCnsKICBwcmludGYgJ0NJX1JVU1RfUk9PVDo9JXNcbicgIiRSVVNUX1JPT1QiCiAgY2F0ICIkU0NSSVBUX0RJUi9ydXN0LXByZWJ1aWx0Lm1rIgp9ID4gIiRSVVNUX0ZFRUQvY2ktcHJlYnVpbHQubWsiCgpSVVNUX01BS0VGSUxFPSIkUlVTVF9GRUVEL01ha2VmaWxlIgojIHBlcmwg6ZyA6KaB5LuO546v5aKD6YeM5ou/6L+Z5Lik5Liq5a2X6Z2i6YeP77yI6YG/5YWNIHNoZWxsIOi9rOS5ieaKiiAkIOWQg+aOie+8iQpleHBvcnQgQ0lfTUFSS0VSPSdpbmNsdWRlIC4vY2ktcHJlYnVpbHQubWsnCmV4cG9ydCBDSV9IT1NUQlVJTEQ9JyQoZXZhbCAkKGNhbGwgSG9zdEJ1aWxkKSknCgojIOKaoCDlv4XpobvnlKggcGVybO+8jOS4jeiDveeUqCBzZWQgLWnvvJoKIyAgIEdOVSBzZWQg5aSE55CG5ZCrIGAkYCDnmoTmqKHlvI/vvIgkKGV2YWwgJChjYWxsIEhvc3RCdWlsZCkp77yJ5pe277yMCiMgICAtaSDljp/lnLDmqKHlvI/kuIsgaVwg5ZG95Luk5Lya6Z2Z6buY5aSx5pWIIOKAlOKAlCDlrp7mtYvmj5LlhaXkuI3ov5vljrvkuJTkuI3miqXplJnjgIIKIyAgIHBlcmwg55qEIFxRLi4uXEUg5oqK5pW05Liy5b2T5a2X6Z2i6YeP77yM5Y+v6Z2g5b6X5aSa44CCCk1BUktFUj0naW5jbHVkZSAuL2NpLXByZWJ1aWx0Lm1rJwpIT1NUQlVJTEQ9JyQoZXZhbCAkKGNhbGwgSG9zdEJ1aWxkKSknCgpwZXJsIC1pIC1wZSAnCiAgQkVHSU4geyAkbSA9IHF1b3RlbWV0YSgkRU5WeyJDSV9NQVJLRVIifSk7ICRoID0gcXVvdGVtZXRhKCRFTlZ7IkNJX0hPU1RCVUlMRCJ9KTsgfQogIGlmICgkXyA9fiAvXiRtJC8pIHsgJF8gPSAiIjsgfSAgICAgICAgICAgICAgICAgIyDlhYjliKDmjonml6fnmoTvvIjluYLnrYnvvIkKICBlbHNpZiAoJF8gPX4gL14kaCQvKSB7ICRfID0gIiRFTlZ7Q0lfTUFSS0VSfVxuIiAuICRfOyB9ICAgIyDlho3mj5LliLAgSG9zdEJ1aWxkIOS5i+WJjQonICIkUlVTVF9NQUtFRklMRSIKCmlmICEgZ3JlcCAtRnhxICIkTUFSS0VSIiAiJFJVU1RfTUFLRUZJTEUiOyB0aGVuCiAgd2FybiAiUnVzdDog5rOo5YWlIGNpLXByZWJ1aWx0Lm1rIOWksei0pe+8jOmAgOWbnua6kOeggeiHquS4viIKICBleGl0IDAKZmkKIyDimqAg5Yir5oqKICRIT1NUQlVJTEQg55u05o6l5pS+6L+b5bimICQoLi4uKSDnmoTlrZfnrKbkuLLvvJoKIyAgIOWug+eahOWGheWuueaYr+Wtl+mdoumHjyAkKGV2YWwgJChjYWxsIEhvc3RCdWlsZCkp77yMCiMgICDlj4zlvJXlj7fph4znmoQgJCguLi4pIOS8muiiqyBzaGVsbCDlvZPlkb3ku6Tmm7/mjaLmiafooYzvvIwKIyAgIOebtOaOpeaKpSAi5oSP5aSW5Luk54mM6ZmE6L+R6K+t5rOV6ZSZ6K+vICcoJyLvvIjnrKwxNDfooYzlsLHmmK/ov5nkuYjngrjnmoTvvInjgIIKbG9nICLms6jlhaU6ICRNQVJLRVLvvIjlnKggSG9zdEJ1aWxkIOaxguWAvOS5i+WJje+8iSIKCiIkUlVTVF9ST09UL2Jpbi9ydXN0YyIgLS12ZXJzaW9uIHwgdGVlIC1hICIkUkVQT1JUIgpsb2cgIuKchSDkvb/nlKggcnVubmVyIOeahCBSdXN077yIJFJVU1RfVE9PTENIQUlO77yJ77yM6Lez6L+H5rqQ56CB6Ieq5Li+77yI55yBIDMwfjYwIOWIhumSn++8iSIKc2hhMjU2c3VtICIkUlVTVF9NQUtFRklMRSIgPj4gIiRSRVBPUlQiCmV4aXQgMAo=
+#!/usr/bin/env bash
+# =============================================================
+# prepare-rust.sh —— 用 runner 的 rustup 替代 rustc 源码自举（省 30~60 分钟）
+#
+#   关键：target triple 必须向 feed 要、不能自己拼 —— 读
+#   feeds/packages/lang/rust/rust-values.mk 的 RUSTC_TARGET_ARCH，
+#   才能保证 CI 装的 target 与 OpenWrt 期望的一致。
+# ★ 全部软失败：rustup 缺失 / feed 结构不同 / 目标装不上，都只 warning 并
+#   退回源码自举。用法: bash prepare-rust.sh <openwrt_dir>
+# =============================================================
+
+set -uo pipefail
+
+OW="${1:-$PWD}"
+cd "$OW" || { echo "::error::无法进入 $OW"; exit 1; }
+
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+REPORT_DIR="${GITHUB_WORKSPACE:-$OW}/build-reports"
+mkdir -p "$REPORT_DIR"
+REPORT="$REPORT_DIR/rust-toolchain.txt"
+
+log() { echo "$1" | tee -a "$REPORT"; }
+warn() { echo "::warning::$1"; echo "跳过: $1" >> "$REPORT"; }
+
+: > "$REPORT"
+log "===== Rust 预编译工具链 ====="
+
+# ---------------------------------------------------------------
+# 0. 前置检查
+# ---------------------------------------------------------------
+RUST_FEED="$PWD/feeds/packages/lang/rust"
+if [ ! -f "$RUST_FEED/Makefile" ]; then
+  warn "Rust: 树里没有 feeds/packages/lang/rust，跳过"
+  exit 0
+fi
+
+if [ ! -f "$RUST_FEED/rust-values.mk" ]; then
+  warn "Rust: 缺 rust-values.mk（拿不到 RUSTC_TARGET_ARCH），退回源码自举"
+  exit 0
+fi
+
+# ---------------------------------------------------------------
+# 1. 向 feed 要 target triple
+# ---------------------------------------------------------------
+RUST_TARGET=$(make --no-print-directory -s -f - TOPDIR="$PWD" ci-rust-target <<'MAKE' 2>/dev/null
+include $(TOPDIR)/rules.mk
+include $(TOPDIR)/feeds/packages/lang/rust/rust-values.mk
+.PHONY: ci-rust-target
+ci-rust-target:
+	@printf '%s\n' '$(RUSTC_TARGET_ARCH)'
+MAKE
+)
+if [ -z "$RUST_TARGET" ]; then
+  warn "Rust: RUSTC_TARGET_ARCH 为空，退回源码自举"
+  exit 0
+fi
+log "Rust target: $RUST_TARGET"
+
+# ---------------------------------------------------------------
+# 2. 找 rustup（runner 预装，但 PATH 未必包含 ~/.cargo/bin）
+# ---------------------------------------------------------------
+RUSTUP_BIN=$(command -v rustup || true)
+if [ -z "$RUSTUP_BIN" ]; then
+  for c in "$HOME/.cargo/bin/rustup" /usr/bin/rustup /usr/local/bin/rustup; do
+    [ -x "$c" ] && { RUSTUP_BIN=$c; break; }
+  done
+fi
+if [ -z "$RUSTUP_BIN" ]; then
+  warn "Rust: runner 没有 rustup（需 apt 安装 rustup），退回源码自举"
+  exit 0
+fi
+PATH="$(dirname "$RUSTUP_BIN"):$PATH"; export PATH
+
+RUST_TOOLCHAIN=$(rustup show active-toolchain 2>/dev/null | awk '{print $1}')
+[ -n "$RUST_TOOLCHAIN" ] || RUST_TOOLCHAIN=stable
+log "Rust toolchain: $RUST_TOOLCHAIN"
+
+# ---------------------------------------------------------------
+# 3. 装对应的 target
+# ---------------------------------------------------------------
+if ! rustup target add --toolchain "$RUST_TOOLCHAIN" "$RUST_TARGET" 2>&1 | tee -a "$REPORT"; then
+  warn "Rust: rustup target add $RUST_TARGET 失败，退回源码自举"
+  exit 0
+fi
+
+RUST_ROOT=$(rustup run "$RUST_TOOLCHAIN" rustc --print sysroot 2>/dev/null)
+if [ -z "$RUST_ROOT" ] || [ ! -d "$RUST_ROOT" ]; then
+  warn "Rust: rustc --print sysroot 失败，退回源码自举"
+  exit 0
+fi
+
+# ---------------------------------------------------------------
+# 4. 校验：target 的 std 与三个工具必须真的在
+#    否则后面编译会因为缺 std 而失败，不如现在就退回
+# ---------------------------------------------------------------
+if [ ! -d "$RUST_ROOT/lib/rustlib/$RUST_TARGET/lib" ]; then
+  warn "Rust: 缺 $RUST_TARGET 的 std（$RUST_ROOT/lib/rustlib/$RUST_TARGET/lib），退回源码自举"
+  exit 0
+fi
+for t in cargo rustc rustdoc; do
+  if [ ! -x "$RUST_ROOT/bin/$t" ]; then
+    warn "Rust: 缺 $RUST_ROOT/bin/$t，退回源码自举"
+    exit 0
+  fi
+done
+
+# ---------------------------------------------------------------
+# 4.4 可选：按 feed 的版本另装一个 toolchain（RUST_PIN_FEED=1）
+#
+#   默认用 runner 的 stable —— 0 秒，够用。但 stable 会随镜像升级，
+#   同一个 commit 隔几周编出来的 rust 二进制 codegen 可能不同。
+#   要求「产物可复现 / 与官方构建逐字节接近」时打开这个开关：
+#   它读 feeds/packages/lang/rust/Makefile 的 PKG_VERSION，
+#   装一个同版本 toolchain（约 1~3 分钟），失败就退回 runner 的。
+# ---------------------------------------------------------------
+if [ "${RUST_PIN_FEED:-0}" = "1" ]; then
+  FEED_VER=$(sed -n 's/^PKG_VERSION:=//p' "$RUST_FEED/Makefile" 2>/dev/null | head -1 | tr -d ' \r')
+  PIN_OK=0
+  if [ -z "$FEED_VER" ]; then
+    warn "Rust: 读不到 feed 的 PKG_VERSION，继续用 runner 的 $RUST_TOOLCHAIN"
+  else
+    if ! rustup run "$FEED_VER" rustc --version >/dev/null 2>&1; then
+      log "按 feed 版本安装 toolchain: $FEED_VER"
+      rustup toolchain install "$FEED_VER" --profile minimal >>"$REPORT" 2>&1 || true
+    fi
+    # 无论是不是刚装的，都要确认这个 toolchain 上有目标平台的 std
+    rustup target add --toolchain "$FEED_VER" "$RUST_TARGET" >>"$REPORT" 2>&1 || true
+    PIN_ROOT=$(rustup run "$FEED_VER" rustc --print sysroot 2>/dev/null || true)
+    if [ -n "$PIN_ROOT" ] && [ -d "$PIN_ROOT/lib/rustlib/$RUST_TARGET/lib" ] \
+       && [ -x "$PIN_ROOT/bin/rustc" ]; then
+      RUST_TOOLCHAIN=$FEED_VER
+      RUST_ROOT=$PIN_ROOT
+      PIN_OK=1
+      log "已切到 feed 版本: rustc $("$RUST_ROOT/bin/rustc" --version 2>&1)"
+    fi
+    [ "$PIN_OK" = 1 ] || warn "Rust: $FEED_VER 不可用（或没有 $RUST_TARGET 的 std），继续用 runner 的 $RUST_TOOLCHAIN"
+  fi
+fi
+
+# ---------------------------------------------------------------
+# 4.5 纠正 staging_dir 里那三个「指向上次 runner」的符号链接
+#   缓存命中时 host/bin/rustc 是上次留下的链接，指向 /home/runner/.rustup/…。
+#   镜像换了 rustup 布局或工具链名，它就悬空；而 Host/Install 只在 stamp 失效
+#   时重跑、不会自己修，于是报 /bin/sh: .../staging_dir/host/bin/rustc: not found，
+#   看起来像缓存坏了。这里就地改正，只动符号链接、不碰真实二进制。
+# ---------------------------------------------------------------
+LINKED=0
+for d in "$PWD/staging_dir/host/bin" "$PWD/staging_dir/hostpkg/bin"; do
+  [ -d "$d" ] || continue
+  for t in cargo rustc rustdoc; do
+    if [ -L "$d/$t" ]; then
+      ln -sfn "$RUST_ROOT/bin/$t" "$d/$t"
+      LINKED=$((LINKED + 1))
+    fi
+  done
+done
+if [ "$LINKED" -gt 0 ]; then
+  log "已纠正 $LINKED 个 staging_dir 里的 rust 符号链接（缓存恢复的残留）"
+fi
+
+# ---------------------------------------------------------------
+# 4.6 版本对照：feed 期望的 rustc vs runner 实际提供的
+#   runner 的 stable 省 30~60 分钟，但不一定等于 feed pin 的版本 —— codegen
+#   随版本变，产物不完全相同；极少数 crate 在新版上会报错（版本相关，不是
+#   静默错误）。两个版本号并排打出来，出问题时一眼能判断是不是版本引起的。
+# ---------------------------------------------------------------
+FEED_RUST_VER=$(sed -n 's/^PKG_VERSION:=//p' "$RUST_FEED/Makefile" 2>/dev/null | head -1 | tr -d ' \r')
+RUNNER_RUST_VER=$("$RUST_ROOT/bin/rustc" --version 2>/dev/null | awk '{print $2}')
+log "rustc 版本：feed 期望 ${FEED_RUST_VER:-未知} ｜ 实际使用 ${RUNNER_RUST_VER:-未知}"
+if [ -n "${FEED_RUST_VER:-}" ] && [ -n "${RUNNER_RUST_VER:-}" ] \
+   && [ "$FEED_RUST_VER" != "$RUNNER_RUST_VER" ]; then
+  log "  两者不同属正常（这就是省下 30~60 分钟的原因）；若 rust 包编译报版本相关错误，"
+  log "  把 workflow 的 RUST_PIN_FEED 设为 1，会按 feed 的版本另装一个 toolchain。"
+fi
+
+# ---------------------------------------------------------------
+# 5. 注入 ci-prebuilt.mk，替换源码自举
+#
+#    必须在 OpenWrt 展开 HostBuild 规则【之前】插入，
+#    所以 sed 插到 $(eval $(call HostBuild)) 之前。
+# ---------------------------------------------------------------
+{
+  printf 'CI_RUST_ROOT:=%s\n' "$RUST_ROOT"
+  cat "$SCRIPT_DIR/rust-prebuilt.mk"
+} > "$RUST_FEED/ci-prebuilt.mk"
+
+RUST_MAKEFILE="$RUST_FEED/Makefile"
+# perl 需要从环境里拿这两个字面量（避免 shell 转义把 $ 吃掉）
+export CI_MARKER='include ./ci-prebuilt.mk'
+export CI_HOSTBUILD='$(eval $(call HostBuild))'
+
+# ⚠ 必须用 perl，不能用 sed -i：
+#   GNU sed 处理含 `$` 的模式（$(eval $(call HostBuild))）时，
+#   -i 原地模式下 i\ 命令会静默失效 —— 实测插入不进去且不报错。
+#   perl 的 \Q...\E 把整串当字面量，可靠得多。
+MARKER='include ./ci-prebuilt.mk'
+HOSTBUILD='$(eval $(call HostBuild))'
+
+perl -i -pe '
+  BEGIN { $m = quotemeta($ENV{"CI_MARKER"}); $h = quotemeta($ENV{"CI_HOSTBUILD"}); }
+  if ($_ =~ /^$m$/) { $_ = ""; }                 # 先删掉旧的（幂等）
+  elsif ($_ =~ /^$h$/) { $_ = "$ENV{CI_MARKER}\n" . $_; }   # 再插到 HostBuild 之前
+' "$RUST_MAKEFILE"
+
+if ! grep -Fxq "$MARKER" "$RUST_MAKEFILE"; then
+  warn "Rust: 注入 ci-prebuilt.mk 失败，退回源码自举"
+  exit 0
+fi
+# ⚠ 别把 $HOSTBUILD 直接放进带 $(...) 的字符串：
+#   它的内容是字面量 $(eval $(call HostBuild))，
+#   双引号里的 $(...) 会被 shell 当命令替换执行，
+#   直接报 "意外令牌附近语法错误 '('"（第147行就是这么炸的）。
+log "注入: $MARKER（在 HostBuild 求值之前）"
+
+"$RUST_ROOT/bin/rustc" --version | tee -a "$REPORT"
+log "✅ 使用 runner 的 Rust（$RUST_TOOLCHAIN），跳过源码自举（省 30~60 分钟）"
+sha256sum "$RUST_MAKEFILE" >> "$REPORT"
+exit 0
