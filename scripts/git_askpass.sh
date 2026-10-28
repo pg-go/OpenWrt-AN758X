@@ -1,1 +1,45 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojCiMgZ2l0LWFza3Bhc3Mg4oCU4oCUIOaKiiBHaXRIdWIgQXBwIOWuieijheS7pOeJjOWWgue7mSBnaXQg55qE5Yet6K+B5Yqp5omLCiMKIyDnlKjms5XvvIhidWlsZC1wb253cnQueW1sIOmHjOW3sumFjeWlve+8ie+8mgojICAgaW5zdGFsbCAtbSA3MDAgc2NyaXB0cy9naXRfYXNrcGFzcy5zaCAiJFJVTk5FUl9URU1QL2dpdC1hc2twYXNzIgojICAg54S25ZCO5a+85Ye6IEdJVF9BU0tQQVNTPSRSVU5ORVJfVEVNUC9naXQtYXNrcGFzc+OAgUdJVF9URVJNSU5BTF9QUk9NUFQ9MAojCiMg5Luk54mM5p2l5rqQ77yI5LyY5YWI5paH5Lu277yJ77yaCiMgICBHSF9UT0tFTl9GSUxFICA2MDAg5p2D6ZmQ55qE5Luk54mM5paH5Lu26Lev5b6E77yI5Luk54mM5LiN6L+b5Lu75L2V6L+b56iL55qEIGVudu+8iQojICAgR0hfUkVQT19UT0tFTiAg55u05o6l5pS+5Luk54mM77yIQXBwIOS7pOeJjOi+k+WHuuS8muiiq+iHquWKqCBhZGQtbWFza++8iQojCiMg4pqgIOS4jeeUqCB1cmwuKi5pbnN0ZWFkT2bvvJrlroPkvJrmioogdXNlcjp0b2tlbkAg6JC955uY5YiwIH4vLmdpdGNvbmZpZ++8jOi/mOS8muWSjAojICAgY2hlY2tvdXQg5rOo5YWl55qEIGV4dHJhaGVhZGVyIOaKouS8mOWFiOe6p++8iOacrOWcsCAuZ2l0L2NvbmZpZyDmm7Tpq5gg4oaSIOS7pOeJjOiiq+ebluaOiQojICAg4oaSIDQwNO+8ieOAgmFza3Bhc3Mg5Y+q5ZyoIGdpdCDopoHorqTor4Hml7bmiY3ooqvosIPnlKjvvIzkuI3lhpnphY3nva7jgIHkuI3mlLkgVVJM44CCCiMgICDlhazlvIDku5PlupMgY2xvbmUg5LiN5Lya6Kem5Y+R5a6D44CCCgpzZXQgLWV1byBwaXBlZmFpbAoKdG9rZW5fZmlsZT0iJHtHSF9UT0tFTl9GSUxFOi19Igp0b2tlbj0iJHtHSF9SRVBPX1RPS0VOOi19IgoKY2FzZSAiJDEiIGluCiAgICAqVXNlcm5hbWUqKQogICAgICAgICMgR2l0SHViIOeUqOS7pOeJjOiupOivgeaXtueUqOaIt+WQjeWbuuWumuS4uiB4LWFjY2Vzcy10b2tlbu+8iEFwcCDlronoo4Xku6TniYzlkIwgUEFU77yJCiAgICAgICAgcHJpbnRmICclc1xuJyAneC1hY2Nlc3MtdG9rZW4nCiAgICAgICAgOzsKCiAgICAqUGFzc3dvcmQqKQogICAgICAgICMgLXMg6ICM5LiN5pivIC1y77ya56m65paH5Lu25Lya6K6pIGdpdCDmi7/nnYDnqbrlr4bnoIHljrvorqTor4HvvIzmiqXplJnmr5TmsqHku6TniYzov5jpmr7mh4IKICAgICAgICBpZiBbIC1uICIkdG9rZW5fZmlsZSIgXSAmJiBbIC1zICIkdG9rZW5fZmlsZSIgXSAmJiBbIC1yICIkdG9rZW5fZmlsZSIgXTsgdGhlbgogICAgICAgICAgICBwcmludGYgJyVzXG4nICIkKGNhdCAiJHRva2VuX2ZpbGUiKSIKICAgICAgICBlbGlmIFsgLW4gIiR0b2tlbiIgXTsgdGhlbgogICAgICAgICAgICBwcmludGYgJyVzXG4nICIkdG9rZW4iCiAgICAgICAgZWxzZQogICAgICAgICAgICBlY2hvICJnaXQtYXNrcGFzczog5rKh5pyJ5Y+v55So5Luk54mM77yIR0hfVE9LRU5fRklMRSDkuI4gR0hfUkVQT19UT0tFTiDlnYfkuLrnqbrvvIkiID4mMgogICAgICAgICAgICBleGl0IDEKICAgICAgICBmaQogICAgICAgIDs7CgogICAgKikKICAgICAgICAjIOiupOS4jeWHuueahOaPkOekuuS4gOW+i+aLkue7ne+8jOmBv+WFjeaKiuS7pOeJjOS6pOe7memdnumihOacn+eahOi/nOerrwogICAgICAgIGV4aXQgMQogICAgICAgIDs7CmVzYWMK
+#!/usr/bin/env bash
+#
+# git-askpass —— 把 GitHub App 安装令牌喂给 git 的凭证助手
+#
+# 用法（build-ponwrt.yml 里已配好）：
+#   install -m 700 scripts/git_askpass.sh "$RUNNER_TEMP/git-askpass"
+#   然后导出 GIT_ASKPASS=$RUNNER_TEMP/git-askpass、GIT_TERMINAL_PROMPT=0
+#
+# 令牌来源（优先文件）：
+#   GH_TOKEN_FILE  600 权限的令牌文件路径（令牌不进任何进程的 env）
+#   GH_REPO_TOKEN  直接放令牌（App 令牌输出会被自动 add-mask）
+#
+# ⚠ 不用 url.*.insteadOf：它会把 user:token@ 落盘到 ~/.gitconfig，还会和
+#   checkout 注入的 extraheader 抢优先级（本地 .git/config 更高 → 令牌被盖掉
+#   → 404）。askpass 只在 git 要认证时才被调用，不写配置、不改 URL。
+#   公开仓库 clone 不会触发它。
+
+set -euo pipefail
+
+token_file="${GH_TOKEN_FILE:-}"
+token="${GH_REPO_TOKEN:-}"
+
+case "$1" in
+    *Username*)
+        # GitHub 用令牌认证时用户名固定为 x-access-token（App 安装令牌同 PAT）
+        printf '%s\n' 'x-access-token'
+        ;;
+
+    *Password*)
+        # -s 而不是 -r：空文件会让 git 拿着空密码去认证，报错比没令牌还难懂
+        if [ -n "$token_file" ] && [ -s "$token_file" ] && [ -r "$token_file" ]; then
+            printf '%s\n' "$(cat "$token_file")"
+        elif [ -n "$token" ]; then
+            printf '%s\n' "$token"
+        else
+            echo "git-askpass: 没有可用令牌（GH_TOKEN_FILE 与 GH_REPO_TOKEN 均为空）" >&2
+            exit 1
+        fi
+        ;;
+
+    *)
+        # 认不出的提示一律拒绝，避免把令牌交给非预期的远端
+        exit 1
+        ;;
+esac
