@@ -1,1 +1,191 @@
-IyBQb25XcnQgQ0kg4oCUIEFpcm9oYSBBTjc1OHggUE9OIOS6kee8luivkQoK5Z+65LqOIFAzVEVSWCBgQWN0aW9ucy1PcGVuV3J0YCDmqKHmnb/ph43mnoTvvIzmupDnoIHmjIflkJEgW3BiczA1L3BvbndydF0oaHR0cHM6Ly9naXRodWIuY29tL3BiczA1L3BvbndydCnvvIjpu5jorqTliIbmlK8gYG1hc3RlcmDvvInjgIIK5Lqn5Ye6IEFONzU4MSAvIEFONzU4MyBQT04g5YWJ54yr55qEIE9wZW5XcnQg5Zu65Lu277yM5bim5py65Z6L6YCJ5oup44CB56OB55uY6YeK5pS+5ZKM5rua5Yqo5p6E5bu657yT5a2Y44CCCgojIyDlv6vpgJ/lvIDlp4sKCuWFjei0uSBydW5uZXIg5Y2V5qyh5LiK6ZmQIDYg5bCP5pe277yIam9iIDM1MCDliIbpkp/vvInvvIzpppbmrKHlhajph4/nvJbor5HvvIjlt6Xlhbfpk74gKyDlhoXmoLggKyDlhajljIXvvInlpKfmpoLnjofotoXml7bvvIzmjInov5nkuKrpobrluo/ot5HvvJoKCjEuICoqV2FybSBCdWlsZCBDYWNoZSoqIOKGkiBgc29jPWFuNzU4MeWSjGFuNzU4M2DjgIFgcHJlYnVpbHRfaG9zdD3pooTnvJbor5Fg77yM5oqK5bel5YW36ZO+57yT5a2Y5bu66LW35p2lCjIuICoqQnVpbGQgUG9uV3J0Kiog4oaSIOmAiSBgc29jYCAvIGBwcm9maWxlYCDihpIgYHNjb3BlPWZpcm13YXJlYCDlh7rlm7rku7YKMy4g5LuN54S26LaF5pe277ya5oqKIGBjb25maWdzLyouY29uZmlnYCDph4zkuI3pnIDopoHnmoQgbHVjaS1hcHAgLyDor63oqIDljIXliKDmjonlho3mj5DkuqQKCj4g5LiN6aKE54Ot5Lmf6IO955u05o6l6LeRIGBmaXJtd2FyZWDigJTigJTnvJPlrZjmmK/mu5rliqjlvI/nmoTvvIznrKzkuIDmrKHot5HlrozkvJroh6rliqjlrZjkuIvlt6Xlhbfpk77jgILpooTng63lj6rmmK/nu5nmgJXotoXml7bnmoTkurrnlKjnmoTjgIIKCiMjIOi+k+WFpemhuQoKIyMjIGBidWlsZC1wb253cnQueW1sYAoKfCDovpPlhaUgfCDlj5blgLwgfCDor7TmmI4gfAp8LS0tfC0tLXwtLS18CnwgYHNvdXJjZWAgfCBgcGJzMDUvcG9ud3J0YCAvIGBmb3JrYCB8IOe8luivkeWTquS4qua6kOeggeS7k+W6k+OAgioq5b+F6aG75ZKM57yT5a2Y6aKE54Ot5pe26YCJ55qE5LiA6Ie0KirvvIzlkKbliJnliY3nvIDlr7nkuI3kuIogfAp8IGBicmFuY2hgIHwg6buY6K6kIGBtYXN0ZXJgIHwgfAp8IGBzb2NgIHwgYGFuNzU4MWAgLyBgYW43NTgzYCB8IHwKfCBgcHJvZmlsZWAgfCDop4HkuIvmlrnmnLrlnovooajvvIxgYWxsYCA9IOWFqOacuuWeiyB8IOWGmemUmeS8muWcqCBgVmFsaWRhdGUgY29uZmlndXJhdGlvbmAg55u05o6l5oql6ZSZ6YCA5Ye677yM5LiN5Lya6Z2Z6buY5YWo57yWIHwKfCBgc2NvcGVgIHwgYGZpcm13YXJlYCAvIGB0b29sY2hhaW4tb25seWAgfCDlkI7ogIXlj6rlu7rlt6Xlhbfpk77nvJPlrZjvvIzkuI3lh7rlm7rku7bjgIHkuI3lj5EgUmVsZWFzZSB8CnwgYHByZWJ1aWx0X2hvc3RgIHwgYHRydWVg77yI6buY6K6k77yJLyBgZmFsc2VgIHwgYHRydWVgIOeUqCBydW5uZXIg55qEIEdvL1J1c3QvTExWTe+8jOW/qyAxLjV+Mi41IOWwj+aXtu+8m2BmYWxzZWAg5YWo6YOo5LuO5rqQ56CB57yW77yM5Lqn54mp5Y+v5aSN546wIHwKfCBgaWdub3JlX2NhY2hlYCB8IGBmYWxzZWAgLyBgdHJ1ZWAgfCDot7Pov4fnvJPlrZjmgaLlpI3lvLrliLbph43nvJbvvIjku43kvJrlrZjmlrDkuIDku6PvvIkgfAp8IGB1cGxvYWRfcmVsZWFzZWAgfCBgdHJ1ZWAgLyBgZmFsc2VgIHwgYGZhbHNlYCDlj6rnlZkgQXJ0aWZhY3QgfAp8IGBvcHRfYXJtNjRjZWAgLyBgb3B0X2NoYWNoYWAgLyBgb3B0X2VpcDkzYCB8IGAwYCAvIGAxYCB8IOWKoOWvhuWKoOmAn++8jOingeaWh+acqyB8CgojIyMg5Zub5Liq5bel5L2c5rWBCgp8IOW3peS9nOa1gSB8IOinpuWPkSB8IOS9nOeUqCB8CnwtLS18LS0tfC0tLXwKfCBgYnVpbGQtcG9ud3J0LnltbGAgfCDmiYvliqggfCDmgaLlpI3nvJPlrZgg4oaSIOe8luivkSDihpIg5a2Y57yT5a2YIOKGkiDova7mjaLml6fku6MgfAp8IGB3YXJtLWNhY2hlLnltbGAgfCDmiYvliqggLyDmr4/lkajkuIAgMDM6MTcgfCDpooTng63jgIJgc29jYCDlkowgYHByZWJ1aWx0X2hvc3RgIOmDveaYr+S4iemAieS4gO+8jOS4pOS4qumDvemAieOAjOWSjOOAjeeahOmAiemhuSA9IDQg5LiqIGpvYiDlubbooYwgfAp8IGBjYWNoZS1rZWVwYWxpdmUueW1sYCB8IOavjyAzIOWkqSB8IOmAkOadoeecn+WunuaBouWkje+8jOmBv+W8gCBgYWN0aW9ucy9jYWNoZWAg55qEIDcg5aSp5pyq6K6/6Zeu5Zue5pS2IHwKfCBgY2FjaGUtY2xlYW4ueW1sYCB8IOaJi+WKqCAvIOavj+WRqOS4gCAwNDoyMCB8IGByb2xsb3ZlcmAg5q+P5peP55WZ5pyA5paw5LiA5LujIC8gYGJhY2t1cGAg5Y+q5riFIFJlbGVhc2Ug5aSH5Lu9IC8gYGFsbGAg5YWo5YigIHwKCiMjIOaUr+aMgeeahOacuuWeiwoKfCBTb0MgfCBwcm9maWxlIHwKfC0tLXwtLS18CnwgQU43NTgxIHwgYGZpYmVyaG9tZV9oZzUzODJhYCBgZmliZXJob21lX2hnNTU4NWYtY3RgIGBmaWJlcmhvbWVfaGc1NTg1Zi1jdWAgYGdlbXRla194ZzIwMTBnYCBgbm9raWFfeGctMDQwZy1tZC11YmlgIGBub2tpYV94Zy0wNDBnLXRmLXViaWAgYHVuaW9ubWFuX3VuZzAwYWAgYHpueHRfem41MDR4Zy1kYCBgem54dF96bjUxNXhnLWRgIGBoM2NfaG0yMDA0LWR1YOKAuyB8CnwgQU43NTgzIHwgYG5va2lhX3hnLTA0MGctbWZgIGBub2tpYV94Zy0wNDBnLW1mLXViaWAgfAoK4oC7IGBoM2NfaG0yMDA0LWR1YCDpop3lpJbkvp3otZbnp4HmnInku5PlupMgYG9wZW53cnQtZnR0cmDvvIhGVFRSIOmpseWKqCAvIOaOp+WItuerryAvIEZQR0Eg5Zu65Lu277yJ5LiOIGBsdWNpLWFwcC1mdHRyYO+8jOe8uuWHreivgeaXtiBgZGl5LXBhcnQxLnNoYCDkvJrnm7TmjqXmiqXplJnpgIDlh7rjgIIKCiMjIOaPkuS7tuW8gOWFs++8iGBkaXktcGFydDEuc2hg77yJCgrlhajpg6jpu5jorqTlvIDlkK/vvIzlvIDlhbPkuI4gYGNvbmZpZ3MvYW43NTgxLmNvbmZpZ2AgLyBgYW43NTgzLmNvbmZpZ2Ag6YeM55qEIGA9eWAg5LiA5LiA5a+55bqU77yaCgp8IOW8gOWFsyB8IOWMhSB8IOWkh+azqCB8CnwtLS18LS0tfC0tLXwKfCBgQUREX0FJUk9IQV9OUFVgIHwgYGx1Y2ktYXBwLWFpcm9oYS1ucHVgIHwgTlBVIOWNuOi9vSAvIENQVSDpopHnjocgLyBGcmFtZSBFbmdpbmUgLyBQUEUg5rWB6KGoIHwKfCBgQUREX0xVQ0lfQVBQYCB8IGBsdWNpLWFwcC1uYXRtb2RlYOOAgWBsdWNpLWFwcC1wb24tc3RhdHVzYCB8IE5BVCDnsbvlnovkuInpgInkuIDjgIFQT04g5YWJ5qih5Z2X5Y2h54mHIHwKfCBgQUREX0ZMVUVOVGAgfCBgbHVjaS10aGVtZS1mbHVlbnRgIHwg5LiOIGBhcmdvbmAgLyBgYm9vdHN0cmFwYCDlj6/lhbHlrZggfAp8IGBBRERfUEFTU1dBTExgIHwgYGx1Y2ktYXBwLXBhc3N3YWxsYCArIGB4cmF5LWNvcmVgIC8gYHNpbmctYm94YCB8IOaWsOeJiCBwYXNzd2FsbCDmiorlhoXmoLjlgZrmiJDmjInpnIDlronoo4XvvIxjb25maWcg6YeM5Y+m5byA5LqG5Lik5LiqIGZlZWRzIOeOsOaIkOeahCB8CnwgYEFERF9PUEVOQ0xBU0hgIHwgYGx1Y2ktYXBwLW9wZW5jbGFzaGAgfCDimqAg5ouWIFJ1Ynkg6L+b5p6E5bu677yM6aaW5qyhICsyMH40MCDliIbpkp8gfAp8IGBBRERfTU9TRE5TYCB8IGBsdWNpLWFwcC1tb3NkbnNgIHwg5pys5L2T55SoIGZlZWRzIOeahCBgbW9zZG5zYCB8CnwgYEFERF9TTUFSVEROU2AgfCBgbHVjaS1hcHAtc21hcnRkbnNgIHwg5pys5L2T55SoIGZlZWRzIOeahCBgc21hcnRkbnNgIHwKfCBgQUREX1RBSUxTQ0FMRWAgfCBgbHVjaS1hcHAtdGFpbHNjYWxlYCB8IOacrOS9k+eUqCBmZWVkcyDnmoQgYHRhaWxzY2FsZWAgfAp8IGBBRERfTFVDS1lgIHwgYGx1Y2ktYXBwLWx1Y2t5YCB8IOWQqyBgbHVja3lgIOacrOS9kyB8CnwgYEFERF9PUEVOTElTVGAgfCBgbHVjaS1hcHAtb3Blbmxpc3QyYCB8IOWQqyBgb3Blbmxpc3QyYCDmnKzkvZMgfAp8IGBBRERfRUFTWVRJRVJgIHwgYGx1Y2ktYXBwLWVhc3l0aWVyYCArIGBlYXN5dGllcmAgfCDmnKzkvZPmmK8gUnVzdCDljIXvvIznvJbor5HovoPmhaIgfAp8IGBBRERfUE9XRVJPRkZgIC8gYEFERF9PV1FfV09MYCAvIGBBRERfV0FUQ0hET0dgIC8gYEFERF9UQVNLUExBTmAgfCDlkIzlkI0gYGx1Y2ktYXBwLSpgIHwgfAp8IGBBRERfT0FGYCB8IGBsdWNpLWFwcC1vYWZgICsgYGFwcGZpbHRlcmAgLyBga21vZC1vYWZgIHwg5ZCr5YaF5qC45qih5Z2XIHwKCioq6KaB5YWz5o6J5p+Q5Liq5o+S5Lu277yM5pS55Lik5aSEKirvvJrohJrmnKzph4wgYEFERF94eHg9ZmFsc2Vg77yMKirlubbkuJQqKuaKiuS4pOS4qumAmueUqCBjb25maWcg6YeM5a+55bqU55qECmBDT05GSUdfUEFDS0FHRV94eHg9eWAg5Yig5o6J77yI5oiW5pS55oiQIGAjIC4uLmlzIG5vdCBzZXRg77yJ44CC5Y+q5pS55LiA5aSE5Lya5LiN5LiA6Ie077yaCuWPquWFs+iEmuacrCDihpIgYG1ha2UgZGVmY29uZmlnYCDmioogYD15YCDpnZnpu5jliZTpmaTvvJvlj6rlhbMgY29uZmlnIOKGkiDnmb0gY2xvbmUg5LiA5Liq5LuT5bqT44CCCgoqKuWbm+S4quOAjOWPqueUqCBmZWVkc+OAjeeahOWMhSoq77yIYE1PU0ROU2AgLyBgU01BUlRETlNgIC8gYFBBU1NXQUxMYCAvIGBUQUlMU0NBTEVg77yJ77ya5a6D5Lus55qE5pys5L2TCu+8iGBtb3NkbnNgIC8gYHNtYXJ0ZG5zYCAvIGB4cmF5LWNvcmVgIC8gYHNpbmctYm94YCAvIGB0YWlsc2NhbGVg77yJZmVlZHMg6YeM5bey5pyJ5ZCM5ZCN5YyF77yMCuesrOS4ieaWuea6kOWGjeaLieS4gOS7veS8muiuqee0ouW8lemHjOWHuueOsOS4pOS4quWQjOWQjSBgUGFja2FnZWDvvIxgcGFja2FnZS1tZXRhZGF0YWAg5oyJ5omr5o+P6aG65bqP5oyR5LiA5Liq44CBCuihjOS4uuS4jeWPr+mihOacn+OAguaJgOS7peiEmuacrOWPquaLtyBsdWNpIOWJjeerr++8jOacrOS9k+S4gOW+i+eUqCBmZWVkcyDnmoTjgIIKCmBBRERfRlRUUmAg5Y+K5YW25a2Q5byA5YWz5Y+q5ZyoIGBoM2NfaG0yMDA0LWR1YCDkuIvnlJ/mlYjvvIzlhbbkvZnmnLrlnovoh6rliqjot7Pov4fjgIIKCiMjIOaehOW7uue8k+WtmO+8iOenu+akjeiHqiBWSUtJTkdZRlkvT3BlbldSVC1DSe+8iQoK5LiA5Lu957yT5a2YID0g5LiJ5Liq55uu5b2V77yaCgpgYGAKc3RhZ2luZ19kaXIvaG9zdCogICAgICBob3N0IOW3peWFtyArIGhvc3Rwa2fvvIhnbyAvIHB5dGhvbiDlnKjov5nvvIkKc3RhZ2luZ19kaXIvdG9vbCogICAgICDkuqTlj4nnvJbor5HlmagKLmNjYWNoZSAgICAgICAgICAgICAgICDnvJbor5Hlr7nosaHnvJPlrZgKYGBgCgoqKnRvb2xzIC8gdG9vbGNoYWluIOS8muS4jeS8mumHjee8lu+8jOWPluWGs+S6jiBgc3RhZ2luZ19kaXJgIOmHjOeahCBjb21waWxlIOaIs++8jOS4jeWPluWGs+S6jue8k+WtmOmHjArmnInmsqHmnIkgYGJ1aWxkX2RpcmDjgIIqKiBgbWFrZSB3b3JsZGAg55qEIGBwcmVwYXJlYCDkvp3otZYKYHN0YWdpbmdfZGlyL2hvc3Qvc3RhbXAvLnRvb2xzX2NvbXBpbGVfPGZsYWdzPmAg5ZKMIGBzdGFnaW5nX2Rpci90b29sY2hhaW4tKi9zdGFtcC8udG9vbGNoYWluX2NvbXBpbGVg77yMCui/meS4pOS4quaIs+WtmOWcqOS4lOavlOa6kOeggeagkeaWsO+8jGB0b29scy9jb21waWxlYCDkuI4gYHRvb2xjaGFpbi9jb21waWxlYCDlsLHmlbTmrrXot7Pov4fjgIIKCioq57K+56Gu5ZG95LitID0g6L+Z5Lu957yT5a2Y5bCx5piv5b2T5YmN6L+Z5Liq5o+Q5Lqk57yW5Ye65p2l55qEKirvvIzkuKTmnaHpgJrpgZPpg73nrpfvvJpgYWN0aW9ucy9jYWNoZWAg55qECmBjYWNoZS1oaXQ9dHJ1ZWDvvIzmiJYgUmVsZWFzZSDotYTkuqflkI3ljrvmjokgYC50enN0YCDlkI7kuI7mnKzmrKEga2V5IOWujOWFqOebuOWQjOOAguWPquacieeyvuehruWRveS4reaXtgpgcHJlcGFyZWAg5omN5L+d55WZ6L+Z5Lik5Liq5oiz77yb5YmN57yA5Zue6YCA44CB5oiWIFJlbGVhc2Ug5Y+W5Yiw55qE5piv5pen5Luj77yM6YO96K+05piO5rqQ56CB5bey5Y+Y77yM6ISa5pys5Lya5Yig5o6JCuWug+S7rOi/q+S9vyBtYWtlIOmHjee8lu+8iOe6piAyNiDliIbpkp/vvIxjY2FjaGUg5Lya5Yqg6YCf77yJ44CC5b2T5YmN5o+Q5Lqk6YCa5bi45Zyo56ys5LiA5qyh5p6E5bu65pe25LuY6L+ZIDI2IOWIhumSn++8jArkuYvlkI7lkIzmj5DkuqTph43ot5Hpg73mmK8gMCDliIbpkp/jgIIKCnwg6YCa6YGTIHwg5LuL6LSoIHwg54m554K5IHwKfC0tLXwtLS18LS0tfAp8IOKRoCDlv6vpgJrpgZMgfCBgYWN0aW9ucy9jYWNoZWAgfCDnp5LnuqfvvIzkvYYgKio3IOWkqeaXoOiuv+mXruWNs+WbnuaUtioqIHwKfCDikaEg5aSH5Lu96YCa6YGTIHwgUmVsZWFzZSBgY2FjaGUtYmFja3VwYCDotYTkuqcgfCDmhaLvvIh+MSBHQu+8ie+8jCoq5rC45LiN6L+H5pyfKiogfAoK5oGi5aSNIOKRoOKGkuKRoe+8jOS/neWtmOaXtuS4pOadoemDveWGme+8iOKRoSDlpLHotKXlj6ogd2FybmluZ++8ieOAgmtleSDop4TliJnvvJoKCnwgfCBrZXkgfAp8LS0tfC0tLXwKfCDlhpnlhaUgfCBgcG9ud3J0LTzmupDnq5k+LTzliIbmlK8+LTxTb0M+LTxwcmVidWlsdFx8c291cmNlPi085LiK5ri45o+Q5Lqk5Y+3PmAgfAp8IOaBouWkjSB8IOWQjOS4iuWJjee8gCArIGAtYO+8iCoq5YmN57yA5Zue6YCAKirvvIkgfAoK5YmN57yA5LiN5ZCr6YWN572u44CB5py65Z6L44CBZGl5IOiEmuacrOKAlOKAlOaUuei/meS6m+S4jeS8muiuqee8k+WtmOWkseaViO+8m+S4iua4uOS4gOaPkOS6pOWwseaNouS4gOS7o++8jOmdoCBgcmVzdG9yZS1rZXlzYCDlm57pgIDliLDmnIDov5HkuIDku6PjgILml6fku6PnlLEgYGNhY2hlLXJvbGxvdmVyYCBqb2Ig5Yig5o6J77yM5L+d6K+B5q+P5Liq5YmN57yA5Y+q55WZ5LiA5Lu944CCCgoqKuaBouWkjeWQjuW/hemhu+WBmuS4ieS7tuS6iyoq77yIYHNjcmlwdHMvcHdydC1jYWNoZS5zaCBwcmVwYXJlYO+8ie+8jOWwkeS4gOS7tuWwseetieS6jueZveWRveS4re+8mnRvdWNoIOmdniB0YXJnZXQg55qEIHN0YW1w44CB5YaZIGB0bXAvLmJ1aWxkYOOAgXRvdWNoIOebruW9leacrOi6q+OAggoKKipkbCDnvJPlrZgqKu+8iOa6kOeggeWMhe+8jDJ+NSBHQu+8ieWNleeLrOS4gOadoe+8jGtleSDmjInlkajmu5rliqggYHBvbndydC1kbC085rqQ56uZIHNsdWc+LTzliIbmlK8+LTxZWVlZV1c+YO+8iGBwYnMwNS9wb253cnRgIOKGkiBgcGJzMDUtcG9ud3J0YO+8jOS4juW3peWFt+mTviBrZXkg5ZCM5LiA5aWX6KeE5YiZ77yJ44CC5L+d5a2Y5ZyoIGBtYWtlIGRvd25sb2FkYCDkuYvlkI7jgIHnvJbor5HkuYvliY3igJTigJQzNTAg5YiG6ZKf5LiA5YiwIGpvYiDnm7TmjqUgY2FuY2Vs77yM5pS+5pyA5ZCO55SoIGBhbHdheXMoKWAg5Lmf5p2l5LiN5Y+K6LeR44CCCgoqKuS4pOenjSBob3N0IOaooeW8j+S4jeWFseeUqOe8k+WtmCoq77yaYEhPU1RfTU9ERWAg6L+b5YmN57yA44CCcHJlYnVpbHQg5ZyoIGBzdGFnaW5nX2RpcmAg6YeM55WZ55qE5piv5oyH5ZCRIHJ1bm5lciDnmoTnrKblj7fpk77mjqXvvIxzb3VyY2Ug55WZ55qE5piv55yf5LqM6L+b5Yi277yM5re355So5Lya6K6pIG1ha2Ug6K+v5Yik44CM5bey5a6J6KOF44CN5bm25Zyo57yW6K+R5pyf5oql5LiA5Liq5a6M5YWo5a+55LiN5LiK55qE6ZSZ44CCKip3YXJtLWNhY2hlIOW/hemhu+WSjOS4u+a1geeoi+mAieWQjOS4gOS4quaooeW8jyoq77yM5ZCm5YiZ6aKE54Ot55m96LeR44CCCgoqKnJ1c3Qg5YyF55qE56a757q/6ZmQ5Yi2KirvvJpgaDNjLWZ0dHItdG9vbHNgIOeahCBNYWtlZmlsZSDnlKggYGNhcmdvIGluc3RhbGwgLS1sb2NrZWQgLS1mcm96ZW5g77yMYC0tZnJvemVuYCDnpoHmraLogZTnvZHjgIHlj6rorqQgYGRsL2NhcmdvYCDph4zlt7LmnInnmoQgY3JhdGXjgIJgc2NyaXB0cy9wYXRjaC1jYXJnby1vZmZsaW5lLnNoYCDmioogYC0tZnJvemVuYCAvIGAtLW9mZmxpbmVgIOaRmOaOie+8jGAtLWxvY2tlZGAg5L+d55WZ77yI54mI5pys5LuN6ZSB5q2777yJ44CCCgojIyDlrqLliLbljJYKCnwg5L2N572uIHwg5YGa5LqG5LuA5LmIIHwKfC0tLXwtLS18CnwgYGZpbGVzL3NiaW4vY3B1dXNhZ2VgICsgYHNjcmlwdHMvcGF0Y2gtbHVjaS1jcHV1c2FnZS5zaGAgfCDmpoLop4jpobUgQ1BVIOihjOaUueS4uiBgVVNSOiAyJSBTWVM6IDElIMK3IENQVTAgMyUgQ1BVMSAwJeKApmDvvIjkuKTmrKEgYC9wcm9jL3N0YXRgIOmHh+W3ruWAvO+8jFVTUj1gdXNlcituaWNlYOOAgVNZUz1gc3lzdGVtK2lycStzb2Z0aXJxYO+8ieOAguihpeS4geWPquaNoiBgcG9wZW4oKWAg6YeM5LiA5Liq5ZG95Luk5a2X56ym5Liy77yM5YmN56uv5ZKMIEFDTCDpg73kuI3liqjvvJvku7vkuIDnjq/oioLlpLHotKXlj6ogd2FybmluZ++8jOaehOW7uuS4jeWPl+W9seWTjSB8CnwgYGZpbGVzL3NiaW4vdGVtcGluZm9gIHwg5qaC6KeI6aG15rip5bqm6KGM77yaQ1BVIC8gV2lGaSAvIFBPTiDkuInkuKrmuKnluqbjgILpobbpg6ggYFNIT1dfUE9OX09QVElDUz0xYCDlj6/pmYTluKbmlLblj5HlhYkv55S15rWBL+eUteWOi++8iOm7mOiupCAw77yM5Zug5Li6IGBsdWNpLWFwcC1wb24tc3RhdHVzYCDljaHniYflt7Lnu4/lrozmlbTlsZXnpLrvvIzph43lpI3vvIkgfAp8IGBkaXktcGFydDIuc2hgIHwg6buY6K6k5pe25Yy6IGBBc2lhL1NoYW5naGFpYOOAgTVHIOWbveWutueggSBgQ05gIC8g5L+h6YGTIGBhdXRvYCAvIOmikeWuvSBgSEUxNjBg77yI5LiN5pSv5oyB5pe25Zue6JC95YiwIGBIRTgwYO+8ieOAgeWbuuS7tueJiOacrOWQjue8gOi/veWKoOS9nOiAheS4juaehOW7uuaXtumXtCB8CnwgYGZpbGVzL2V0Yy91Y2ktZGVmYXVsdHMvYCB8IOmmluWQr+W8uuWItuWIt+aXtuWMuuS4juaXoOe6v+WPguaVsOeahOWFnOW6leiEmuacrCB8CgojIyBOUFUg5Zu65Lu2CgpOUFUg5pivIEFpcm9oYSBTb0Mg6YeM55qEIFJJU0MtViDmoLjvvIxob3N0IOS+p+mpseWKqOmaj+WGheaguOe8luWHuu+8jOaMieWbuuWumuWQjeWtl+aJvuS4pOS4qumVnOWDj++8mgoKfCDplZzlg48gfCDmlofku7blkI0gfCDkuIrpmZAgfAp8LS0tfC0tLXwtLS18CnwgcnYzMu+8iHRleHQrcm9kYXRh77yJIHwgYGFpcm9oYS9lbjc1ODFfbnB1X3J2MzIuYmluYO+8iEFONzU4MyDkuLogYGFuNzU4M18qYO+8iSB8IDIgTWlCIHwKfCBkYXRhIHwgYGFpcm9oYS9lbjc1ODFfbnB1X2RhdGEuYmluYCB8IDY0IEtpQiB8CgrnlLEgcG9ud3J0IOiHquW4pueahCBsaW51eC1maXJtd2FyZSDmj5DkvpvvvIzlnKggYGNvbmZpZ3MvPOacuuWeiz4uY29uZmlnYCDlhpkgYENPTkZJR19QQUNLQUdFX2Fpcm9oYS1lbjc1ODEtbnB1LWZpcm13YXJlPXlgIOWNs+ijhei/myByb290ZnPjgILlt6XkvZzmtYHkuI3ku4vlhaXlm7rku7bnlJ/miJDigJTigJTopoHmjaLlsLHmlLnov5nkuIDooYzjgIIKCmBgYHNoCmRtZXNnIHwgZ3JlcCAtaSBucHUgICAgICAgICAgICMgcHJvYmUg5pe25omTIGZ3IHZlcnNpb24KbHMgLWwgL2xpYi9maXJtd2FyZS9haXJvaGEvICAgIyDkuKTkuKogYmluIOWcqOS9jQpgYGAKCue8uuaWh+S7tuaIluWQjeWtl+S4jeespiDihpIgYC1FTk9FTlRgIOKGkiDmmKDlsITmiJAgYC1FUFJPQkVfREVGRVJg77yMTlBVIOS4gOebtOS4jee7keWumu+8iGBkZWZlcnJlZCBwcm9iZSBwZW5kaW5nYCDph4zog73nnIvliLDlhbfkvZPmlofku7blkI3vvInvvJvotoXpmZAg4oaSIGAtRTJCSUdg44CCCgojIyDliqDlr4bliqDpgJ/vvIjlj6/pgInvvIkKCnwg5byA5YWzIHwg5bu66K6uIHwg6YCC55SoIHwKfC0tLXwtLS18LS0tfAp8IGBvcHRfYXJtNjRjZWAgfCDmlLkgYDFgIHwgSVBTZWMgLyBPcGVuVlBOIC8gVExTIC8gZG0tY3J5cHTvvIzlh6DkuY7mgLvmmK/lvIAgfAp8IGBvcHRfY2hhY2hhYCB8IOaUuSBgMWAgfCDot5EgWHJheSAvIHNpbmctYm94IC8gV2lyZUd1YXJkIHwKfCBgb3B0X2VpcDkzYCB8IOS/neaMgSBgMGAgfCDlj6rmnInlpKflnZcgSVBTZWMgLyDlpKfmlofku7YgVExTIOaJjeacieaUtuebiiB8CgoqKkFONzU4MSDlkowgQU43NTgzIOS4jeS4gOagtyoq77yaQU43NTgxIOeahCBgL3Byb2MvY3B1aW5mb2Ag6YeM5rKh5pyJIGBhZXNg77yMYC9wcm9jL2NyeXB0b2Ag5Y+q5pyJIGBhZXMtZ2VuZXJpY2DvvIzljZXmoLggQUVTLTEyOC1HQ00g57qmIDMyIE1CL3PvvIzlj6rog73otbAgTkVPTiDkvY3liIfniYfvvIhgQUVTX0FSTTY0X0JTYO+8ie+8m0FONzU4MyDmnIkgYGFlcyBwbXVsbCBzaGExIHNoYTJg77yM5ZCM5qC35rWL6K+V57qmIDU0OCBNQi9z77yM5Y+v5Lul6LWwIENyeXB0byBFeHRlbnNpb25z44CC6ISa5pys6K+7IGAuY29uZmlnYCDoh6rliqjliKTmlq3vvIzkuI3nlKjmiYvliqjliIfjgIIKCioqRUlQOTMg5piv5Liq6Zm36ZixKirvvJpBTjc1ODEg56Gu5a6e5YaF572u77yIYGNyeXB0b0AxZTAwNDAwMGDvvInvvIzkvYblrp7mtYsgQUVTIOimgSDiiaU1MTIg5a2X6IqC5omN5b+r6L+H6L2v5Lu277yMTUQ1L1NIQTEvU0hBMiDlnKjmiYDmnInlsLrlr7jkuIvpg73mmK/ova/ku7bmm7Tlv6vvvIzku6PnkIbmtYHph4/lvIDnnYDlj6rkvJrmm7TmhaLjgIIKCumqjOivge+8mgoKYGBgc2gKZ3JlcCAtYW8gJ2Flc1x8cG11bGxcfHNoYTFcfHNoYTInIC9wcm9jL2NwdWluZm8gfCBzb3J0IC11ICAgIyBBTjc1ODEg5LiN5Lya5pyJIGFlcwpjYXQgL3Byb2MvY3J5cHRvIHwgZ3JlcCAtRSAnXm5hbWV8XmRyaXZlcnxecHJpb3JpdHknCm9wZW5zc2wgc3BlZWQgLWV2cCBhZXMtMTI4LWdjbQpvcGVuc3NsIHNwZWVkIC1ldnAgY2hhY2hhMjAtcG9seTEzMDUKYGBgCgo+IGBDT05GSUdfQ1JZUFRPXypgIOaYryoq5YaF5qC457yW6K+R56ym5Y+3KirvvIzlv4Xpobvlhpnov5sgYHRhcmdldC9saW51eC9haXJvaGEvYW43NTgxL2NvbmZpZy08a3Zlcj5g44CC5YaZ6L+b6aG25bGCIGAuY29uZmlnYCDkvJrooqsgdGFyZ2V0IGNvbmZpZyDopobnm5bigJTigJTnnIvotbfmnaXphY3kuIrkuobvvIzlrp7pmYXkuI3nlJ/mlYjjgIIKCiMjIOaOkumUmQoKfCDnl4fnirYgfCDlhYjnnIvlk6rph4wgfAp8LS0tfC0tLXwKfCBgZGVmY29uZmlnYCDlpLHotKUgfCDml6Xlv5fph4wgYG1ha2UgZGVmY29uZmlnYCDpgqPmrrXnmoTlsL7pg6ggNjAg6KGMICsg5qC55Zug5o+Q56S677yIYHNjcmlwdHMvZGVmY29uZmlnLnNoYCDovpPlh7rvvIkgfAp8IOWFs+mUruWMheOAjOacquWQr+eUqO+8jOajgOafpSBmZWVkc+OAjSB8IOWkmuaVsOaYr+S4iuS4gOatpSBkZWZjb25maWcg5aSx6LSl55qE6L+e5bim77yb54us56uL5Ye6546w5pe25p+lIGB0bXAvLnBhY2thZ2VpbmZvYCDph4zmnInmsqHmnInor6XljIUgfAp8IGBGYWlsZWQgdG8gZG93bmxvYWRgIC8g57yW6K+R5pyf5oql57y6IGNyYXRlIHwgYG1ha2UgZG93bmxvYWRgIOS4ieasoemDveWksei0peS8muebtOaOpSBlcnJvciDpgIDlh7rvvIzljrvpgqPmrrXovpPlh7rmkJwgYEVSUk9SOmAgfAp8IOe8k+WtmOOAjOWRveS4reOAjeWNtOS7jeeEtuWFqOmHj+mHjee8liB8IGBwcmVwYXJlYCDpgqPmraXnmoTkuInku7bkuovmmK/lkKbpg73lgZrkuobvvJtgQnVpbGQgaG9zdCBnby9ydXN0IGZyb20gc291cmNlYCDnmoQgd2FybmluZyB8Cnwg57yT5a2Y5rC46L+cIG1pc3MgfCBgc291cmNlYCAvIGBicmFuY2hgIC8gYHNvY2AgLyBgcHJlYnVpbHRfaG9zdGAg5Zub6aG55piv5ZCm5ZKM6aKE54Ot5pe25LiA6Ie0IHwKfCBgYXJ0aWZhY3RzYCDkuIrkvKDlpLHotKUgfCBBcnRpZmFjdCDlrZjlgqjphY3pop3vvIjpu5jorqTkv53nlZkgOTAg5aSp77yM5Yeg5Lu95Zu65Lu25bCx5Y+v6IO96LaF77yJIHwKfCBOUFUg5LiN57uR5a6aIHwgYGRtZXNnIFx8IGdyZXAgLWkgbnB1YOOAgWAvbGliL2Zpcm13YXJlL2Fpcm9oYS9gIOmHjOeahOaWh+S7tuWQjeWSjOWkp+WwjyB8CgojIyDlt7Lnn6XpmZDliLYKCi0g5Y+q5pyJIGBzY29wZT1maXJtd2FyZWAg5LiU57yW6K+R5oiQ5Yqf5omN5Y+RIFJlbGVhc2XvvJtgdG9vbGNoYWluLW9ubHlgIOS4jeWPke+8jOepuuWbuuS7tuebruW9leS8mui3s+i/h+OAggotIFJlbGVhc2UgdGFnIOWbuuWumuS4uiBgPOacuuWeiz4tPOWIhuaUrz5g77yM5q+P5qyh6KaG55uW77yM5omA5Lul5q+P5Liq5py65Z6L5Y+q5pyJ5LiA5Lu95Zu65Lu277yM5LiN5piv44CM5L+d55WZ5pyA6L+RIE4g5Lu944CN44CCCi0gTlBVIOWPquWcqOS4ieWxgui3r+eUseaooeW8j+eUn+aViO+8jOe6ryBBUCDmoaXmjqXml7bmlbTmnLrlkJ7lkJDkvJrmjonliLAgMjAwMCBNYnBzIOW3puWPs+OAggotIGByZXBvc2l0b3J5X2Rpc3BhdGNoYCDop6blj5Hml7bmiYDmnIkgY2hvaWNlIOi+k+WFpemDveaYr+epuu+8jOi1sOeahOaYr+WQhCBlbnYg55qE5Zue6YCA5YC844CCCg==
+# PonWrt CI — Airoha AN758x PON 云编译
+
+基于 P3TERX `Actions-OpenWrt` 模板重构，源码指向 [pbs05/ponwrt](https://github.com/pbs05/ponwrt)（默认分支 `master`）。
+产出 AN7581 / AN7583 PON 光猫的 OpenWrt 固件，带机型选择、磁盘释放和滚动构建缓存。
+
+## 快速开始
+
+免费 runner 单次上限 6 小时（job 350 分钟），首次全量编译（工具链 + 内核 + 全包）大概率超时，按这个顺序跑：
+
+1. **Warm Build Cache** → `soc=an7581和an7583`、`prebuilt_host=预编译`，把工具链缓存建起来
+2. **Build PonWrt** → 选 `soc` / `profile` → `scope=firmware` 出固件
+3. 仍然超时：把 `configs/*.config` 里不需要的 luci-app / 语言包删掉再提交
+
+> 不预热也能直接跑 `firmware`——缓存是滚动式的，第一次跑完会自动存下工具链。预热只是给怕超时的人用的。
+
+## 输入项
+
+### `build-ponwrt.yml`
+
+| 输入 | 取值 | 说明 |
+|---|---|---|
+| `source` | `pbs05/ponwrt` / `fork` | 编译哪个源码仓库。**必须和缓存预热时选的一致**，否则前缀对不上 |
+| `branch` | 默认 `master` | |
+| `soc` | `an7581` / `an7583` | |
+| `profile` | 见下方机型表，`all` = 全机型 | 写错会在 `Validate configuration` 直接报错退出，不会静默全编 |
+| `scope` | `firmware` / `toolchain-only` | 后者只建工具链缓存，不出固件、不发 Release |
+| `prebuilt_host` | `true`（默认）/ `false` | `true` 用 runner 的 Go/Rust/LLVM，快 1.5~2.5 小时；`false` 全部从源码编，产物可复现 |
+| `ignore_cache` | `false` / `true` | 跳过缓存恢复强制重编（仍会存新一代） |
+| `upload_release` | `true` / `false` | `false` 只留 Artifact |
+| `opt_arm64ce` / `opt_chacha` / `opt_eip93` | `0` / `1` | 加密加速，见文末 |
+
+### 四个工作流
+
+| 工作流 | 触发 | 作用 |
+|---|---|---|
+| `build-ponwrt.yml` | 手动 | 恢复缓存 → 编译 → 存缓存 → 轮换旧代 |
+| `warm-cache.yml` | 手动 / 每周一 03:17 | 预热。`soc` 和 `prebuilt_host` 都是三选一，两个都选「和」的选项 = 4 个 job 并行 |
+| `cache-keepalive.yml` | 每 3 天 | 逐条真实恢复，避开 `actions/cache` 的 7 天未访问回收 |
+| `cache-clean.yml` | 手动 / 每周一 04:20 | `rollover` 每族留最新一代 / `backup` 只清 Release 备份 / `all` 全删 |
+
+## 支持的机型
+
+| SoC | profile |
+|---|---|
+| AN7581 | `fiberhome_hg5382a` `fiberhome_hg5585f-ct` `fiberhome_hg5585f-cu` `gemtek_xg2010g` `nokia_xg-040g-md-ubi` `nokia_xg-040g-tf-ubi` `unionman_ung00a` `znxt_zn504xg-d` `znxt_zn515xg-d` `h3c_hm2004-du`※ |
+| AN7583 | `nokia_xg-040g-mf` `nokia_xg-040g-mf-ubi` |
+
+※ `h3c_hm2004-du` 额外依赖私有仓库 `openwrt-fttr`（FTTR 驱动 / 控制端 / FPGA 固件）与 `luci-app-fttr`，缺凭证时 `diy-part1.sh` 会直接报错退出。
+
+## 插件开关（`diy-part1.sh`）
+
+全部默认开启，开关与 `configs/an7581.config` / `an7583.config` 里的 `=y` 一一对应：
+
+| 开关 | 包 | 备注 |
+|---|---|---|
+| `ADD_AIROHA_NPU` | `luci-app-airoha-npu` | NPU 卸载 / CPU 频率 / Frame Engine / PPE 流表 |
+| `ADD_LUCI_APP` | `luci-app-natmode`、`luci-app-pon-status` | NAT 类型三选一、PON 光模块卡片 |
+| `ADD_FLUENT` | `luci-theme-fluent` | 与 `argon` / `bootstrap` 可共存 |
+| `ADD_PASSWALL` | `luci-app-passwall` + `xray-core` / `sing-box` | 新版 passwall 把内核做成按需安装，config 里另开了两个 feeds 现成的 |
+| `ADD_OPENCLASH` | `luci-app-openclash` | ⚠ 拖 Ruby 进构建，首次 +20~40 分钟 |
+| `ADD_MOSDNS` | `luci-app-mosdns` | 本体用 feeds 的 `mosdns` |
+| `ADD_SMARTDNS` | `luci-app-smartdns` | 本体用 feeds 的 `smartdns` |
+| `ADD_TAILSCALE` | `luci-app-tailscale` | 本体用 feeds 的 `tailscale` |
+| `ADD_LUCKY` | `luci-app-lucky` | 含 `lucky` 本体 |
+| `ADD_OPENLIST` | `luci-app-openlist2` | 含 `openlist2` 本体 |
+| `ADD_EASYTIER` | `luci-app-easytier` + `easytier` | 本体是 Rust 包，编译较慢 |
+| `ADD_POWEROFF` / `ADD_OWQ_WOL` / `ADD_WATCHDOG` / `ADD_TASKPLAN` | 同名 `luci-app-*` | |
+| `ADD_OAF` | `luci-app-oaf` + `appfilter` / `kmod-oaf` | 含内核模块 |
+
+**要关掉某个插件，改两处**：脚本里 `ADD_xxx=false`，**并且**把两个通用 config 里对应的
+`CONFIG_PACKAGE_xxx=y` 删掉（或改成 `# ...is not set`）。只改一处会不一致：
+只关脚本 → `make defconfig` 把 `=y` 静默剔除；只关 config → 白 clone 一个仓库。
+
+**四个「只用 feeds」的包**（`MOSDNS` / `SMARTDNS` / `PASSWALL` / `TAILSCALE`）：它们的本体
+（`mosdns` / `smartdns` / `xray-core` / `sing-box` / `tailscale`）feeds 里已有同名包，
+第三方源再拉一份会让索引里出现两个同名 `Package`，`package-metadata` 按扫描顺序挑一个、
+行为不可预期。所以脚本只拷 luci 前端，本体一律用 feeds 的。
+
+`ADD_FTTR` 及其子开关只在 `h3c_hm2004-du` 下生效，其余机型自动跳过。
+
+## 构建缓存（移植自 VIKINGYFY/OpenWRT-CI）
+
+一份缓存 = 三个目录：
+
+```
+staging_dir/host*      host 工具 + hostpkg（go / python 在这）
+staging_dir/tool*      交叉编译器
+.ccache                编译对象缓存
+```
+
+**tools / toolchain 会不会重编，取决于 `staging_dir` 里的 compile 戳，不取决于缓存里
+有没有 `build_dir`。** `make world` 的 `prepare` 依赖
+`staging_dir/host/stamp/.tools_compile_<flags>` 和 `staging_dir/toolchain-*/stamp/.toolchain_compile`，
+这两个戳存在且比源码树新，`tools/compile` 与 `toolchain/compile` 就整段跳过。
+
+**精确命中 = 这份缓存就是当前这个提交编出来的**，两条通道都算：`actions/cache` 的
+`cache-hit=true`，或 Release 资产名去掉 `.tzst` 后与本次 key 完全相同。只有精确命中时
+`prepare` 才保留这两个戳；前缀回退、或 Release 取到的是旧代，都说明源码已变，脚本会删掉
+它们迫使 make 重编（约 26 分钟，ccache 会加速）。当前提交通常在第一次构建时付这 26 分钟，
+之后同提交重跑都是 0 分钟。
+
+| 通道 | 介质 | 特点 |
+|---|---|---|
+| ① 快通道 | `actions/cache` | 秒级，但 **7 天无访问即回收** |
+| ② 备份通道 | Release `cache-backup` 资产 | 慢（~1 GB），**永不过期** |
+
+恢复 ①→②，保存时两条都写（② 失败只 warning）。key 规则：
+
+| | key |
+|---|---|
+| 写入 | `ponwrt-<源站>-<分支>-<SoC>-<prebuilt\|source>-<上游提交号>` |
+| 恢复 | 同上前缀 + `-`（**前缀回退**） |
+
+前缀不含配置、机型、diy 脚本——改这些不会让缓存失效；上游一提交就换一代，靠 `restore-keys` 回退到最近一代。旧代由 `cache-rollover` job 删掉，保证每个前缀只留一份。
+
+**恢复后必须做三件事**（`scripts/pwrt-cache.sh prepare`），少一件就等于白命中：touch 非 target 的 stamp、写 `tmp/.build`、touch 目录本身。
+
+**dl 缓存**（源码包，2~5 GB）单独一条，key 按周滚动 `ponwrt-dl-<源站 slug>-<分支>-<YYYYWW>`（`pbs05/ponwrt` → `pbs05-ponwrt`，与工具链 key 同一套规则）。保存在 `make download` 之后、编译之前——350 分钟一到 job 直接 cancel，放最后用 `always()` 也来不及跑。
+
+**两种 host 模式不共用缓存**：`HOST_MODE` 进前缀。prebuilt 在 `staging_dir` 里留的是指向 runner 的符号链接，source 留的是真二进制，混用会让 make 误判「已安装」并在编译期报一个完全对不上的错。**warm-cache 必须和主流程选同一个模式**，否则预热白跑。
+
+**rust 包的离线限制**：`h3c-fttr-tools` 的 Makefile 用 `cargo install --locked --frozen`，`--frozen` 禁止联网、只认 `dl/cargo` 里已有的 crate。`scripts/patch-cargo-offline.sh` 把 `--frozen` / `--offline` 摘掉，`--locked` 保留（版本仍锁死）。
+
+## 客制化
+
+| 位置 | 做了什么 |
+|---|---|
+| `files/sbin/cpuusage` + `scripts/patch-luci-cpuusage.sh` | 概览页 CPU 行改为 `USR: 2% SYS: 1% · CPU0 3% CPU1 0%…`（两次 `/proc/stat` 采差值，USR=`user+nice`、SYS=`system+irq+softirq`）。补丁只换 `popen()` 里一个命令字符串，前端和 ACL 都不动；任一环节失败只 warning，构建不受影响 |
+| `files/sbin/tempinfo` | 概览页温度行：CPU / WiFi / PON 三个温度。顶部 `SHOW_PON_OPTICS=1` 可附带收发光/电流/电压（默认 0，因为 `luci-app-pon-status` 卡片已经完整展示，重复） |
+| `diy-part2.sh` | 默认时区 `Asia/Shanghai`、5G 国家码 `CN` / 信道 `auto` / 频宽 `HE160`（不支持时回落到 `HE80`）、固件版本后缀追加作者与构建时间 |
+| `files/etc/uci-defaults/` | 首启强制刷时区与无线参数的兜底脚本 |
+
+## NPU 固件
+
+NPU 是 Airoha SoC 里的 RISC-V 核，host 侧驱动随内核编出，按固定名字找两个镜像：
+
+| 镜像 | 文件名 | 上限 |
+|---|---|---|
+| rv32（text+rodata） | `airoha/en7581_npu_rv32.bin`（AN7583 为 `an7583_*`） | 2 MiB |
+| data | `airoha/en7581_npu_data.bin` | 64 KiB |
+
+由 ponwrt 自带的 linux-firmware 提供，在 `configs/<机型>.config` 写 `CONFIG_PACKAGE_airoha-en7581-npu-firmware=y` 即装进 rootfs。工作流不介入固件生成——要换就改这一行。
+
+```sh
+dmesg | grep -i npu           # probe 时打 fw version
+ls -l /lib/firmware/airoha/   # 两个 bin 在位
+```
+
+缺文件或名字不符 → `-ENOENT` → 映射成 `-EPROBE_DEFER`，NPU 一直不绑定（`deferred probe pending` 里能看到具体文件名）；超限 → `-E2BIG`。
+
+## 加密加速（可选）
+
+| 开关 | 建议 | 适用 |
+|---|---|---|
+| `opt_arm64ce` | 改 `1` | IPSec / OpenVPN / TLS / dm-crypt，几乎总是开 |
+| `opt_chacha` | 改 `1` | 跑 Xray / sing-box / WireGuard |
+| `opt_eip93` | 保持 `0` | 只有大块 IPSec / 大文件 TLS 才有收益 |
+
+**AN7581 和 AN7583 不一样**：AN7581 的 `/proc/cpuinfo` 里没有 `aes`，`/proc/crypto` 只有 `aes-generic`，单核 AES-128-GCM 约 32 MB/s，只能走 NEON 位切片（`AES_ARM64_BS`）；AN7583 有 `aes pmull sha1 sha2`，同样测试约 548 MB/s，可以走 Crypto Extensions。脚本读 `.config` 自动判断，不用手动切。
+
+**EIP93 是个陷阱**：AN7581 确实内置（`crypto@1e004000`），但实测 AES 要 ≥512 字节才快过软件，MD5/SHA1/SHA2 在所有尺寸下都是软件更快，代理流量开着只会更慢。
+
+验证：
+
+```sh
+grep -ao 'aes\|pmull\|sha1\|sha2' /proc/cpuinfo | sort -u   # AN7581 不会有 aes
+cat /proc/crypto | grep -E '^name|^driver|^priority'
+openssl speed -evp aes-128-gcm
+openssl speed -evp chacha20-poly1305
+```
+
+> `CONFIG_CRYPTO_*` 是**内核编译符号**，必须写进 `target/linux/airoha/an7581/config-<kver>`。写进顶层 `.config` 会被 target config 覆盖——看起来配上了，实际不生效。
+
+## 排错
+
+| 症状 | 先看哪里 |
+|---|---|
+| `defconfig` 失败 | 日志里 `make defconfig` 那段的尾部 60 行 + 根因提示（`scripts/defconfig.sh` 输出） |
+| 关键包「未启用，检查 feeds」 | 多数是上一步 defconfig 失败的连带；独立出现时查 `tmp/.packageinfo` 里有没有该包 |
+| `Failed to download` / 编译期报缺 crate | `make download` 三次都失败会直接 error 退出，去那段输出搜 `ERROR:` |
+| 缓存「命中」却仍然全量重编 | `prepare` 那步的三件事是否都做了；`Build host go/rust from source` 的 warning |
+| 缓存永远 miss | `source` / `branch` / `soc` / `prebuilt_host` 四项是否和预热时一致 |
+| `artifacts` 上传失败 | Artifact 存储配额（默认保留 90 天，几份固件就可能超） |
+| NPU 不绑定 | `dmesg \| grep -i npu`、`/lib/firmware/airoha/` 里的文件名和大小 |
+
+## 已知限制
+
+- 只有 `scope=firmware` 且编译成功才发 Release；`toolchain-only` 不发，空固件目录会跳过。
+- Release tag 固定为 `<机型>-<分支>`，每次覆盖，所以每个机型只有一份固件，不是「保留最近 N 份」。
+- NPU 只在三层路由模式生效，纯 AP 桥接时整机吞吐会掉到 2000 Mbps 左右。
+- `repository_dispatch` 触发时所有 choice 输入都是空，走的是各 env 的回退值。
