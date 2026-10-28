@@ -1,1 +1,370 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBwd3J0LWNhY2hlLnNoIOKAlOKAlCDmlbTkvZPmnoTlu7rnvJPlrZjliqnmiYvvvIjnp7vmpI3oh6ogVklLSU5HWUZZL09wZW5XUlQtQ0nvvIkKIwojICAgMSkg57yT5a2Y5a+56LGh5piv55uu5b2V5pys6Lqr77yM5LiN6Ieq5bex5omTIHRhcu+8mgojICAgICAgICBzdGFnaW5nX2Rpci9ob3N0KiAgIGhvc3QgKyBob3N0cGtn77yIZ28gLyBweXRob24g5Zyo6L+Z77yJCiMgICAgICAgIHN0YWdpbmdfZGlyL3Rvb2wqICAg5Lqk5Y+J57yW6K+R5ZmoCiMgICAgICAgIC5jY2FjaGUgICAgICAgICAgICAg57yW6K+R5a+56LGh57yT5a2YCiMgICAyKSBrZXkgPSDliY3nvIAgKyDkuIrmuLjmj5DkuqTlj7fvvIxyZXN0b3JlLWtleXMgPSDliY3nvIAtCiMgICAgICDliY3nvIDlj6rnlLHjgIzmupDnq5kgKyDliIbmlK8gKyBTb0MgKyBIT1NUX01PREXjgI3lhrPlrprvvIzmj5DkuqTlj7flj5jkuoblj6rmmK/mjaLkuIDku6PvvIwKIyAgICAgIOaBouWkjemdoOWJjee8gOWbnumAgOaLv+WIsOacgOi/keS4gOS7oyDigJTigJQg6L+Z5piv44CM57yT5a2Y5rC46L+c5ZG95Lit44CN55qE5p2l5rqQ44CCCiMgICAzKSDmgaLlpI3lkI7lv4XpobvliLfmlrDpnZ4gdGFyZ2V0IOeahCBzdGFtcCDlubblhpkgdG1wLy5idWlsZO+8mnRhciDov5jljp/nmoTmmK/ml6cKIyAgICAgIG10aW1l77yM5LiN5Yi35pawIG1ha2Ug5Lya6K6k5Li65rqQ56CB5pu05pawIOKGkiDlhajph4/ph43nvJYg4oaSIOe8k+WtmOeZveWRveS4reOAggojICAgICAg4pqgIOS9hiB0b29scyAvIHRvb2xjaGFpbiDnmoQgY29tcGlsZSDmiLPopoHmjIkgQ0FDSEVfRVhBQ1Qg5Yy65Yir5a+55b6F77yM6KeBIGNtZF9wcmVwYXJl44CCCiMgICA0KSDnvJbor5HmiJDlip/kuJTpnZ7nsr7noa7lkb3kuK3miY3lrZjmlrDkuIDku6PvvIzml6fku6PkuqTnu5kgcm9sbG92ZXIg5Yig5o6J77yMCiMgICAgICDkv53or4EgMTBHQiDphY3pop3ph4zmr4/kuKrliY3nvIDlj6rmnInkuIDku73jgIIKIwojICAg5a2Q5ZG95Luk77yaCiMgICAgIGtleSA8ZGlyPiAgICAgICAgICAgIOeulyBQUkVGSVggLyBLRVnvvIjlhpkgR0lUSFVCX09VVFBVVCAvIEdJVEhVQl9FTlbvvIkKIyAgICAgcHJlZml4ICAgICAgICAgICAgICAg5Y+q566X5YmN57yA77yI5LiN6ZyA6KaBIGdpdCDku5PlupPvvIkKIyAgICAgcHJlcGFyZSA8ZGlyPiAgICAgICAg5oGi5aSN5ZCO5Yi35pawIHN0YW1w44CB5YaZIHRtcC8uYnVpbGQKIyAgICAgcm9sbG92ZXIgICAgICAgICAgICAg5Yig5o6J5ZCM5YmN57yA55qE5pen5Luj77yI6K+7546v5aKD6YeM55qEIFBSRUZJWCAvIEtFWe+8iQojICAgICBwYWNrIDxvdz4gPG91dGZpbGU+ICDmiZPljIXkuInkuKrnvJPlrZjnm67lvZXvvIhSZWxlYXNlIOWkh+S7vemAmumBk++8iQojICAgICB1bnBhY2sgPG93PiA8aW5maWxlPiDop6PlvIAgUmVsZWFzZSDlpIfku70KIyAgICAgc3RhdHVzIDxkaXI+ICAgICAgICAg5omT5Y2w5L2T56ev5LiO54mI5pys77yM5YaZICRSRVBPUlRfRElSL3B3cnQtY2FjaGUudHh0CiMKIyAgIOeOr+Wig+WPmOmHj++8mlNPVVJDRSAvIFJFUE9fQlJBTkNIIC8gU09DIC8gSE9TVF9NT0RFIOWPguS4juWJjee8gO+8mwojICAgICAgICAgICAgIEdJVEhVQl9PVVRQVVQgLyBHSVRIVUJfRU5WIOacieWwseWGme+8m1JFUE9SVF9ESVIg6buY6K6kIC90bXAKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpzZXQgLXUKCkNNRD0iJHsxOi19IgpPVz0iJHsyOi0kUFdEfSIKCiMg5ZCM5pe25YaZIEdJVEhVQl9PVVRQVVTvvIhDSSDph4zvvInlkowgc3Rkb3V0Cm91dCgpIHsKICBlY2hvICIkMSIKICBbIC1uICIke0dJVEhVQl9PVVRQVVQ6LX0iIF0gJiYgZWNobyAiJDEiID4+ICIkR0lUSFVCX09VVFBVVCIKICByZXR1cm4gMAp9CgojIOeOr+Wig+WPmOmHj+WGmSBHSVRIVUJfRU5W77yI5ZCO57utIHN0ZXAg5Y+v6K+777yJCmVudl9vdXQoKSB7CiAgWyAtbiAiJHtHSVRIVUJfRU5WOi19IiBdICYmIGVjaG8gIiQxIiA+PiAiJEdJVEhVQl9FTlYiCiAgcmV0dXJuIDAKfQoKIyBrZXkg6YeM5Y+q5YWB6K64IFtBLVphLXowLTkuXy1d77yM5YW25L2Z5LiA5b6L5o2i6L+e5a2X56ym44CCCiMg4pqgIOeUqCBwcmludGYg6ICM5LiN5pivIGVjaG/vvJplY2hvIOS8muihpeaNouihjO+8jHRyIC1jIOS8muaKiuaNouihjOS5n+abv+aNouaIkCAnLSfvvIwKIyAgIGtleSDmnKvlsL7lsLHkvJrlpJrkuIDkuKrov57lrZfnrKbvvIzkuI7lj6bkuIDnq6/nmoQga2V5IOWvueS4jeS4iuOAggpzbHVnKCkgeyBwcmludGYgJyVzJyAiJHsxOi11bmtub3dufSIgfCB0ciAtYyAnQS1aYS16MC05Ll8tJyAnLSc7IH0KCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgcHJlZml4IOKAlOKAlCDlj6rnrpfliY3nvIDvvIjkuI3pnIDopoEgZ2l0IOS7k+W6k++8iQojCiMgICDnu5kgd2FybS1jYWNoZSDnmoTova7mjaIgam9iIOeUqO+8muWug+ayoeaciea6kOeggeagke+8jOWPqumcgOimgeefpemBkwojICAg44CM6K+l5riF55CG5ZOq5Liq5YmN57yA44CN44CC5YmN57yA566X5rOV5LiOIGtleSDlhbHnlKjlkIzkuIDkuKrlh73mlbDvvIwKIyAgIOS/neivgeS4pOWkhOawuOi/nOS4jeS8mueul+WHuuS4jeWQjOeahOWJjee8gOOAggojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpjYWNoZV9wcmVmaXgoKSB7CiAgIyDimIUgSE9TVF9NT0RFIOW/hemhu+i/m+WJjee8gO+8jOWQpuWImeS4pOenjeaooeW8j+eahOe8k+WtmOS8muS6kuebuOaxoeafk++8mgogICMgICAgIHByZWJ1aWx0ID0g55SoIHJ1bm5lciDpooToo4XnmoQgZ28gLyBydXN0IC8gbGx2be+8jOS6p+eJqeaYr+OAkOespuWPt+mTvuaOpeOAkQogICMgICAgIHNvdXJjZSAgID0g5LuO5rqQ56CB55yf5a6e57yW6K+R77yM5Lqn54mp5piv44CQ55yf5LqM6L+b5Yi244CRCiAgIyAgIOWIh+aooeW8j+WQjuiLpeWRveS4reWvueaWuemCo+S4gOS7ve+8jG1ha2Ug55yL5YiwIGluc3RhbGxlZCBzdGFtcCDlsLHot7Pov4fvvIwKICAjICAg5a6e6ZmF5ou/5Yiw55qE5piv5oKs56m66ZO+5o6l77yI5oiW57y65bCR55uu5qCHIHN0ZO+8ie+8jOmUmeivr+S8muWfi+WcqOe8luivkeacn+W+iOmavuafpeOAggogICMgICDliIbml4/kuYvlkI7vvIzliIfmqKHlvI/lj6rmmK/jgIzmjaLkuIDmnaHnvJPlrZjnur/jgI3vvIzkuI3kvJrouKnliLDlr7nmlrnnmoTkuqfnianjgIIKICBsb2NhbCBtb2RlOyBtb2RlPSQoc2x1ZyAiJHtIT1NUX01PREU6LXByZWJ1aWx0fSIpCiAgcHJpbnRmICdwb253cnQtJXMtJXMtJXMtJXMnIFwKICAgICIkKHNsdWcgIiR7U09VUkNFOi11bmtub3dufSIpIiBcCiAgICAiJChzbHVnICIke1JFUE9fQlJBTkNIOi11bmtub3dufSIpIiBcCiAgICAiJChzbHVnICIke1NPQzotdW5rbm93bn0iKSIgXAogICAgIiRtb2RlIgp9CgpjbWRfcHJlZml4KCkgewogIGxvY2FsIHByZWZpeDsgcHJlZml4PSQoY2FjaGVfcHJlZml4KQogIG91dCAicHJlZml4PSRwcmVmaXgiCiAgZW52X291dCAiQ0FDSEVfUFJFRklYPSRwcmVmaXgiCiAgZWNobyAi5YmN57yAOiAkcHJlZml4Igp9CgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIGtleSDigJTigJQg5YmN57yAICsg5LiK5ri45o+Q5Lqk5Y+3CiMg4pqgIOWIu+aEj+S4jeaKiiAuY29uZmlnIC8gY29uZmlncy8qLmNvbmZpZyAvIGRpeS1wYXJ0Ki5zaCDnrpfov5sga2V577ya6YKj5Lqb5Y+q5b2x5ZONCiMgICB0YXJnZXQg5L6n57yW5ZOq5Lqb5YyF77yM5LiN5b2x5ZONIGhvc3Qg5bel5YW36ZO+5LiOIGhvc3Rwa2fvvJvnrpfov5vljrvlsLHpgIDljJbmiJDjgIzmjIfnurnkuIDlj5gKIyAgIOWwseWFqOmHj+mHjee8luOAjeOAgnRhcmdldCDkvqfmr4/mrKHpg73opoHph43nvJbvvIzopoHlpI3nlKjor7fnlKggY2NhY2hl44CCCiMg4pqgIOS5n+S4jeaKiuacuuWei+eul+i/m+WJjee8gO+8muWJjee8gOaYryBzdWJ0YXJnZXQg57qn55qE77yM5ZCMIFNvQyDkuIvmiYDmnInmnLrlnovlhbHnlKjkuIDku73jgIIKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KY21kX2tleSgpIHsKICBjZCAiJE9XIiB8fCB7IGVjaG8gIjo6ZXJyb3I6OuaXoOazlei/m+WFpSAkT1ciOyBleGl0IDE7IH0KCiAgbG9jYWwgY29tbWl0IHByZWZpeCBrZXkKICBjb21taXQ9JChnaXQgcmV2LXBhcnNlIEhFQUQgMj4vZGV2L251bGwpIHx8IGNvbW1pdD11bmtub3duCiAgcHJlZml4PSQoY2FjaGVfcHJlZml4KQogIGtleT0iJHtwcmVmaXh9LSR7Y29tbWl0fSIKCiAgb3V0ICJjb21taXQ9JGNvbW1pdCIKICBvdXQgInByZWZpeD0kcHJlZml4IgogIG91dCAia2V5PSRrZXkiCiAgZW52X291dCAiQ0FDSEVfUFJFRklYPSRwcmVmaXgiCiAgZW52X291dCAiQ0FDSEVfS0VZPSRrZXkiCgogIGVjaG8gIj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCiAgZWNobyAi5rqQ56uZICAgIDogJHtTT1VSQ0U6LT99IgogIGVjaG8gIuWIhuaUryAgICA6ICR7UkVQT19CUkFOQ0g6LT99IgogIGVjaG8gIlNvQyAgICAgOiAke1NPQzotP30iCiAgZWNobyAi5o+Q5LqkICAgIDogJGNvbW1pdCIKICBlY2hvICLliY3nvIAgICAgOiAkcHJlZml4IgogIGVjaG8gIuacrOasoSBrZXk6ICRrZXkiCiAgZWNobyAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKfQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBwcmVwYXJlIOKAlOKAlCDmgaLlpI3nvJPlrZjkuYvlkI7nmoTjgIzorqkgbWFrZSDorqTotKbjgI3mraXpqqQKIwojICAg4pqgIOiMg+WbtOWPquWIsOOAjOmdniB0YXJnZXTjgI3vvJoKIyAgICAgc3RhZ2luZ19kaXIvaG9zdC9zdGFtcOOAgWhvc3Rwa2cvc3RhbXDjgIF0b29sY2hhaW4tKi9zdGFtcCDmmK8KIyAgICAgaG9zdCDkvqfkuqfnianvvIzmgaLlpI3lkI7mnKzmnaXlsLHor6XlvZPkvZzlt7Loo4Xlpb3vvJsKIyAgICAg6ICMIHN0YWdpbmdfZGlyL3RhcmdldC0qL3N0YW1wIOaYr+WbuuS7tuWMheWuieijheagh+iusO+8jOeisOS6huWwseS8mgojICAgICDorqkgdGFyZ2V0IOS+p+eahOWMheS4jemHjee8liDigJTigJQg6YKj5piv6ZSZ55qE77yI5rqQ56CB5qCR5q+P5qyh6YO95Y+v6IO95piv5paw55qE77yJ44CCCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmNtZF9wcmVwYXJlKCkgewogIGNkICIkT1ciIHx8IHsgZWNobyAiOjplcnJvcjo65peg5rOV6L+b5YWlICRPVyI7IGV4aXQgMTsgfQoKICBsb2NhbCBuc3RhbXA9MAogIHdoaWxlIElGUz0gcmVhZCAtciBkOyBkbwogICAgWyAtZCAiJGQiIF0gfHwgY29udGludWUKICAgIGZpbmQgIiRkIiAtdHlwZSBmIC1leGVjIHRvdWNoIHt9ICsgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgbnN0YW1wPSQoKCBuc3RhbXAgKyAkKGZpbmQgIiRkIiAtdHlwZSBmIDI+L2Rldi9udWxsIHwgd2MgLWwpICkpCiAgZG9uZSA8PDwgIiQoZmluZCBzdGFnaW5nX2RpciAtdHlwZSBkIC1uYW1lIHN0YW1wIC1ub3QgLXBhdGggJyp0YXJnZXQqJyAyPi9kZXYvbnVsbCkiCgogICMg4pqgIOe7neWvueS4jeimgSB0b3VjaCB0b29scy9zdGFtcC1jb21waWxlIC8gdG9vbGNoYWluL3N0YW1wLWNvbXBpbGXjgIIKICAjICAg5a6D5Lus5LiN5piv5paH5Lu277yM5pivIG1ha2Ug5Y+Y6YeP77yaaW5jbHVkZS9zdWJkaXIubWsg55qEIHN0YW1wZmlsZSDlro/miorlroPku6zmjIflkJEKICAjICAgICB0b29scy9zdGFtcC1jb21waWxlICAgICDihpIgc3RhZ2luZ19kaXIvaG9zdC9zdGFtcC8udG9vbHNfY29tcGlsZV88ZmxhZ3M+CiAgIyAgICAgdG9vbGNoYWluL3N0YW1wLWNvbXBpbGUg4oaSIHN0YWdpbmdfZGlyL3Rvb2xjaGFpbi0qL3N0YW1wLy50b29sY2hhaW5fY29tcGlsZQogICMgICDlnKjmupDnoIHmoJHph4zpgKDlkIzlkI3nqbrmlofku7bvvIzlj6rkvJrooqsgc2NyaXB0cy90aW1lc3RhbXAucGwg55qECiAgIyAgICAgZmluZCB0b29scyAtbmV3ZXIgPOaIsz4gLXByaW50IC1xdWl0CiAgIyAgIOWRveS4rSDihpIg56uL5Yi75Yik5a6a44CM5rqQ56CB5Y+Y5LqG44CN4oaSIOavj+i9rumDvemHjei3kSB0b29scy9jb21waWxlIOS4jiB0b29sY2hhaW4vY29tcGlsZQogICMgICDvvIjlrp7mtYsgKzEyJzUxIiDkuI4gKzEzJzE2Iu+8ieOAggogICMKICAjIOWPquacieOAjGFjdGlvbnMvY2FjaGUg57K+56Gu5ZG95Lit44CN5omN562J5LqO44CM6L+Z5Lu957yT5a2Y5bCx5piv5b2T5YmN5o+Q5Lqk57yW5Ye65p2l55qE44CN77yMCiAgIyDpgqPml7YgdG9vbHMvdG9vbGNoYWluIOS4gOWumuWujOaVtO+8jOS/neeVmeaIs+iuqSB3b3JsZCDot7Pov4fljbPlj6/vvJvliY3nvIDlm57pgIDlkowKICAjIFJlbGVhc2Ug5oGi5aSN6YO95Y+v6IO95piv5Yir55qE5o+Q5Lqk44CB5rqQ56CB5bey5Y+Y77yM5Yig5o6J5oiz6L+r5L2/IG1ha2Ug6YeN57yW44CCCiAgaWYgWyAiJHtDQUNIRV9FWEFDVDotZmFsc2V9IiA9ICJ0cnVlIiBdOyB0aGVuCiAgICBlY2hvICLnsr7noa7lkb3kuK3vvJrkv53nlZkgdG9vbHMgLyB0b29sY2hhaW4g55qEIGNvbXBpbGUg5oiz77yMd29ybGQg5Lya6Lez6L+H6L+Z5Lik5q2lIgogIGVsc2UKICAgIHJtIC1mIHN0YWdpbmdfZGlyL2hvc3Qvc3RhbXAvLnRvb2xzX2NvbXBpbGUqIDI+L2Rldi9udWxsIHx8IHRydWUKICAgIGZvciBkIGluIHN0YWdpbmdfZGlyL3Rvb2xjaGFpbi0qL3N0YW1wOyBkbwogICAgICBbIC1kICIkZCIgXSB8fCBjb250aW51ZQogICAgICBybSAtZiAiJGQiLy50b29sY2hhaW5fY29tcGlsZSAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICBkb25lCiAgICBlY2hvICLpnZ7nsr7noa7lkb3kuK3vvJrmuIXmjokgdG9vbHMgLyB0b29sY2hhaW4g55qEIGNvbXBpbGUg5oiz77yM5pys6L2u6YeN57yW6L+Z5Lik5q2l77yIY2NhY2hlIOS8muWKoOmAn++8iSIKICBmaQoKICAjIOaehOW7uueOr+Wig+W3suWIneWni+WMlu+8muayoeacieWug++8jG1ha2Ug5Lya6YeN6LWwIHByZXJlcSAvIHByZXBhcmUg6Zi25q6177yMCiAgIyDooajnjrDkuLogdG9vbHMvIHRvb2xjaGFpbi8g5piO5piO5bey5ZyoIHN0YWdpbmdfZGlyIOmHjOWNtOWPiOiiq+mHjee8luS4gOmBjeOAggogIG1rZGlyIC1wIHRtcAogIGVjaG8gIjEiID4gdG1wLy5idWlsZAoKICAjIOebruW9leacrOi6q+S5n+WIt+S4gOS4i++8jOmBv+WFjeOAjOebruW9leavlOWGheWuueaXp+OAjeinpuWPkeS4jeW/heimgeeahOmHjeW7ugogIGZpbmQgc3RhZ2luZ19kaXIgLW1heGRlcHRoIDEgLXR5cGUgZCAtZXhlYyB0b3VjaCB7fSArIDI+L2Rldi9udWxsIHx8IHRydWUKCiAgZWNobyAi5bey5Yi35pawIHN0YW1wOiAke25zdGFtcH0g5Liq77yI5LiN5ZCrIHRhcmdldO+8iSIKICBlY2hvICLlt7LlhpnlhaUgdG1wLy5idWlsZCIKCiAgIyDokL3lnLDmoKHpqozvvJpob3N0IGdjYyAvIGdvIOWcqOS4jeWcqO+8jOaYr+WIpOaWrei/meS7vee8k+WtmOacieayoeacieeUqOeahOacgOW/q+aMh+aghwogICMKICAjIOKaoCBnbyDnmoTmo4Dmn6Xlv4XpobvlkIzml7borqTnrKblj7fpk77mjqXvvIgtdHlwZSBmIC1vIC10eXBlIGzvvInvvJoKICAjICAgT3BlbldydCDnmoQgc3RhZ2luZ19kaXIvaG9zdC9iaW4vZ28g6YCa5bi45piv5oyH5ZCRCiAgIyAgIGhvc3Rwa2cvbGliL2dvLTx2ZXI+L2Jpbi9nbyDnmoTpk77mjqXvvIzlj6rmib4gLXR5cGUgZiDkvJrmvI/mjonvvIwKICAjICAg5LqO5piv5LiA5Lu95a6M5aW955qE57yT5a2Y6KKr6K+v5oql5oiQ44CM57y6IGdv44CN44CCCiAgbG9jYWwgbWlzcz0iIgogIFsgLXggc3RhZ2luZ19kaXIvaG9zdC9iaW4vZ2NjIF0gfHwgbWlzcz0iJG1pc3MgZ2NjIgoKICBsb2NhbCBnb19oaXQKICBnb19oaXQ9JChmaW5kIHN0YWdpbmdfZGlyIC1wYXRoICcqL2Jpbi9nbycgXCggLXR5cGUgZiAtbyAtdHlwZSBsIFwpIDI+L2Rldi9udWxsIHwgaGVhZCAtMSkKICBbIC1uICIkZ29faGl0IiBdIHx8IG1pc3M9IiRtaXNzIGdvIgoKICBpZiBbIC1uICIkbWlzcyIgXTsgdGhlbgogICAgZWNobyAiOjp3YXJuaW5nOjrmgaLlpI3lh7rmnaXnmoTnvJPlrZjnvLo6JG1pc3Mg4oCU4oCUIGhvc3Qg5bel5YW36ZO+5LiN5a6M5pW077yM5pys5qyh5LuN5Lya6KGl57yWIgogICAgIyDmiorkuKTkuKogaG9zdCBiaW4g55uu5b2V5YiX5Ye65p2l77yM5LiL5LiA5qyh6IO955u05o6l55yL5Ye65piv44CM55yf5rKh5pyJ44CN6L+Y5piv44CM6Lev5b6E5LiN5a+544CNCiAgICBmb3IgZCBpbiBzdGFnaW5nX2Rpci9ob3N0L2JpbiBzdGFnaW5nX2Rpci9ob3N0cGtnL2JpbjsgZG8KICAgICAgWyAtZCAiJGQiIF0gfHwgY29udGludWUKICAgICAgZWNobyAiICAkZO+8iOWJjSAxNSDpobnvvIk6IgogICAgICBscyAtMSAiJGQiIDI+L2Rldi9udWxsIHwgaGVhZCAtMTUgfCBzZWQgJ3MvXi8gICAgLycKICAgIGRvbmUKICBlbHNlCiAgICBlY2hvICLinIUg57yT5a2Y5YaF5a656Ieq5qOA6YCa6L+H77yIZ2NjIC8gZ28g5Z2H5Zyo77yJIgogICAgZWNobyAiICAgZ286ICRnb19oaXQiCiAgZmkKfQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyByb2xsb3ZlciDigJTigJQg5Yig5o6J5ZCM5YmN57yA55qE5pen5LujCiMKIyAgIGtleSDph4znmoTmj5DkuqTlj7fkuIDlj5jlsLHkuqfnlJ/mlrDmnaHnm67vvIzml6fmnaHnm67lho3kuZ/msqHkurrnlKjvvIzljbTkuIDnm7TljaDnnYAKIyAgIDEwR0Ig6YWN6aKd44CC6L+Z6YeM5Y+q55WZ5b2T5YmN6L+Z5LiA5Luj44CCCiMKIyAgIOKaoCDlv4XpobvnrYnjgIzlvZPliY0ga2V5IOecn+eahOW3sue7j+WcqOe8k+WtmOmHjOOAjeWGjeWIoO+8jOWQpuWImeS8muaKiuWUr+S4gOS4gOS7veWIoOaOiSDigJTigJQKIyAgICAgYWN0aW9ucy9jYWNoZS9zYXZlIOaYr+W8guatpeaUtuWwvueahO+8jOe0p+aOpeedgOeahCBqb2Ig5pyJ5pe26L+Y5p+l5LiN5Yiw44CCCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmNtZF9yb2xsb3ZlcigpIHsKICBsb2NhbCBwcmVmaXg9IiR7UFJFRklYOi0ke0NBQ0hFX1BSRUZJWDotfX0iCiAgbG9jYWwga2V5PSIke0tFWTotJHtDQUNIRV9LRVk6LX19IgogIGxvY2FsIHJlcG89IiR7R0lUSFVCX1JFUE9TSVRPUlk6LX0iCgogIFsgLW4gIiRwcmVmaXgiIF0gfHwgeyBlY2hvICI6Ondhcm5pbmc6Oue8uiBQUkVGSVjvvIzot7Pov4fova7mjaIiOyBleGl0IDA7IH0KICBbIC1uICIkcmVwbyIgXSB8fCB7IGVjaG8gIjo6d2FybmluZzo657y6IEdJVEhVQl9SRVBPU0lUT1JZ77yM6Lez6L+H6L2u5o2iIjsgZXhpdCAwOyB9CiAgY29tbWFuZCAtdiBnaCA+L2Rldi9udWxsIDI+JjEgfHwgeyBlY2hvICI6Ondhcm5pbmc6OuaXoCBnaO+8jOi3s+i/h+i9ruaNoiI7IGV4aXQgMDsgfQoKICAjIOayoee7mSBLRVkg5pe277yId2FybS1jYWNoZSDnmoTova7mjaIgam9iIOWwseaYr+i/meenjeaDheWGte+8ie+8mueVmeacgOaWsOWIm+W7uueahOmCo+S4gOS7owogICMKICAjICAg4pqgIOOAjOacgOaWsOOAjeS8mOWFiOWPluS4jeW4piAtZWFybHkg55qE77yaLWVhcmx5IOaYr+W3peWFt+mTvuWImue8luWujOaXtuWtmOeahOaXqeacn+eJiO+8jAogICMgICAgIOWPquaciSB0b29scy90b29sY2hhaW7vvIzmsqHmnInnvJbor5HpmLbmrrXmiY3luKblh7rmnaXnmoQgaG9zdHBrZ+OAguiAjOWQjOaPkOS6pOWPtwogICMgICAgIOmHjei3keaXtuWug+W+gOW+gOavlOato+W8jyBrZXkg6L+Y5paw77yM57qv5oyJIGNyZWF0ZWRBdCDkvJrmjJHplJnjgIIKICAjICAgICDnu4Tph4zkuIDmnaHmraPlvI8ga2V5IOmDveayoeacieaXtu+8jOaJjemAgOWbnuWPluacgOaWsOeahO+8iOmCo+WwseaYr+WUr+S4gOeahOS/neW6le+8ieOAggogIGlmIFsgLXogIiRrZXkiIF07IHRoZW4KICAgIGtleT0kKGdoIGNhY2hlIGxpc3QgLVIgIiRyZXBvIiAtLWtleSAiJHtwcmVmaXh9LSIgLS1saW1pdCAxMDAgXAogICAgICAgICAgICAtLWpzb24ga2V5LGNyZWF0ZWRBdCBcCiAgICAgICAgICAgIC0tanEgJ3NvcnRfYnkoLmNyZWF0ZWRBdCkgfCByZXZlcnNlCiAgICAgICAgICAgICAgICAgIHwgKChtYXAoc2VsZWN0KC5rZXkgfCBlbmRzd2l0aCgiLWVhcmx5IikgfCBub3QpKSB8IC5bMF0pCiAgICAgICAgICAgICAgICAgICAgIC8vIC5bMF0pIHwgLmtleScgMj4vZGV2L251bGwgfHwgdHJ1ZSkKICAgIGlmIFsgLXogIiRrZXkiIF0gfHwgWyAiJGtleSIgPSAibnVsbCIgXTsgdGhlbgogICAgICBlY2hvICIke3ByZWZpeH0tIOS4i+ayoeacieS7u+S9lee8k+WtmO+8jOaXoOmcgOi9ruaNoiIKICAgICAgZXhpdCAwCiAgICBmaQogICAgZWNobyAi5pyq5oyH5a6aIEtFWe+8jOaMieWIm+W7uuaXtumXtOS/neeVmeacgOaWsOS4gOS7ozogJGtleSIKICBmaQoKICBlY2hvICLnm67moIfvvJrkv53nlZkgJGtlee+8jOWIoOmZpCAke3ByZWZpeH0tIOS4i+eahOWFtuWug+adoeebriIKCiAgaWYgISBnaCBjYWNoZSBsaXN0IC1SICIkcmVwbyIgLS1rZXkgIiRrZXkiIC0tanNvbiBrZXkgLS1qcSAnLltdLmtleScgMj4vZGV2L251bGwgXAogICAgICAgfCBncmVwIC1xeCAiJGtleSI7IHRoZW4KICAgIGVjaG8gIuW9k+WJjSBrZXkg5bCa5LiN5Y+v55So77yIc2F2ZSDlj6/og73ov5jmsqHokL3lupPvvInvvIzot7Pov4fmnKzova7ova7mjaIiCiAgICBleGl0IDAKICBmaQoKICBsb2NhbCBkZWxldGVkPTAgZmFpbGVkPTAKICB3aGlsZSBJRlM9JCdcdCcgcmVhZCAtciBpZCBrOyBkbwogICAgWyAtbiAiJHtpZDotfSIgXSB8fCBjb250aW51ZQogICAgWyAiJGsiID0gIiRrZXkiIF0gJiYgY29udGludWUKICAgIGVjaG8gIuWIoOmZpOaXp+e8k+WtmDogJGsgKGlkPSRpZCkiCiAgICBpZiBnaCBjYWNoZSBkZWxldGUgIiRpZCIgLVIgIiRyZXBvIiAyPi9kZXYvbnVsbDsgdGhlbgogICAgICBkZWxldGVkPSQoKCBkZWxldGVkICsgMSApKQogICAgZWxzZQogICAgICBmYWlsZWQ9JCgoIGZhaWxlZCArIDEgKSkKICAgICAgZWNobyAiOjp3YXJuaW5nOjrliKDpmaTlpLHotKUgJGsiCiAgICBmaQogIGRvbmUgPDw8ICIkKGdoIGNhY2hlIGxpc3QgLVIgIiRyZXBvIiAtLWtleSAiJHtwcmVmaXh9LSIgLS1saW1pdCAxMDAgXAogICAgICAgICAgICAgIC0tanNvbiBpZCxrZXkgLS1qcSAnLltdIHwgWy5pZCwua2V5XSB8IEB0c3YnIDI+L2Rldi9udWxsIHx8IHRydWUpIgoKICBlY2hvICLova7mjaLlrozmiJDvvJrliKDpmaQgJGRlbGV0ZWQg5Liq77yM5aSx6LSlICRmYWlsZWQg5LiqIgp9CgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIHBhY2sgLyB1bnBhY2sg4oCU4oCUIFJlbGVhc2Ug5aSH5Lu96YCa6YGTCiMgICBhY3Rpb25zL2NhY2hlIDcg5aSp5LiN6K6/6Zeu5bCx5Zue5pS277yMUmVsZWFzZSDotYTkuqfkuI3kvJrvvIzmiYDku6Xlj6blrZjkuIDku73lhZzlupXjgIIKIyDimIUg5Y+q5omT44CM57yT5a2Y6Lev5b6E6YKj5LiJ5Liq55uu5b2V44CN77yM5LiOIGFjdGlvbnMvY2FjaGUg55qEIHBhdGgg6YCQ5a2X5LiA6Ie077yM5omN6IO9CiMgICDjgIzlk6rovrnlhYjlkb3kuK3pg73nrpfmlbDjgI3vvJvnlKjnm7jlr7not6/lvoTmiZPljIXvvIzkuI3kvJrmioogL3dvcmtkaXIg6IWM6L+bIHRhciDph4zjgIIKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KY2FjaGVfcGF0aHMoKSB7ICAgIyDmiZPljbDopoHmiZPljIXnmoTpobblsYLmnaHnm67vvIjkuI3lrZjlnKjnmoTot7Pov4fvvIkKICBbIC1lIC5jY2FjaGUgXSAmJiBlY2hvICIuY2NhY2hlIgogIGxzIC1kIHN0YWdpbmdfZGlyL2hvc3Qgc3RhZ2luZ19kaXIvaG9zdHBrZyBzdGFnaW5nX2Rpci90b29sY2hhaW4qIDI+L2Rldi9udWxsCiAgcmV0dXJuIDAKfQoKY21kX3BhY2soKSB7CiAgIyDimqAg5Y+C5pWw5b+F6aG75pi+5byP5Lyg6L+b5p2l77ya5Ye95pWw6buY6K6k5ou/5LiN5Yiw6ISa5pys6Ieq5bex55qEICQz77yIc2V0IC11IOS4i+S8muebtOaOpSB1bmJvdW5k77yJCiAgbG9jYWwgb3V0PSIkezE6LX0iCiAgY2QgIiRPVyIgfHwgeyBlY2hvICI6OmVycm9yOjrml6Dms5Xov5vlhaUgJE9XIjsgZXhpdCAxOyB9CiAgWyAtbiAiJG91dCIgXSB8fCB7IGVjaG8gIjo6ZXJyb3I6OueUqOazlTogJDAgcGFjayA8b3BlbndydF9kaXI+IDxvdXRmaWxlPiI7IGV4aXQgMTsgfQoKICBsb2NhbCBsaXN0OyBsaXN0PSQobWt0ZW1wKQogIGNhY2hlX3BhdGhzID4gIiRsaXN0IgoKICBpZiBbICEgLXMgIiRsaXN0IiBdOyB0aGVuCiAgICBlY2hvICI6Ondhcm5pbmc6OuayoeacieWPr+aJk+WMheeahOebruW9le+8iHN0YWdpbmdfZGlyIOi/mOaYr+epuueahO+8n++8iSIKICAgIHJtIC1mICIkbGlzdCI7IGV4aXQgMQogIGZpCgogIGVjaG8gIuaJk+WMhea4heWNle+8miIKICBzZWQgJ3MvXi8gIC8nICIkbGlzdCIKCiAgbWtkaXIgLXAgIiQoZGlybmFtZSAiJG91dCIpIgogIHJtIC1mICIkb3V0IgogICMgenN0ZG10IOWkmue6v+eoi+abtOW/q++8m+ayoeaciSB6c3RkIOWwsemAgOWbnuaZrumAmiBnemlwLWZyZWUgdGFyCiAgaWYgdGFyIC1JIHpzdGRtdCAtY2YgIiRvdXQiIC1UICIkbGlzdCIgMj4vZGV2L251bGwgXAogICAgIHx8IHRhciAtSSB6c3RkIC1jZiAiJG91dCIgLVQgIiRsaXN0IiAyPi9kZXYvbnVsbCBcCiAgICAgfHwgdGFyIC1jZiAiJG91dCIgLVQgIiRsaXN0IjsgdGhlbgogICAgbHMgLWxoICIkb3V0IgogICAgZWNobyAicGFja2VkPXRydWUiCiAgZWxzZQogICAgZWNobyAiOjp3YXJuaW5nOjrmiZPljIXlpLHotKUiCiAgICBybSAtZiAiJG91dCI7IGV4aXQgMQogIGZpCiAgcm0gLWYgIiRsaXN0Igp9CgpjbWRfdW5wYWNrKCkgewogIGxvY2FsIGluPSIkezE6LX0iCiAgY2QgIiRPVyIgfHwgeyBlY2hvICI6OmVycm9yOjrml6Dms5Xov5vlhaUgJE9XIjsgZXhpdCAxOyB9CiAgWyAtbiAiJGluIiBdIHx8IHsgZWNobyAiOjplcnJvcjo655So5rOVOiAkMCB1bnBhY2sgPG9wZW53cnRfZGlyPiA8aW5maWxlPiI7IGV4aXQgMTsgfQogIFsgLWYgIiRpbiIgXSB8fCB7IGVjaG8gIjo6d2FybmluZzo6JGluIOS4jeWtmOWcqCI7IGV4aXQgMTsgfQoKICBpZiB0YXIgLUkgdW56c3RkIC14ZiAiJGluIiAyPi9kZXYvbnVsbCBcCiAgICAgfHwgdGFyIC1JIHpzdGQgLXhmICIkaW4iIDI+L2Rldi9udWxsIFwKICAgICB8fCB0YXIgLXhmICIkaW4iOyB0aGVuCiAgICBlY2hvICJ1bnBhY2tlZD10cnVlIgogIGVsc2UKICAgIGVjaG8gIjo6d2FybmluZzo66Kej5Y6L5aSx6LSlIgogICAgZXhpdCAxCiAgZmkKfQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBzdGF0dXMg4oCU4oCUIOS9k+enr+S4jueJiOacrO+8jOiQveS4gOS7veaKpeWRiue7mSBhcnRpZmFjdAojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpjbWRfc3RhdHVzKCkgewogIGNkICIkT1ciIHx8IHsgZWNobyAiOjp3YXJuaW5nOjrml6Dms5Xov5vlhaUgJE9XIjsgZXhpdCAwOyB9CgogIGxvY2FsIGRpcj0iJHtSRVBPUlRfRElSOi0vdG1wfSIKICBta2RpciAtcCAiJGRpciIKCiAgewogICAgZWNobyAiPT09IHN0YWdpbmdfZGlyID09PSIKICAgIGZvciBkIGluIHN0YWdpbmdfZGlyL2hvc3Qgc3RhZ2luZ19kaXIvaG9zdHBrZyBzdGFnaW5nX2Rpci90b29sY2hhaW4qOyBkbwogICAgICBbIC1lICIkZCIgXSB8fCBjb250aW51ZQogICAgICBwcmludGYgJyUtNTJzICVzXG4nICIkZCIgIiQoZHUgLXNoICIkZCIgMj4vZGV2L251bGwgfCBjdXQgLWYxKSIKICAgIGRvbmUKICAgIGVjaG8gIiIKICAgIGVjaG8gIj09PSAuY2NhY2hlID09PSIKICAgIGlmIFsgLWQgLmNjYWNoZSBdOyB0aGVuCiAgICAgIHByaW50ZiAnJS01MnMgJXNcbicgIi5jY2FjaGUiICIkKGR1IC1zaCAuY2NhY2hlIDI+L2Rldi9udWxsIHwgY3V0IC1mMSkiCiAgICAgIFsgLXggc3RhZ2luZ19kaXIvaG9zdC9iaW4vY2NhY2hlIF0gJiYgc3RhZ2luZ19kaXIvaG9zdC9iaW4vY2NhY2hlIC1zIDI+L2Rldi9udWxsIHwgaGVhZCAtMTIKICAgIGVsc2UKICAgICAgZWNobyAi77yI5pyq5ZCv55SoIGNjYWNoZe+8iSIKICAgIGZpCiAgICBlY2hvICIiCiAgICBlY2hvICI9PT0g54mI5pysID09PSIKICAgIFsgLXggc3RhZ2luZ19kaXIvaG9zdC9iaW4vZ2NjIF0gJiYgZWNobyAiZ2NjIDogJChzdGFnaW5nX2Rpci9ob3N0L2Jpbi9nY2MgLS12ZXJzaW9uIDI+JjEgfCBoZWFkIC0xKSIKICAgIGZvciBnIGluIHN0YWdpbmdfZGlyL2hvc3Rwa2cvYmluL2dvMS4qIHN0YWdpbmdfZGlyL2hvc3QvYmluL2dvOyBkbwogICAgICBbIC14ICIkZyIgXSAmJiBlY2hvICJnbyAgOiAkKCIkZyIgdmVyc2lvbiAyPiYxIHwgaGVhZCAtMSkiICYmIGJyZWFrCiAgICBkb25lCiAgICBbIC14IHN0YWdpbmdfZGlyL2hvc3QvYmluL3J1c3RjIF0gJiYgZWNobyAicnVzdDogJChzdGFnaW5nX2Rpci9ob3N0L2Jpbi9ydXN0YyAtLXZlcnNpb24gMj4mMSB8IGhlYWQgLTEpIgogICAgbHMgLWQgc3RhZ2luZ19kaXIvdG9vbGNoYWluKiAyPi9kZXYvbnVsbCB8IGhlYWQgLTMKICAgIGVjaG8gIiIKICAgIGVjaG8gIj09PSDmoIforrAgPT09IgogICAgZm9yIGYgaW4gdG9vbHMvc3RhbXAtY29tcGlsZSB0b29sY2hhaW4vc3RhbXAtY29tcGlsZSB0bXAvLmJ1aWxkOyBkbwogICAgICBwcmludGYgJyUtMjhzICVzXG4nICIkZiIgIiQoWyAtZSAiJGYiIF0gJiYgZWNobyDmnIkgfHwgZWNobyDml6ApIgogICAgZG9uZQogICAgZWNobyAiIgogICAgZWNobyAiPT09IOaPkOS6pCA9PT0iCiAgICBnaXQgcmV2LXBhcnNlIEhFQUQgMj4vZGV2L251bGwgfHwgZWNobyAi77yI6Z2eIGdpdCDku5PlupPvvIkiCiAgfSB8IHRlZSAiJGRpci9wd3J0LWNhY2hlLnR4dCIKfQoKY2FzZSAiJENNRCIgaW4KICBrZXkpICAgICAgY21kX2tleSA7OwogIHByZWZpeCkgICBjbWRfcHJlZml4IDs7CiAgcHJlcGFyZSkgIGNtZF9wcmVwYXJlIDs7CiAgcm9sbG92ZXIpIGNtZF9yb2xsb3ZlciA7OwogIHBhY2spICAgICBjbWRfcGFjayAgICIkezM6LX0iIDs7CiAgdW5wYWNrKSAgIGNtZF91bnBhY2sgIiR7MzotfSIgOzsKICBzdGF0dXMpICAgY21kX3N0YXR1cyA7OwogICopCiAgICBlY2hvICLnlKjms5U6ICQwIHtrZXl8cHJlZml4fHByZXBhcmV8cm9sbG92ZXJ8cGFja3x1bnBhY2t8c3RhdHVzfSA8b3BlbndydF9kaXI+IFtmaWxlXSIgPiYyCiAgICBleGl0IDEKICAgIDs7CmVzYWMK
+#!/usr/bin/env bash
+# =============================================================
+# pwrt-cache.sh —— 整体构建缓存助手（移植自 VIKINGYFY/OpenWRT-CI）
+#
+#   1) 缓存对象是目录本身，不自己打 tar：
+#        staging_dir/host*   host + hostpkg（go / python 在这）
+#        staging_dir/tool*   交叉编译器
+#        .ccache             编译对象缓存
+#   2) key = 前缀 + 上游提交号，restore-keys = 前缀-
+#      前缀只由「源站 + 分支 + SoC + HOST_MODE」决定，提交号变了只是换一代，
+#      恢复靠前缀回退拿到最近一代 —— 这是「缓存永远命中」的来源。
+#   3) 恢复后必须刷新非 target 的 stamp 并写 tmp/.build：tar 还原的是旧
+#      mtime，不刷新 make 会认为源码更新 → 全量重编 → 缓存白命中。
+#      ⚠ 但 tools / toolchain 的 compile 戳要按 CACHE_EXACT 区别对待，见 cmd_prepare。
+#   4) 编译成功且非精确命中才存新一代，旧代交给 rollover 删掉，
+#      保证 10GB 配额里每个前缀只有一份。
+#
+#   子命令：
+#     key <dir>            算 PREFIX / KEY（写 GITHUB_OUTPUT / GITHUB_ENV）
+#     prefix               只算前缀（不需要 git 仓库）
+#     prepare <dir>        恢复后刷新 stamp、写 tmp/.build
+#     rollover             删掉同前缀的旧代（读环境里的 PREFIX / KEY）
+#     pack <ow> <outfile>  打包三个缓存目录（Release 备份通道）
+#     unpack <ow> <infile> 解开 Release 备份
+#     status <dir>         打印体积与版本，写 $REPORT_DIR/pwrt-cache.txt
+#
+#   环境变量：SOURCE / REPO_BRANCH / SOC / HOST_MODE 参与前缀；
+#             GITHUB_OUTPUT / GITHUB_ENV 有就写；REPORT_DIR 默认 /tmp
+# =============================================================
+
+set -u
+
+CMD="${1:-}"
+OW="${2:-$PWD}"
+
+# 同时写 GITHUB_OUTPUT（CI 里）和 stdout
+out() {
+  echo "$1"
+  [ -n "${GITHUB_OUTPUT:-}" ] && echo "$1" >> "$GITHUB_OUTPUT"
+  return 0
+}
+
+# 环境变量写 GITHUB_ENV（后续 step 可读）
+env_out() {
+  [ -n "${GITHUB_ENV:-}" ] && echo "$1" >> "$GITHUB_ENV"
+  return 0
+}
+
+# key 里只允许 [A-Za-z0-9._-]，其余一律换连字符。
+# ⚠ 用 printf 而不是 echo：echo 会补换行，tr -c 会把换行也替换成 '-'，
+#   key 末尾就会多一个连字符，与另一端的 key 对不上。
+slug() { printf '%s' "${1:-unknown}" | tr -c 'A-Za-z0-9._-' '-'; }
+
+# ---------------------------------------------------------------
+# prefix —— 只算前缀（不需要 git 仓库）
+#
+#   给 warm-cache 的轮换 job 用：它没有源码树，只需要知道
+#   「该清理哪个前缀」。前缀算法与 key 共用同一个函数，
+#   保证两处永远不会算出不同的前缀。
+# ---------------------------------------------------------------
+cache_prefix() {
+  # ★ HOST_MODE 必须进前缀，否则两种模式的缓存会互相污染：
+  #     prebuilt = 用 runner 预装的 go / rust / llvm，产物是【符号链接】
+  #     source   = 从源码真实编译，产物是【真二进制】
+  #   切模式后若命中对方那一份，make 看到 installed stamp 就跳过，
+  #   实际拿到的是悬空链接（或缺少目标 std），错误会埋在编译期很难查。
+  #   分族之后，切模式只是「换一条缓存线」，不会踩到对方的产物。
+  local mode; mode=$(slug "${HOST_MODE:-prebuilt}")
+  printf 'ponwrt-%s-%s-%s-%s' \
+    "$(slug "${SOURCE:-unknown}")" \
+    "$(slug "${REPO_BRANCH:-unknown}")" \
+    "$(slug "${SOC:-unknown}")" \
+    "$mode"
+}
+
+cmd_prefix() {
+  local prefix; prefix=$(cache_prefix)
+  out "prefix=$prefix"
+  env_out "CACHE_PREFIX=$prefix"
+  echo "前缀: $prefix"
+}
+
+# ---------------------------------------------------------------
+# key —— 前缀 + 上游提交号
+# ⚠ 刻意不把 .config / configs/*.config / diy-part*.sh 算进 key：那些只影响
+#   target 侧编哪些包，不影响 host 工具链与 hostpkg；算进去就退化成「指纹一变
+#   就全量重编」。target 侧每次都要重编，要复用请用 ccache。
+# ⚠ 也不把机型算进前缀：前缀是 subtarget 级的，同 SoC 下所有机型共用一份。
+# ---------------------------------------------------------------
+cmd_key() {
+  cd "$OW" || { echo "::error::无法进入 $OW"; exit 1; }
+
+  local commit prefix key
+  commit=$(git rev-parse HEAD 2>/dev/null) || commit=unknown
+  prefix=$(cache_prefix)
+  key="${prefix}-${commit}"
+
+  out "commit=$commit"
+  out "prefix=$prefix"
+  out "key=$key"
+  env_out "CACHE_PREFIX=$prefix"
+  env_out "CACHE_KEY=$key"
+
+  echo "========================================"
+  echo "源站    : ${SOURCE:-?}"
+  echo "分支    : ${REPO_BRANCH:-?}"
+  echo "SoC     : ${SOC:-?}"
+  echo "提交    : $commit"
+  echo "前缀    : $prefix"
+  echo "本次 key: $key"
+  echo "========================================"
+}
+
+# ---------------------------------------------------------------
+# prepare —— 恢复缓存之后的「让 make 认账」步骤
+#
+#   ⚠ 范围只到「非 target」：
+#     staging_dir/host/stamp、hostpkg/stamp、toolchain-*/stamp 是
+#     host 侧产物，恢复后本来就该当作已装好；
+#     而 staging_dir/target-*/stamp 是固件包安装标记，碰了就会
+#     让 target 侧的包不重编 —— 那是错的（源码树每次都可能是新的）。
+# ---------------------------------------------------------------
+cmd_prepare() {
+  cd "$OW" || { echo "::error::无法进入 $OW"; exit 1; }
+
+  local nstamp=0
+  while IFS= read -r d; do
+    [ -d "$d" ] || continue
+    find "$d" -type f -exec touch {} + 2>/dev/null || true
+    nstamp=$(( nstamp + $(find "$d" -type f 2>/dev/null | wc -l) ))
+  done <<< "$(find staging_dir -type d -name stamp -not -path '*target*' 2>/dev/null)"
+
+  # ⚠ 绝对不要 touch tools/stamp-compile / toolchain/stamp-compile。
+  #   它们不是文件，是 make 变量：include/subdir.mk 的 stampfile 宏把它们指向
+  #     tools/stamp-compile     → staging_dir/host/stamp/.tools_compile_<flags>
+  #     toolchain/stamp-compile → staging_dir/toolchain-*/stamp/.toolchain_compile
+  #   在源码树里造同名空文件，只会被 scripts/timestamp.pl 的
+  #     find tools -newer <戳> -print -quit
+  #   命中 → 立刻判定「源码变了」→ 每轮都重跑 tools/compile 与 toolchain/compile
+  #   （实测 +12'51" 与 +13'16"）。
+  #
+  # 只有「actions/cache 精确命中」才等于「这份缓存就是当前提交编出来的」，
+  # 那时 tools/toolchain 一定完整，保留戳让 world 跳过即可；前缀回退和
+  # Release 恢复都可能是别的提交、源码已变，删掉戳迫使 make 重编。
+  if [ "${CACHE_EXACT:-false}" = "true" ]; then
+    echo "精确命中：保留 tools / toolchain 的 compile 戳，world 会跳过这两步"
+  else
+    rm -f staging_dir/host/stamp/.tools_compile* 2>/dev/null || true
+    for d in staging_dir/toolchain-*/stamp; do
+      [ -d "$d" ] || continue
+      rm -f "$d"/.toolchain_compile 2>/dev/null || true
+    done
+    echo "非精确命中：清掉 tools / toolchain 的 compile 戳，本轮重编这两步（ccache 会加速）"
+  fi
+
+  # 构建环境已初始化：没有它，make 会重走 prereq / prepare 阶段，
+  # 表现为 tools/ toolchain/ 明明已在 staging_dir 里却又被重编一遍。
+  mkdir -p tmp
+  echo "1" > tmp/.build
+
+  # 目录本身也刷一下，避免「目录比内容旧」触发不必要的重建
+  find staging_dir -maxdepth 1 -type d -exec touch {} + 2>/dev/null || true
+
+  echo "已刷新 stamp: ${nstamp} 个（不含 target）"
+  echo "已写入 tmp/.build"
+
+  # 落地校验：host gcc / go 在不在，是判断这份缓存有没有用的最快指标
+  #
+  # ⚠ go 的检查必须同时认符号链接（-type f -o -type l）：
+  #   OpenWrt 的 staging_dir/host/bin/go 通常是指向
+  #   hostpkg/lib/go-<ver>/bin/go 的链接，只找 -type f 会漏掉，
+  #   于是一份完好的缓存被误报成「缺 go」。
+  local miss=""
+  [ -x staging_dir/host/bin/gcc ] || miss="$miss gcc"
+
+  local go_hit
+  go_hit=$(find staging_dir -path '*/bin/go' \( -type f -o -type l \) 2>/dev/null | head -1)
+  [ -n "$go_hit" ] || miss="$miss go"
+
+  if [ -n "$miss" ]; then
+    echo "::warning::恢复出来的缓存缺:$miss —— host 工具链不完整，本次仍会补编"
+    # 把两个 host bin 目录列出来，下一次能直接看出是「真没有」还是「路径不对」
+    for d in staging_dir/host/bin staging_dir/hostpkg/bin; do
+      [ -d "$d" ] || continue
+      echo "  $d（前 15 项）:"
+      ls -1 "$d" 2>/dev/null | head -15 | sed 's/^/    /'
+    done
+  else
+    echo "✅ 缓存内容自检通过（gcc / go 均在）"
+    echo "   go: $go_hit"
+  fi
+}
+
+# ---------------------------------------------------------------
+# rollover —— 删掉同前缀的旧代
+#
+#   key 里的提交号一变就产生新条目，旧条目再也没人用，却一直占着
+#   10GB 配额。这里只留当前这一代。
+#
+#   ⚠ 必须等「当前 key 真的已经在缓存里」再删，否则会把唯一一份删掉 ——
+#     actions/cache/save 是异步收尾的，紧接着的 job 有时还查不到。
+# ---------------------------------------------------------------
+cmd_rollover() {
+  local prefix="${PREFIX:-${CACHE_PREFIX:-}}"
+  local key="${KEY:-${CACHE_KEY:-}}"
+  local repo="${GITHUB_REPOSITORY:-}"
+
+  [ -n "$prefix" ] || { echo "::warning::缺 PREFIX，跳过轮换"; exit 0; }
+  [ -n "$repo" ] || { echo "::warning::缺 GITHUB_REPOSITORY，跳过轮换"; exit 0; }
+  command -v gh >/dev/null 2>&1 || { echo "::warning::无 gh，跳过轮换"; exit 0; }
+
+  # 没给 KEY 时（warm-cache 的轮换 job 就是这种情况）：留最新创建的那一代
+  #
+  #   ⚠ 「最新」优先取不带 -early 的：-early 是工具链刚编完时存的早期版，
+  #     只有 tools/toolchain，没有编译阶段才带出来的 hostpkg。而同提交号
+  #     重跑时它往往比正式 key 还新，纯按 createdAt 会挑错。
+  #     组里一条正式 key 都没有时，才退回取最新的（那就是唯一的保底）。
+  if [ -z "$key" ]; then
+    key=$(gh cache list -R "$repo" --key "${prefix}-" --limit 100 \
+            --json key,createdAt \
+            --jq 'sort_by(.createdAt) | reverse
+                  | ((map(select(.key | endswith("-early") | not)) | .[0])
+                     // .[0]) | .key' 2>/dev/null || true)
+    if [ -z "$key" ] || [ "$key" = "null" ]; then
+      echo "${prefix}- 下没有任何缓存，无需轮换"
+      exit 0
+    fi
+    echo "未指定 KEY，按创建时间保留最新一代: $key"
+  fi
+
+  echo "目标：保留 $key，删除 ${prefix}- 下的其它条目"
+
+  if ! gh cache list -R "$repo" --key "$key" --json key --jq '.[].key' 2>/dev/null \
+       | grep -qx "$key"; then
+    echo "当前 key 尚不可用（save 可能还没落库），跳过本轮轮换"
+    exit 0
+  fi
+
+  local deleted=0 failed=0
+  while IFS=$'\t' read -r id k; do
+    [ -n "${id:-}" ] || continue
+    [ "$k" = "$key" ] && continue
+    echo "删除旧缓存: $k (id=$id)"
+    if gh cache delete "$id" -R "$repo" 2>/dev/null; then
+      deleted=$(( deleted + 1 ))
+    else
+      failed=$(( failed + 1 ))
+      echo "::warning::删除失败 $k"
+    fi
+  done <<< "$(gh cache list -R "$repo" --key "${prefix}-" --limit 100 \
+              --json id,key --jq '.[] | [.id,.key] | @tsv' 2>/dev/null || true)"
+
+  echo "轮换完成：删除 $deleted 个，失败 $failed 个"
+}
+
+# ---------------------------------------------------------------
+# pack / unpack —— Release 备份通道
+#   actions/cache 7 天不访问就回收，Release 资产不会，所以另存一份兜底。
+# ★ 只打「缓存路径那三个目录」，与 actions/cache 的 path 逐字一致，才能
+#   「哪边先命中都算数」；用相对路径打包，不会把 /workdir 腌进 tar 里。
+# ---------------------------------------------------------------
+cache_paths() {   # 打印要打包的顶层条目（不存在的跳过）
+  [ -e .ccache ] && echo ".ccache"
+  ls -d staging_dir/host staging_dir/hostpkg staging_dir/toolchain* 2>/dev/null
+  return 0
+}
+
+cmd_pack() {
+  # ⚠ 参数必须显式传进来：函数默认拿不到脚本自己的 $3（set -u 下会直接 unbound）
+  local out="${1:-}"
+  cd "$OW" || { echo "::error::无法进入 $OW"; exit 1; }
+  [ -n "$out" ] || { echo "::error::用法: $0 pack <openwrt_dir> <outfile>"; exit 1; }
+
+  local list; list=$(mktemp)
+  cache_paths > "$list"
+
+  if [ ! -s "$list" ]; then
+    echo "::warning::没有可打包的目录（staging_dir 还是空的？）"
+    rm -f "$list"; exit 1
+  fi
+
+  echo "打包清单："
+  sed 's/^/  /' "$list"
+
+  mkdir -p "$(dirname "$out")"
+  rm -f "$out"
+  # zstdmt 多线程更快；没有 zstd 就退回普通 gzip-free tar
+  if tar -I zstdmt -cf "$out" -T "$list" 2>/dev/null \
+     || tar -I zstd -cf "$out" -T "$list" 2>/dev/null \
+     || tar -cf "$out" -T "$list"; then
+    ls -lh "$out"
+    echo "packed=true"
+  else
+    echo "::warning::打包失败"
+    rm -f "$out"; exit 1
+  fi
+  rm -f "$list"
+}
+
+cmd_unpack() {
+  local in="${1:-}"
+  cd "$OW" || { echo "::error::无法进入 $OW"; exit 1; }
+  [ -n "$in" ] || { echo "::error::用法: $0 unpack <openwrt_dir> <infile>"; exit 1; }
+  [ -f "$in" ] || { echo "::warning::$in 不存在"; exit 1; }
+
+  if tar -I unzstd -xf "$in" 2>/dev/null \
+     || tar -I zstd -xf "$in" 2>/dev/null \
+     || tar -xf "$in"; then
+    echo "unpacked=true"
+  else
+    echo "::warning::解压失败"
+    exit 1
+  fi
+}
+
+# ---------------------------------------------------------------
+# status —— 体积与版本，落一份报告给 artifact
+# ---------------------------------------------------------------
+cmd_status() {
+  cd "$OW" || { echo "::warning::无法进入 $OW"; exit 0; }
+
+  local dir="${REPORT_DIR:-/tmp}"
+  mkdir -p "$dir"
+
+  {
+    echo "=== staging_dir ==="
+    for d in staging_dir/host staging_dir/hostpkg staging_dir/toolchain*; do
+      [ -e "$d" ] || continue
+      printf '%-52s %s\n' "$d" "$(du -sh "$d" 2>/dev/null | cut -f1)"
+    done
+    echo ""
+    echo "=== .ccache ==="
+    if [ -d .ccache ]; then
+      printf '%-52s %s\n' ".ccache" "$(du -sh .ccache 2>/dev/null | cut -f1)"
+      [ -x staging_dir/host/bin/ccache ] && staging_dir/host/bin/ccache -s 2>/dev/null | head -12
+    else
+      echo "（未启用 ccache）"
+    fi
+    echo ""
+    echo "=== 版本 ==="
+    [ -x staging_dir/host/bin/gcc ] && echo "gcc : $(staging_dir/host/bin/gcc --version 2>&1 | head -1)"
+    for g in staging_dir/hostpkg/bin/go1.* staging_dir/host/bin/go; do
+      [ -x "$g" ] && echo "go  : $("$g" version 2>&1 | head -1)" && break
+    done
+    [ -x staging_dir/host/bin/rustc ] && echo "rust: $(staging_dir/host/bin/rustc --version 2>&1 | head -1)"
+    ls -d staging_dir/toolchain* 2>/dev/null | head -3
+    echo ""
+    echo "=== 标记 ==="
+    for f in tools/stamp-compile toolchain/stamp-compile tmp/.build; do
+      printf '%-28s %s\n' "$f" "$([ -e "$f" ] && echo 有 || echo 无)"
+    done
+    echo ""
+    echo "=== 提交 ==="
+    git rev-parse HEAD 2>/dev/null || echo "（非 git 仓库）"
+  } | tee "$dir/pwrt-cache.txt"
+}
+
+case "$CMD" in
+  key)      cmd_key ;;
+  prefix)   cmd_prefix ;;
+  prepare)  cmd_prepare ;;
+  rollover) cmd_rollover ;;
+  pack)     cmd_pack   "${3:-}" ;;
+  unpack)   cmd_unpack "${3:-}" ;;
+  status)   cmd_status ;;
+  *)
+    echo "用法: $0 {key|prefix|prepare|rollover|pack|unpack|status} <openwrt_dir> [file]" >&2
+    exit 1
+    ;;
+esac
