@@ -1,1 +1,99 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojIFNQRFgtTGljZW5zZS1JZGVudGlmaWVyOiBNSVQKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgZGVmY29uZmlnLnNoIOKAlOKAlCBtYWtlIGRlZmNvbmZpZyDnmoTllK/kuIDosIPnlKjlj6MKIwojICAg6KaB6Kej5Yaz55qE6Zeu6aKY77yaCiMgICAgIGBtYWtlIGRlZmNvbmZpZyAyPiYxIHwgdGFpbCAtNWAg55qE6YCA5Ye656CB5Y+W55qE5pivIHRhaWwg55qEIDDjgIIKIyAgICAgZGVmY29uZmlnIOecn+Wksei0peaXtuatpemqpOS7jeeEtiBzdWNjZXNz77yM57Sn5o6l552A55qE44CM5YWz6ZSu5YyF5qCh6aqM44CN5ou/5YiwCiMgICAgIOWNiuWxleW8gOeahCAuY29uZmln77yM5oql5Ye65p2l55qE5pivCiMgICAgICAgOjplcnJvcjo65Lul5LiL5YWz6ZSu5YyF5ZyoIGRlZmNvbmZpZyDlkI7mnKrlkK/nlKjvvIzmo4Dmn6UgZmVlZHMg5piv5ZCm5a6M5pW0CiMgICAgIOKAlOKAlCDmjIflkJHlrozlhajplJnor6/nmoTmlrnlkJHjgILogIzov5nmnaHmtYHmsLTnur/kuLrjgIzplJnor6/kv6Hmga/mjIflkJHplJnor6/moLnlm6DjgI0KIyAgICAg5bey57uP5L+u6L+H5LiA5qyh77yIbWFrZSBkb3dubG9hZCDkuInmrKHlpLHotKXkuI3lho3pu5jpu5jnu6fnu63vvInjgIIKIwojICAg5YGa5LiJ5Lu25LqL77yaCiMgICAgIDEpIOWujOaVtOi+k+WHuuiQveebmO+8m+Wksei0peaJk+WNsOWwvumDqCBOIOihjCArIDo6ZXJyb3I6OiDlubYgZXhpdCAxCiMgICAgIDIpIOaIkOWKn+aXtuWPquaJk+WwvumDqCA1IOihjO+8iOS/neaMgeaXpeW/l+W5suWHgO+8jOS4juWOn+ihjOS4uuS4gOiHtO+8iQojICAgICAzKSDmiorovpPlh7rph4znmoQgYFdBUk5JTkc6YCDmsYfmgLsg4oCU4oCUIOmCo+aYr+OAjOWMheiiq+mdmem7mOWJlOmZpOOAjeeahOebtOaOpeivgeaNruOAggojICAgICAgICBPcGVuV3J0IOagkeacrOi6q+WwseacieS4gOS6m+aXoOWus+eahCB3YXJuaW5n77yM5omA5Lul5Y+q5rGH5oC744CB5LiN5aSx6LSl44CCCiMKIyAgIOeUqOazlToKIyAgICAgYmFzaCBzY3JpcHRzL2RlZmNvbmZpZy5zaCBbb3BlbndydF9kaXJdCiMKIyAgIOeOr+Wig+WPmOmHjzoKIyAgICAgREVGQ09ORklHX0xPRyAgICAgICAg5pel5b+X6Lev5b6E77yI6buY6K6kIC90bXAvZGVmY29uZmlnLmxvZ++8iQojICAgICBERUZDT05GSUdfVEFJTCAgICAgICDmiJDlip/ml7bmiZPljbDooYzmlbDvvIjpu5jorqQgNe+8iQojICAgICBERUZDT05GSUdfRkFJTF9UQUlMICDlpLHotKXml7bmiZPljbDooYzmlbDvvIjpu5jorqQgNjDvvIkKIyAgICAgREVGQ09ORklHX1dBUk5fTUFYICAg5pyA5aSa5YiX5Ye65aSa5bCR5p2hIHdhcm5pbmfvvIjpu5jorqQgMjXvvIkKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpzZXQgLXVvIHBpcGVmYWlsCgpPVz0iJHsxOi0kUFdEfSIKY2QgIiRPVyIgfHwgeyBlY2hvICI6OmVycm9yOjpkZWZjb25maWcuc2g6IOaXoOazlei/m+WFpSAkT1ciOyBleGl0IDE7IH0KCkxPRz0iJHtERUZDT05GSUdfTE9HOi0vdG1wL2RlZmNvbmZpZy5sb2d9IgpUQUlMX049IiR7REVGQ09ORklHX1RBSUw6LTV9IgpGQUlMX1RBSUxfTj0iJHtERUZDT05GSUdfRkFJTF9UQUlMOi02MH0iCldBUk5fTUFYPSIke0RFRkNPTkZJR19XQVJOX01BWDotMjV9IgoKZWNobyAiPT09PT0gbWFrZSBkZWZjb25maWcgPT09PT0iCgpyYz0wCm1ha2UgZGVmY29uZmlnID4iJExPRyIgMj4mMSB8fCByYz0kPwoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyDlpLHotKXvvJrmiornnJ/mraPnmoTljp/lm6DnlZnlnKggQ0kg5pel5b+X6YeM77yM6ICM5LiN5piv6K6p5ZCO6Z2i6YKj5q2l5Y6754ycCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmlmIFsgIiRyYyIgLW5lIDAgXTsgdGhlbgoJZWNobyAiPT09PT0gZGVmY29uZmlnIOWksei0pe+8iOmAgOWHuueggSAkcmPvvInvvIzmnIDlkI4gJEZBSUxfVEFJTF9OIOihjCA9PT09PSIKCXRhaWwgLW4gIiRGQUlMX1RBSUxfTiIgIiRMT0ciCgllY2hvICI6OmVycm9yOjptYWtlIGRlZmNvbmZpZyDlpLHotKXvvIjpgIDlh7rnoIEgJHJj77yJIgoJZWNobyAiOjplcnJvcjo65bi46KeB5qC55Zug77yM5oyJ5Ye6546w6aKR546H5o6S77yaIgoJZWNobyAiOjplcnJvcjo6ICAxKSBmZWVkcyDmsqEgdXBkYXRlL2luc3RhbGzvvIzmiJYgdG1wLy5jb25maWctcGFja2FnZS5pbiDnlJ/miJDlpLHotKUiCgllY2hvICI6OmVycm9yOjogIDIpIHBhY2thZ2UvY3VzdG9tIOS4i+WQjOWQjeWMheS4pOS7ve+8iGZlZWRzIOmHjOW3suacieS4gOS7veaXtu+8iSIKCWVjaG8gIjo6ZXJyb3I6OiAgMykg5p+Q5LiqIENvbmZpZy5pbiDor63ms5XplJnvvIjml6Xlv5fph4zmkJwgJ0tjb25maWc6JyDmiJYgJ3N5bnRheCBlcnJvcifvvIkiCgllY2hvICI6OmVycm9yOjogIDQpIOejgeebmOa7oe+8iOWJjemdoiAnQ2hlY2sgc3BhY2UgdXNhZ2UnIOiLpeW3suWRiuitpu+8jOWFiOeci+mCo+adoe+8iSIKCWVjaG8gIjo6ZXJyb3I6OuWujOaVtOaXpeW/l++8miRMT0ciCglleGl0IDEKZmkKCnRhaWwgLW4gIiRUQUlMX04iICIkTE9HIgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyB3YXJuaW5nIOaxh+aAuwojCiMgICBkZWZjb25maWcg6YeM5YC85b6X55yL55qE5Y+q5pyJ5Lik57G777yM6YO95piv44CM6L+Z5Liq5YyF5Lya6KKr6Z2Z6buY5YmU6Zmk44CN77yaCiMgICAgIFdBUk5JTkc6IE1ha2VmaWxlICcuLi4nIGhhcyBhIGRlcGVuZGVuY3kgb24gJ3gnLCB3aGljaCBkb2VzIG5vdCBleGlzdAojICAgICBXQVJOSU5HOiBNYWtlZmlsZSAnLi4uJyBoYXMgYSBidWlsZCBkZXBlbmRlbmN5IG9uICd4Jywgd2hpY2ggZG9lcyBub3QgZXhpc3QKIwojICAg5LiN6IO96K6p5a6DIGZhaWwg4oCU4oCUIOS4iua4uOagkeacrOadpeWwseW4puS4gOaJueaXoOWus+eahO+8iOWPr+mAieWMhee8uiBvcHRpb25hbCDkvp3otZbvvInjgIIKIyAgIOS9huWujOWFqOS4jeaKpeS5n+S4jeihjO+8mui/meS4nOilv+ato+aYr+OAjGNvbmZpZyDph4zlhpnkuoYgPXnjgIHnvJblrozlj5HnjrDmsqHov5nkuKroj5zljZXjgI0KIyAgIOeahOesrOS4gOeOsOWcuuOAggojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpXQVJOX1RPVEFMPSIkKGdyZXAgLWMgJ15XQVJOSU5HOicgIiRMT0ciIDI+L2Rldi9udWxsIHx8IHRydWUpIgpXQVJOX1RPVEFMPSIke1dBUk5fVE9UQUw6LTB9IgoKaWYgWyAiJFdBUk5fVE9UQUwiIC1ndCAwIF07IHRoZW4KCWVjaG8gIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIKCWVjaG8gImRlZmNvbmZpZyDmiqXlkYrkuoYgJFdBUk5fVE9UQUwg5p2hIFdBUk5JTkfvvIjnm7jlhbPljIXlj6/og73lt7LooqvliZTpmaTvvIkiCgoJIyDkuIrpnaIgdGFpbCDlt7Lnu4/miZPov4fnmoTooYzkuI3lho3ph43lpI3vvJvlj6rlnKjmnKvlsL4gTiDooYzkuYvlpJbnmoTooaXpvZAKCSMg77yIR05VIGhlYWQgLW4gLU4gPSDljrvmjonmnIDlkI4gTiDooYzvvIkKCVJFU1Q9IiQoaGVhZCAtbiAiLSRUQUlMX04iICIkTE9HIiAyPi9kZXYvbnVsbCB8IGdyZXAgJ15XQVJOSU5HOicgfCBoZWFkIC1uICIkV0FSTl9NQVgiIHx8IHRydWUpIgoJaWYgWyAtbiAiJFJFU1QiIF07IHRoZW4KCQlwcmludGYgJyVzXG4nICIkUkVTVCIgfCBzZWQgJ3MvXi8gIC8nCgkJU0hPV049JChwcmludGYgJyVzXG4nICIkUkVTVCIgfCB3YyAtbCkKCQlbICIkV0FSTl9UT1RBTCIgLWd0ICIkU0hPV04iIF0gJiYgXAoJCQllY2hvICIgIOKApuWPpuaciSAkKChXQVJOX1RPVEFMIC0gU0hPV04pKSDmnaHvvIjlhbbkuK3kuIDpg6jliIblj6/og73lt7LlnKjkuIrmlrnmnKvlsL7ovpPlh7rph4zvvIkiCgllbHNlCgkJZWNobyAiICDlhajpg6jokL3lnKjkuIrmlrnmnKvlsL4gJFRBSUxfTiDooYzlhoXvvIzlkJHkuIrnv7vljbPlj68iCglmaQoJZWNobyAiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIgoJZWNobyAiOjp3YXJuaW5nOjpkZWZjb25maWcg5pyJICRXQVJOX1RPVEFMIOadoSBXQVJOSU5H77yM5L6d6LWW57y65aSx55qE5YyF5Lya6KKr6Z2Z6buY5YmU6ZmkIgplbHNlCgllY2hvICLinIUgZGVmY29uZmlnIOaXoCBXQVJOSU5HIgpmaQoKZWNobyAi4pyFIG1ha2UgZGVmY29uZmlnIOWujOaIkCIKZXhpdCAwCg==
+#!/usr/bin/env bash
+# SPDX-License-Identifier: MIT
+# =============================================================
+# defconfig.sh —— make defconfig 的唯一调用口
+#
+#   要解决的问题：
+#     `make defconfig 2>&1 | tail -5` 的退出码取的是 tail 的 0。
+#     defconfig 真失败时步骤仍然 success，紧接着的「关键包校验」拿到
+#     半展开的 .config，报出来的是
+#       ::error::以下关键包在 defconfig 后未启用，检查 feeds 是否完整
+#     —— 指向完全错误的方向。而这条流水线为「错误信息指向错误根因」
+#     已经修过一次（make download 三次失败不再默默继续）。
+#
+#   做三件事：
+#     1) 完整输出落盘；失败打印尾部 N 行 + ::error:: 并 exit 1
+#     2) 成功时只打尾部 5 行（保持日志干净，与原行为一致）
+#     3) 把输出里的 `WARNING:` 汇总 —— 那是「包被静默剔除」的直接证据。
+#        OpenWrt 树本身就有一些无害的 warning，所以只汇总、不失败。
+#
+#   用法:
+#     bash scripts/defconfig.sh [openwrt_dir]
+#
+#   环境变量:
+#     DEFCONFIG_LOG        日志路径（默认 /tmp/defconfig.log）
+#     DEFCONFIG_TAIL       成功时打印行数（默认 5）
+#     DEFCONFIG_FAIL_TAIL  失败时打印行数（默认 60）
+#     DEFCONFIG_WARN_MAX   最多列出多少条 warning（默认 25）
+# =============================================================
+
+set -uo pipefail
+
+OW="${1:-$PWD}"
+cd "$OW" || { echo "::error::defconfig.sh: 无法进入 $OW"; exit 1; }
+
+LOG="${DEFCONFIG_LOG:-/tmp/defconfig.log}"
+TAIL_N="${DEFCONFIG_TAIL:-5}"
+FAIL_TAIL_N="${DEFCONFIG_FAIL_TAIL:-60}"
+WARN_MAX="${DEFCONFIG_WARN_MAX:-25}"
+
+echo "===== make defconfig ====="
+
+rc=0
+make defconfig >"$LOG" 2>&1 || rc=$?
+
+# ---------------------------------------------------------------
+# 失败：把真正的原因留在 CI 日志里，而不是让后面那步去猜
+# ---------------------------------------------------------------
+if [ "$rc" -ne 0 ]; then
+	echo "===== defconfig 失败（退出码 $rc），最后 $FAIL_TAIL_N 行 ====="
+	tail -n "$FAIL_TAIL_N" "$LOG"
+	echo "::error::make defconfig 失败（退出码 $rc）"
+	echo "::error::常见根因，按出现频率排："
+	echo "::error::  1) feeds 没 update/install，或 tmp/.config-package.in 生成失败"
+	echo "::error::  2) package/custom 下同名包两份（feeds 里已有一份时）"
+	echo "::error::  3) 某个 Config.in 语法错（日志里搜 'Kconfig:' 或 'syntax error'）"
+	echo "::error::  4) 磁盘满（前面 'Check space usage' 若已告警，先看那条）"
+	echo "::error::完整日志：$LOG"
+	exit 1
+fi
+
+tail -n "$TAIL_N" "$LOG"
+
+# ---------------------------------------------------------------
+# warning 汇总
+#
+#   defconfig 里值得看的只有两类，都是「这个包会被静默剔除」：
+#     WARNING: Makefile '...' has a dependency on 'x', which does not exist
+#     WARNING: Makefile '...' has a build dependency on 'x', which does not exist
+#
+#   不能让它 fail —— 上游树本来就带一批无害的（可选包缺 optional 依赖）。
+#   但完全不报也不行：这东西正是「config 里写了 =y、编完发现没这个菜单」
+#   的第一现场。
+# ---------------------------------------------------------------
+WARN_TOTAL="$(grep -c '^WARNING:' "$LOG" 2>/dev/null || true)"
+WARN_TOTAL="${WARN_TOTAL:-0}"
+
+if [ "$WARN_TOTAL" -gt 0 ]; then
+	echo "------------------------------------------"
+	echo "defconfig 报告了 $WARN_TOTAL 条 WARNING（相关包可能已被剔除）"
+
+	# 上面 tail 已经打过的行不再重复；只在末尾 N 行之外的补齐
+	# （GNU head -n -N = 去掉最后 N 行）
+	REST="$(head -n "-$TAIL_N" "$LOG" 2>/dev/null | grep '^WARNING:' | head -n "$WARN_MAX" || true)"
+	if [ -n "$REST" ]; then
+		printf '%s\n' "$REST" | sed 's/^/  /'
+		SHOWN=$(printf '%s\n' "$REST" | wc -l)
+		[ "$WARN_TOTAL" -gt "$SHOWN" ] && \
+			echo "  …另有 $((WARN_TOTAL - SHOWN)) 条（其中一部分可能已在上方末尾输出里）"
+	else
+		echo "  全部落在上方末尾 $TAIL_N 行内，向上翻即可"
+	fi
+	echo "------------------------------------------"
+	echo "::warning::defconfig 有 $WARN_TOTAL 条 WARNING，依赖缺失的包会被静默剔除"
+else
+	echo "✅ defconfig 无 WARNING"
+fi
+
+echo "✅ make defconfig 完成"
+exit 0
