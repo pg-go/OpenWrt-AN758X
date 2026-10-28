@@ -1,1 +1,155 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBwcmVwYXJlLWJ1aWxkLWhvc3Quc2gg4oCU4oCUIOeUqCBydW5uZXIg6aKE6KOF55qE5bel5YW35pu/5Luj5LuO5rqQ56CB57yW6K+RCiMgICDmgJ3ot6/kuI3mmK/jgIzorqnnvJPlrZjmm7Tlv6vjgI3vvIzogIzmmK/jgIzorqnpnIDopoHnvJbor5HnmoTkuJzopb/mm7TlsJHjgI3vvJoKIyAgICAgMS4gR28gICAgIGV4dGVybmFsIGJvb3RzdHJhcO+8jOi3s+i/h+S6lOauteiHquS4viAgIOecgSA0MH43MCDliIbpkp8KIyAgICAgMi4gQlBGICAgIOeUqCBob3N0IExMVk3vvIzkuI3nvJYgTExWTQojICAgICAzLiBQeXRob24g5YWz5o6JIGhvc3Qg5L6nIFBHTwojICAgICA0LiBSdXN0ICAg55SxIHByZXBhcmUtcnVzdC5zaCDljZXni6zlpITnkIYgICAgICAgIOecgSAzMH42MCDliIbpkp8KIyDimIUg5YWo6YOo6L2v5aSx6LSl77yacG9ud3J0IOS4jeS4gOWumuaUr+aMgeavj+S4qumFjee9rumhue+8jOajgOa1i+S4jeWIsOWwsSB3YXJuaW5nIOi3s+i/h++8jAojICAg57ud5LiN6K6p5p6E5bu65q275Zyo6L+Z6YeM44CC55So5rOVOiBiYXNoIHByZXBhcmUtYnVpbGQtaG9zdC5zaCA8b3BlbndydF9kaXI+CiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKc2V0IC11byBwaXBlZmFpbAoKT1c9IiR7MTotJFBXRH0iCmNkICIkT1ciIHx8IHsgZWNobyAiOjplcnJvcjo65peg5rOV6L+b5YWlICRPVyI7IGV4aXQgMTsgfQoKUkVQT1JUX0RJUj0iJHtHSVRIVUJfV09SS1NQQUNFOi0kT1d9L2J1aWxkLXJlcG9ydHMiCm1rZGlyIC1wICIkUkVQT1JUX0RJUiIKUkVQT1JUPSIkUkVQT1JUX0RJUi9ob3N0LXRvb2xjaGFpbnMudHh0IgoKIyDlhpnlhaXmiqXlkYogKyDmjqfliLblj7AKbG9nKCkgeyBlY2hvICIkMSIgfCB0ZWUgLWEgIiRSRVBPUlQiOyB9Cndhcm4oKSB7IGVjaG8gIjo6d2FybmluZzo6JDEiOyBlY2hvICLot7Pov4c6ICQxIiA+PiAiJFJFUE9SVCI7IH0KCjogPiAiJFJFUE9SVCIKbG9nICI9PT09PSBob3N0IOW3peWFt+mTvuWKoOmAn++8iE9wZW5XUlQtQ0kg5oCd6Lev77yJPT09PT0iCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIC5jb25maWcg6KGM5pON5L2c77ya5YWI5Yig5pen5YC85YaN6L+95Yqg77yM5L+d6K+B5bmC562J77yI6ISa5pys5Y+v6IO96KKr6LCD55So5aSa5qyh77yJCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCnNldF9jZmcoKSB7ICMgJDE9S0VZICAkMj3lgLzvvIjnqbrooajnpLogaXMgbm90IHNldO+8iQogIGxvY2FsIGtleT0iJDEiIHZhbD0iJDIiCiAgc2VkIC1pICIvXiR7a2V5fT0vZDsgL14jICR7a2V5fSBpcyBub3Qgc2V0JC9kIiAuY29uZmlnCiAgaWYgWyAtbiAiJHZhbCIgXTsgdGhlbgogICAgcHJpbnRmICclcz0lc1xuJyAiJGtleSIgIiR2YWwiID4+IC5jb25maWcKICBlbHNlCiAgICBwcmludGYgJyMgJXMgaXMgbm90IHNldFxuJyAiJGtleSIgPj4gLmNvbmZpZwogIGZpCn0KCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgMS4gR28g4oCU4oCUIGV4dGVybmFsIGJvb3RzdHJhcAojCiMgICAgT3BlbldydCDnmoQgZ29sYW5nIOm7mOiupOS7jiBnbzEuNCDotbfkupTmrrXoh6rkuL7vvIg0MH43MCDliIbpkp/vvInjgIIKIyAgICDoi6UgZmVlZCDmj5DkvpsgR09MQU5HX0VYVEVSTkFMX0JPT1RTVFJBUF9ST09U77yM5Y+v55u05o6l55SoCiMgICAgcnVubmVyIOmihOijheeahCBHbyDkvZzkuLogYm9vdHN0cmFw77yM5LiA5q2l6Lez6L+H5YWo6YOo6Ieq5Li+44CCCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CkdPX0RPTkU9MApHT19ST09UPSQoZ28gZW52IEdPUk9PVCAyPi9kZXYvbnVsbCB8fCB0cnVlKQoKaWYgWyAteiAiJEdPX1JPT1QiIF0gfHwgWyAhIC14ICIkR09fUk9PVC9iaW4vZ28iIF07IHRoZW4KICB3YXJuICJHbzogcnVubmVyIOayoeacieWPr+eUqOeahCBnb++8jOi3s+i/hyBleHRlcm5hbCBib290c3RyYXAiCmVsc2UKICAjIOiDveWKm+ajgOa1i++8mmZlZWQg55qEIENvbmZpZy5pbiDph4zlv4XpobvnnJ/nmoTmnInov5nlh6DkuKrnrKblj7cKICAjCiAgIyAgIOKaoCDkuI3og73lhpnmrbvlh6DkuKrlm7rlrprot6/lvoQg4oCU4oCUIOWQhOeJiOacrCBmZWVkIOeahOebruW9lee7k+aehOS4jeS4gOagt++8mgogICMgICAgIGZlZWRzL3BhY2thZ2VzL2xhbmcvZ29sYW5nL0NvbmZpZy5pbgogICMgICAgIGZlZWRzL3BhY2thZ2VzL2xhbmcvZ29sYW5nL2dvbGFuZy9Db25maWcuaW4KICAjICAgICBmZWVkcy9wYWNrYWdlcy9sYW5nL2dvbGFuZy9nb2xhbmctdmFsdWVzL0NvbmZpZy5pbiDigKYKICAjICAg5YaZ5q275bCx5Lya5Ye6546w44CM5om+5LiN5YiwIGdvbGFuZyDnmoQgQ29uZmlnLmlu44CN6ICM55m955m96ZSZ6L+H5Yqg6YCf44CCCiAgIyAgIOi/memHjOWcqOaVtOS4qua6kOeggeagkemHjOaQnOS7u+S9leWQq+ivpeespuWPt+eahCBDb25maWcuaW7jgIIKICBHT19DRkc9JChncmVwIC1ybCAnR09MQU5HX0JVSUxEX0JPT1RTVFJBUCcgLS1pbmNsdWRlPSdDb25maWcuaW4nIC4gMj4vZGV2L251bGwgfCBoZWFkIC0xKQoKICBpZiBbIC16ICIkR09fQ0ZHIiBdOyB0aGVuCiAgICAjIOWGjemAgOS4gOatpe+8mk1ha2VmaWxlIOmHjOWumuS5ieS5n+eul++8iOacieS6myBmZWVkIOS4jeeUqCBLY29uZmln77yJCiAgICBHT19DRkc9JChncmVwIC1ybCAnR09MQU5HX0VYVEVSTkFMX0JPT1RTVFJBUF9ST09UJyBcCiAgICAgICAgICAgICAtLWluY2x1ZGU9JyoubWsnIC0taW5jbHVkZT0nTWFrZWZpbGUnIC4gMj4vZGV2L251bGwgfCBoZWFkIC0xKQogIGZpCgogIGlmIFsgLXogIiRHT19DRkciIF07IHRoZW4KICAgIHdhcm4gIkdvOiDlhajmoJHmkJzkuI3liLAgR09MQU5HX0JVSUxEX0JPT1RTVFJBUCDnrKblj7fvvIzot7Pov4fvvIjlsIbotbDmupDnoIHoh6rkuL7vvIkiCiAgICBlY2hvICIgIOaPkOekujog5Y+v5omL5Yqo56Gu6K6kIGxzIGZlZWRzL3BhY2thZ2VzL2xhbmcvZ29sYW5nLyIKICBlbGlmICEgZ3JlcCAtcSAnR09MQU5HX0VYVEVSTkFMX0JPT1RTVFJBUF9ST09UJyAiJEdPX0NGRyI7IHRoZW4KICAgIHdhcm4gIkdvOiAkR09fQ0ZHIOaciSBCVUlMRF9CT09UU1RSQVAg5L2G5rKh5pyJIEVYVEVSTkFMX0JPT1RTVFJBUF9ST09U77yM5LuN5Lya6LWw5LqU5q616Ieq5Li+IgogIGVsc2UKICAgIGxvZyAiR28gICAgIDog56ym5Y+35a6a5LmJ5LqOICRHT19DRkciCiAgICBzZXRfY2ZnIENPTkZJR19HT0xBTkdfQlVJTERfQk9PVFNUUkFQICIiCiAgICBzZXRfY2ZnIENPTkZJR19HT0xBTkdfRVhURVJOQUxfQk9PVFNUUkFQX1JPT1QgIlwiJEdPX1JPT1RcIiIKICAgIEdPX0RPTkU9MQogICAgbG9nICJHbyAgICAgOiDinIUgZXh0ZXJuYWwgYm9vdHN0cmFwIOKGkiAkR09fUk9PVCIKICAgIGxvZyAiICAgICAgICAgJCgiJEdPX1JPT1QvYmluL2dvIiB2ZXJzaW9uIDI+JjEgfCBoZWFkIC0xKSIKICAgIGxvZyAiICAgICAgICAg55yB5o6JIGdvMS404oaS4oCm4oaSMS4yNCDkupTmrrXoh6rkuL7vvIjnuqYgNDB+NzAg5YiG6ZKf77yJIgogIGZpCmZpClsgIiRHT19ET05FIiA9ICIwIiBdICYmIGxvZyAiR28gICAgIDog5pyq5ZCv55So77yI5bCG6LWw5rqQ56CB6Ieq5Li+77yJIgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyAyLiBCUEYg4oCU4oCUIOeUqCBob3N0IExMVk0KIwojICAgIOm7mOiupOS8muS4uiBCUEYg5Y2V54us57yW5LiA5Lu9IExMVk3vvIjlvojmhaLvvInjgIIKIyAgICBDT05GSUdfQlBGX1RPT0xDSEFJTl9IT1NUIOiuqeWug+ebtOaOpeeUqOezu+e7n+eahOOAggojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpCUEZfRE9ORT0wCmlmIGNvbW1hbmQgLXYgbGx2bS1jb25maWcgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgTExWTV9ST09UPSQobGx2bS1jb25maWcgLS1wcmVmaXggMj4vZGV2L251bGwgfHwgdHJ1ZSkKICBpZiBbIC1uICIkTExWTV9ST09UIiBdICYmIFsgLXggIiRMTFZNX1JPT1QvYmluL2NsYW5nIiBdIFwKICAgICAmJiBbIC14ICIkTExWTV9ST09UL2Jpbi9sbGMiIF07IHRoZW4KICAgIGlmIGdyZXAgLXJxICdCUEZfVE9PTENIQUlOX0hPU1QnIGluY2x1ZGUvIDI+L2Rldi9udWxsOyB0aGVuCiAgICAgIHNldF9jZmcgQ09ORklHX0JQRl9UT09MQ0hBSU5fSE9TVCAieSIKICAgICAgc2V0X2NmZyBDT05GSUdfQlBGX1RPT0xDSEFJTl9IT1NUX1BBVEggIlwiJExMVk1fUk9PVFwiIgogICAgICBCUEZfRE9ORT0xCiAgICAgIGxvZyAiQlBGICAgIDog4pyFIGhvc3QgTExWTSDihpIgJExMVk1fUk9PVCIKICAgIGVsc2UKICAgICAgd2FybiAiQlBGOiDor6XmupDnoIHmoJHmsqHmnIkgQ09ORklHX0JQRl9UT09MQ0hBSU5fSE9TVO+8jOi3s+i/hyIKICAgIGZpCiAgZWxzZQogICAgd2FybiAiQlBGOiBsbHZtLWNvbmZpZyDnu5nlh7rnmoTliY3nvIDkuI3lj6/nlKjvvIzot7Pov4ciCiAgZmkKZWxzZQogIHdhcm4gIkJQRjogcnVubmVyIOayoeaciSBsbHZtLWNvbmZpZ++8jOi3s+i/h++8iOmcgCBhcHQg5a6J6KOFIGxsdm3vvIkiCmZpClsgIiRCUEZfRE9ORSIgPSAiMCIgXSAmJiBsb2cgIkJQRiAgICA6IOacquWQr+eUqCIKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgMy4gUHl0aG9uIOKAlOKAlCDlhbPmjokgaG9zdCDkvqcgUEdPCiMKIyAgICAtLWVuYWJsZS1vcHRpbWl6YXRpb25zIOS8muiuqSBob3N0IHB5dGhvbiDot5HkuIDpgY0gUEdPCiMgICAgcHJvZmlsZe+8jOe6r+Wxnua1qui0ue+8iGhvc3QgcHl0aG9uIOWPquaYr+aehOW7uuW3peWFt++8ieOAggojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpQWV9ET05FPTAKUFlfTUs9IiIKZm9yIG0gaW4gZmVlZHMvcGFja2FnZXMvbGFuZy9weXRob24vcHl0aG9uMy9NYWtlZmlsZSBcCiAgICAgICAgIHBhY2thZ2UvZmVlZHMvcGFja2FnZXMvcHl0aG9uL3B5dGhvbjMvTWFrZWZpbGU7IGRvCiAgWyAtZiAiJG0iIF0gJiYgeyBQWV9NSz0iJG0iOyBicmVhazsgfQpkb25lCgppZiBbIC1uICIkUFlfTUsiIF0gJiYgZ3JlcCAtcSAnZW5hYmxlLW9wdGltaXphdGlvbnMnICIkUFlfTUsiOyB0aGVuCiAgIyDlj6rmlLkgSE9TVF9DT05GSUdVUkVfQVJHUyDpgqPkuIDmrrXvvIzliKvliqggdGFyZ2V0IOS+p+eahAogIHNlZCAtaSAnL15IT1NUX0NPTkZJR1VSRV9BUkdTW1s6c3BhY2U6XV0qKz0vLC9eJC9zLy0tZW5hYmxlLW9wdGltaXphdGlvbnMvLS1kaXNhYmxlLW9wdGltaXphdGlvbnMvJyAiJFBZX01LIgogIGlmIGdyZXAgLXEgJ2Rpc2FibGUtb3B0aW1pemF0aW9ucycgIiRQWV9NSyI7IHRoZW4KICAgIFBZX0RPTkU9MQogICAgbG9nICJQeXRob24gOiDinIUgaG9zdCDkvqcgUEdPIOW3suWFs+mXrSIKICBlbHNlCiAgICB3YXJuICJQeXRob246IOabv+aNouWksei0pe+8jOS/neaMgeWOn+agtyIKICBmaQplbHNlCiAgbG9nICJQeXRob24gOiDmnKrlkK/nlKjvvIjor6XmoJHmsqHmnIkgLS1lbmFibGUtb3B0aW1pemF0aW9uc++8iSIKZmkKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgNC4gY2NhY2hlIOKAlOKAlCDplb/mnJ/ntK/orqEKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KaWYgZ3JlcCAtcSAnQ09ORklHX0NDQUNIRScgLmNvbmZpZyAyPi9kZXYvbnVsbDsgdGhlbgogIHNldF9jZmcgQ09ORklHX0NDQUNIRSAieSIKICBsb2cgImNjYWNoZSA6IOKchSDlt7LlkK/nlKgiCmZpCgpsb2cgIiIKbG9nICI9PT09PSDmsYfmgLsgPT09PT0iCmxvZyAiR28gICAgIDogJChbICIkR09fRE9ORSIgPSAxIF0gJiYgZWNobyDnlJ/mlYggfHwgZWNobyDmnKrlkK/nlKgpIgpsb2cgIkJQRiAgICA6ICQoWyAiJEJQRl9ET05FIiA9IDEgXSAmJiBlY2hvIOeUn+aViCB8fCBlY2hvIOacquWQr+eUqCkiCmxvZyAiUHl0aG9uIDogJChbICIkUFlfRE9ORSIgPSAxIF0gJiYgZWNobyDnlJ/mlYggfHwgZWNobyDmnKrlkK/nlKgpIgoKZXhpdCAwCg==
+#!/usr/bin/env bash
+# =============================================================
+# prepare-build-host.sh —— 用 runner 预装的工具替代从源码编译
+#   思路不是「让缓存更快」，而是「让需要编译的东西更少」：
+#     1. Go     external bootstrap，跳过五段自举   省 40~70 分钟
+#     2. BPF    用 host LLVM，不编 LLVM
+#     3. Python 关掉 host 侧 PGO
+#     4. Rust   由 prepare-rust.sh 单独处理        省 30~60 分钟
+# ★ 全部软失败：ponwrt 不一定支持每个配置项，检测不到就 warning 跳过，
+#   绝不让构建死在这里。用法: bash prepare-build-host.sh <openwrt_dir>
+# =============================================================
+
+set -uo pipefail
+
+OW="${1:-$PWD}"
+cd "$OW" || { echo "::error::无法进入 $OW"; exit 1; }
+
+REPORT_DIR="${GITHUB_WORKSPACE:-$OW}/build-reports"
+mkdir -p "$REPORT_DIR"
+REPORT="$REPORT_DIR/host-toolchains.txt"
+
+# 写入报告 + 控制台
+log() { echo "$1" | tee -a "$REPORT"; }
+warn() { echo "::warning::$1"; echo "跳过: $1" >> "$REPORT"; }
+
+: > "$REPORT"
+log "===== host 工具链加速（OpenWRT-CI 思路）====="
+
+# ---------------------------------------------------------------
+# .config 行操作：先删旧值再追加，保证幂等（脚本可能被调用多次）
+# ---------------------------------------------------------------
+set_cfg() { # $1=KEY  $2=值（空表示 is not set）
+  local key="$1" val="$2"
+  sed -i "/^${key}=/d; /^# ${key} is not set$/d" .config
+  if [ -n "$val" ]; then
+    printf '%s=%s\n' "$key" "$val" >> .config
+  else
+    printf '# %s is not set\n' "$key" >> .config
+  fi
+}
+
+# ===============================================================
+# 1. Go —— external bootstrap
+#
+#    OpenWrt 的 golang 默认从 go1.4 起五段自举（40~70 分钟）。
+#    若 feed 提供 GOLANG_EXTERNAL_BOOTSTRAP_ROOT，可直接用
+#    runner 预装的 Go 作为 bootstrap，一步跳过全部自举。
+# ===============================================================
+GO_DONE=0
+GO_ROOT=$(go env GOROOT 2>/dev/null || true)
+
+if [ -z "$GO_ROOT" ] || [ ! -x "$GO_ROOT/bin/go" ]; then
+  warn "Go: runner 没有可用的 go，跳过 external bootstrap"
+else
+  # 能力检测：feed 的 Config.in 里必须真的有这几个符号
+  #
+  #   ⚠ 不能写死几个固定路径 —— 各版本 feed 的目录结构不一样：
+  #     feeds/packages/lang/golang/Config.in
+  #     feeds/packages/lang/golang/golang/Config.in
+  #     feeds/packages/lang/golang/golang-values/Config.in …
+  #   写死就会出现「找不到 golang 的 Config.in」而白白错过加速。
+  #   这里在整个源码树里搜任何含该符号的 Config.in。
+  GO_CFG=$(grep -rl 'GOLANG_BUILD_BOOTSTRAP' --include='Config.in' . 2>/dev/null | head -1)
+
+  if [ -z "$GO_CFG" ]; then
+    # 再退一步：Makefile 里定义也算（有些 feed 不用 Kconfig）
+    GO_CFG=$(grep -rl 'GOLANG_EXTERNAL_BOOTSTRAP_ROOT' \
+             --include='*.mk' --include='Makefile' . 2>/dev/null | head -1)
+  fi
+
+  if [ -z "$GO_CFG" ]; then
+    warn "Go: 全树搜不到 GOLANG_BUILD_BOOTSTRAP 符号，跳过（将走源码自举）"
+    echo "  提示: 可手动确认 ls feeds/packages/lang/golang/"
+  elif ! grep -q 'GOLANG_EXTERNAL_BOOTSTRAP_ROOT' "$GO_CFG"; then
+    warn "Go: $GO_CFG 有 BUILD_BOOTSTRAP 但没有 EXTERNAL_BOOTSTRAP_ROOT，仍会走五段自举"
+  else
+    log "Go     : 符号定义于 $GO_CFG"
+    set_cfg CONFIG_GOLANG_BUILD_BOOTSTRAP ""
+    set_cfg CONFIG_GOLANG_EXTERNAL_BOOTSTRAP_ROOT "\"$GO_ROOT\""
+    GO_DONE=1
+    log "Go     : ✅ external bootstrap → $GO_ROOT"
+    log "         $("$GO_ROOT/bin/go" version 2>&1 | head -1)"
+    log "         省掉 go1.4→…→1.24 五段自举（约 40~70 分钟）"
+  fi
+fi
+[ "$GO_DONE" = "0" ] && log "Go     : 未启用（将走源码自举）"
+
+# ===============================================================
+# 2. BPF —— 用 host LLVM
+#
+#    默认会为 BPF 单独编一份 LLVM（很慢）。
+#    CONFIG_BPF_TOOLCHAIN_HOST 让它直接用系统的。
+# ===============================================================
+BPF_DONE=0
+if command -v llvm-config >/dev/null 2>&1; then
+  LLVM_ROOT=$(llvm-config --prefix 2>/dev/null || true)
+  if [ -n "$LLVM_ROOT" ] && [ -x "$LLVM_ROOT/bin/clang" ] \
+     && [ -x "$LLVM_ROOT/bin/llc" ]; then
+    if grep -rq 'BPF_TOOLCHAIN_HOST' include/ 2>/dev/null; then
+      set_cfg CONFIG_BPF_TOOLCHAIN_HOST "y"
+      set_cfg CONFIG_BPF_TOOLCHAIN_HOST_PATH "\"$LLVM_ROOT\""
+      BPF_DONE=1
+      log "BPF    : ✅ host LLVM → $LLVM_ROOT"
+    else
+      warn "BPF: 该源码树没有 CONFIG_BPF_TOOLCHAIN_HOST，跳过"
+    fi
+  else
+    warn "BPF: llvm-config 给出的前缀不可用，跳过"
+  fi
+else
+  warn "BPF: runner 没有 llvm-config，跳过（需 apt 安装 llvm）"
+fi
+[ "$BPF_DONE" = "0" ] && log "BPF    : 未启用"
+
+# ===============================================================
+# 3. Python —— 关掉 host 侧 PGO
+#
+#    --enable-optimizations 会让 host python 跑一遍 PGO
+#    profile，纯属浪费（host python 只是构建工具）。
+# ===============================================================
+PY_DONE=0
+PY_MK=""
+for m in feeds/packages/lang/python/python3/Makefile \
+         package/feeds/packages/python/python3/Makefile; do
+  [ -f "$m" ] && { PY_MK="$m"; break; }
+done
+
+if [ -n "$PY_MK" ] && grep -q 'enable-optimizations' "$PY_MK"; then
+  # 只改 HOST_CONFIGURE_ARGS 那一段，别动 target 侧的
+  sed -i '/^HOST_CONFIGURE_ARGS[[:space:]]*+=/,/^$/s/--enable-optimizations/--disable-optimizations/' "$PY_MK"
+  if grep -q 'disable-optimizations' "$PY_MK"; then
+    PY_DONE=1
+    log "Python : ✅ host 侧 PGO 已关闭"
+  else
+    warn "Python: 替换失败，保持原样"
+  fi
+else
+  log "Python : 未启用（该树没有 --enable-optimizations）"
+fi
+
+# ===============================================================
+# 4. ccache —— 长期累计
+# ===============================================================
+if grep -q 'CONFIG_CCACHE' .config 2>/dev/null; then
+  set_cfg CONFIG_CCACHE "y"
+  log "ccache : ✅ 已启用"
+fi
+
+log ""
+log "===== 汇总 ====="
+log "Go     : $([ "$GO_DONE" = 1 ] && echo 生效 || echo 未启用)"
+log "BPF    : $([ "$BPF_DONE" = 1 ] && echo 生效 || echo 未启用)"
+log "Python : $([ "$PY_DONE" = 1 ] && echo 生效 || echo 未启用)"
+
+exit 0
