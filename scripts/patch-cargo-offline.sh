@@ -1,1 +1,65 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBwYXRjaC1jYXJnby1vZmZsaW5lLnNoIOKAlOKAlCDmlL7lrr0gcnVzdCDljIXnmoTjgIznpoHmraLogZTnvZHjgI3pmZDliLYKIwojICAg6IOM5pmv77yaaDNjLWZ0dHItdG9vbHMg55qEIE1ha2VmaWxlIOeUqCBjYXJnbyBpbnN0YWxsIC0tbG9ja2VkIC0tZnJvemVu44CCCiMgICAtLWZyb3plbiA9IOmUgeeJiOacrCArIOemgeatouiBlOe9ke+8jOWPquiupCBDQVJHT19IT01FKGRsL2NhcmdvKSDph4zlt7LmnInnmoQgY3JhdGXvvJsKIyAgIOiAjCBkbC9jYXJnbyDku47nvJPlrZjnu6fmib/vvIjlj6rlop7kuI3lh4/vvInvvIzkuIrmuLjlnKggQ2FyZ28ubG9jayDliqDmlrDkvp3otZbml7bnvJPlrZjph4zmsqHmnInvvJoKIyAgICAgQ2F1c2VkIGJ5OiBmYWlsZWQgdG8gZG93bmxvYWQgYGNvcmVfZGV0ZWN0IHYxLjAuMGAKIyAgICAgQ2F1c2VkIGJ5OiBhdHRlbXB0aW5nIHRvIG1ha2UgYW4gSFRUUCByZXF1ZXN0LCBidXQgLS1mcm96ZW4gd2FzIHNwZWNpZmllZAojICAg546w6LGh5piv57yW5Yiw5LiA5Y2K5p+Q5LiqIHJ1c3Qg5YyF5b+F5oyC77yM5o2i5py65Z6L44CB5o2i57yT5a2Y6YO95aSN546w44CCCiMKIyAgIOi/memHjOWPquaRmOaOiSAtLWZyb3plbiAvIC0tb2ZmbGluZe+8jC0tbG9ja2VkIOS/neeVme+8iOeJiOacrOS7jemUgeatu++8jOe7k+aenOWPr+WkjeeOsO+8ieOAggojIOKaoCDov5nmmK8gQ0kg5L6n5YWc5bqV44CC5pu05q2j57uf55qE5YGa5rOV5Zyo5YyF5L6n77yaQnVpbGQvUHJlcGFyZSDph4wgY2FyZ28gZmV0Y2ggLS1sb2NrZWQKIyAgIOaKiiBjcmF0ZSDmi4nov5sgQ0FSR09fSE9NRe+8jOe8luivkemYtuauteWGjeeUqCAtLWZyb3plbuOAggojICAg55So5rOVOiBiYXNoIHBhdGNoLWNhcmdvLW9mZmxpbmUuc2ggPG9wZW53cnRfZGlyPgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCnNldCAtdQoKT1c9IiR7MTotJFBXRH0iCmNkICIkT1ciIHx8IHsgZWNobyAiOjplcnJvcjo65peg5rOV6L+b5YWlICRPVyI7IGV4aXQgMTsgfQoKIyDlj6rnnIvmnoTlu7rohJrmnKzmnKzouqvvvJpidWlsZF9kaXIgLyBzdGFnaW5nX2RpciDph4zmmK/op6Pljovlh7rmnaXnmoTlia/mnKzvvIzmlLnkuobmsqHnlKgKTElTVD0kKGdyZXAgLXJsRSAtLSAnLS1mcm96ZW58LS1vZmZsaW5lJyBcCiAgICAgICAgIC0taW5jbHVkZT1NYWtlZmlsZSAtLWluY2x1ZGU9JyoubWsnIFwKICAgICAgICAgcGFja2FnZSBmZWVkcyAyPi9kZXYvbnVsbCBcCiAgICAgICB8IGdyZXAgLXYgLWUgJy9idWlsZF9kaXIvJyAtZSAnL3N0YWdpbmdfZGlyLycgfHwgdHJ1ZSkKCmlmIFsgLXogIiRMSVNUIiBdOyB0aGVuCiAgZWNobyAi5qCR6YeM5rKh5pyJIE1ha2VmaWxlIOS9v+eUqCAtLWZyb3plbiAvIC0tb2ZmbGluZe+8jOi3s+i/hyIKICBleGl0IDAKZmkKCmVjaG8gIj09PT09IOS7peS4i+aWh+S7tuWMheWQq+emu+e6v+WPguaVsCA9PT09PSIKcHJpbnRmICclc1xuJyAiJExJU1QiIHwgc2VkICdzL14vICAvJwoKQ0hBTkdFRD0wCndoaWxlIElGUz0gcmVhZCAtciBmOyBkbwogIFsgLW4gIiRmIiBdIHx8IGNvbnRpbnVlCiAgWyAtZiAiJGYiIF0gfHwgY29udGludWUKICAjIOWPquacieecn+eahOaUueS6huaJjeiuoeaVsO+8mnNlZCDlkI7mr5Tlr7nkuIDkuIsKICBCRUZPUkU9JChtZDVzdW0gIiRmIiB8IGN1dCAtZCcgJyAtZjEpCiAgc2VkIC1pICdzLy0tZnJvemVuLy9nOyBzLy0tb2ZmbGluZS8vZycgIiRmIgogIEFGVEVSPSQobWQ1c3VtICIkZiIgfCBjdXQgLWQnICcgLWYxKQogIGlmIFsgIiRCRUZPUkUiICE9ICIkQUZURVIiIF07IHRoZW4KICAgIENIQU5HRUQ9JCgoQ0hBTkdFRCArIDEpKQogICAgZWNobyAi5bey5pS+5a69OiAkZiIKICAgICMg5oqK5pS55a6M55qE6YKj5Yeg6KGM5omT5Ye65p2l77yM5pa55L6/5qC45a+55rKh5oqK5Yir55qE5Y+C5pWw5LiA6LW35ZCD5o6JCiAgICBncmVwIC1uRSAnY2FyZ28gKGluc3RhbGx8YnVpbGR8ZmV0Y2gpJyAiJGYiIHwgaGVhZCAtMyB8IHNlZCAncy9eLyAgICAvJwogIGZpCmRvbmUgPDw8ICIkTElTVCIKCmVjaG8gIuWFseWkhOeQhiAkQ0hBTkdFRCDkuKrmlofku7bvvIgtLWxvY2tlZCDkv53nlZnvvIzku4XljrvmjonnpoHmraLogZTnvZHnmoTpg6jliIbvvIkiCgojIOWkjeaguO+8mui/mOacieayoeaciea8j+e9keeahO+8iOavlOWmguWPguaVsOiiq+aLvOWcqOWPmOmHj+mHjOOAgei3qOihjOe7reihjO+8iQpMRUZUPSQoZ3JlcCAtcmxFIC0tICctLWZyb3plbnwtLW9mZmxpbmUnIFwKICAgICAgICAgLS1pbmNsdWRlPU1ha2VmaWxlIC0taW5jbHVkZT0nKi5taycgXAogICAgICAgICBwYWNrYWdlIGZlZWRzIDI+L2Rldi9udWxsIFwKICAgICAgIHwgZ3JlcCAtdiAtZSAnL2J1aWxkX2Rpci8nIC1lICcvc3RhZ2luZ19kaXIvJyB8fCB0cnVlKQppZiBbIC1uICIkTEVGVCIgXTsgdGhlbgogIGVjaG8gIjo6d2FybmluZzo65LuN5pyJ5paH5Lu25YyF5ZCr56a757q/5Y+C5pWw77yI5Y+v6IO95piv6Leo6KGM5ou85o6l77yM6ZyA5Lq65bel56Gu6K6k77yJ77yaIgogIHByaW50ZiAnJXNcbicgIiRMRUZUIiB8IHNlZCAncy9eLyAgLycKZmkKCmV4aXQgMAo=
+#!/usr/bin/env bash
+# =============================================================
+# patch-cargo-offline.sh —— 放宽 rust 包的「禁止联网」限制
+#
+#   背景：h3c-fttr-tools 的 Makefile 用 cargo install --locked --frozen。
+#   --frozen = 锁版本 + 禁止联网，只认 CARGO_HOME(dl/cargo) 里已有的 crate；
+#   而 dl/cargo 从缓存继承（只增不减），上游在 Cargo.lock 加新依赖时缓存里没有：
+#     Caused by: failed to download `core_detect v1.0.0`
+#     Caused by: attempting to make an HTTP request, but --frozen was specified
+#   现象是编到一半某个 rust 包必挂，换机型、换缓存都复现。
+#
+#   这里只摘掉 --frozen / --offline，--locked 保留（版本仍锁死，结果可复现）。
+# ⚠ 这是 CI 侧兜底。更正统的做法在包侧：Build/Prepare 里 cargo fetch --locked
+#   把 crate 拉进 CARGO_HOME，编译阶段再用 --frozen。
+#   用法: bash patch-cargo-offline.sh <openwrt_dir>
+# =============================================================
+
+set -u
+
+OW="${1:-$PWD}"
+cd "$OW" || { echo "::error::无法进入 $OW"; exit 1; }
+
+# 只看构建脚本本身：build_dir / staging_dir 里是解压出来的副本，改了没用
+LIST=$(grep -rlE -- '--frozen|--offline' \
+         --include=Makefile --include='*.mk' \
+         package feeds 2>/dev/null \
+       | grep -v -e '/build_dir/' -e '/staging_dir/' || true)
+
+if [ -z "$LIST" ]; then
+  echo "树里没有 Makefile 使用 --frozen / --offline，跳过"
+  exit 0
+fi
+
+echo "===== 以下文件包含离线参数 ====="
+printf '%s\n' "$LIST" | sed 's/^/  /'
+
+CHANGED=0
+while IFS= read -r f; do
+  [ -n "$f" ] || continue
+  [ -f "$f" ] || continue
+  # 只有真的改了才计数：sed 后比对一下
+  BEFORE=$(md5sum "$f" | cut -d' ' -f1)
+  sed -i 's/--frozen//g; s/--offline//g' "$f"
+  AFTER=$(md5sum "$f" | cut -d' ' -f1)
+  if [ "$BEFORE" != "$AFTER" ]; then
+    CHANGED=$((CHANGED + 1))
+    echo "已放宽: $f"
+    # 把改完的那几行打出来，方便核对没把别的参数一起吃掉
+    grep -nE 'cargo (install|build|fetch)' "$f" | head -3 | sed 's/^/    /'
+  fi
+done <<< "$LIST"
+
+echo "共处理 $CHANGED 个文件（--locked 保留，仅去掉禁止联网的部分）"
+
+# 复核：还有没有漏网的（比如参数被拼在变量里、跨行续行）
+LEFT=$(grep -rlE -- '--frozen|--offline' \
+         --include=Makefile --include='*.mk' \
+         package feeds 2>/dev/null \
+       | grep -v -e '/build_dir/' -e '/staging_dir/' || true)
+if [ -n "$LEFT" ]; then
+  echo "::warning::仍有文件包含离线参数（可能是跨行拼接，需人工确认）："
+  printf '%s\n' "$LEFT" | sed 's/^/  /'
+fi
+
+exit 0
