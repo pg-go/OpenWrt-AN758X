@@ -1,1 +1,214 @@
-IyEvYmluL3NoCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgIEFONzU4WCAoQWlyb2hhIEFONzU4MSAvIEFONzU4Mykg5Yqg5a+G5Yqg6YCfIOKAlOKAlCDlj6/pgInlop7lvLrooaXkuIEKIyAg6KKrIGRpeS1wYXJ0Mi5zaCDnlKggIi4gLi9zY3JpcHRzL2RpeS1wYXJ0Mi1jcnlwdG8uc2giIHNvdXJjZSDov5vljrvjgIIKIwojICDimqAg54i26ISa5pys5byA5aS05pivIGBzZXQgLWV1byBwaXBlZmFpbGDvvIzmnKzmlofku7blnKjlroPnmoQgc2hlbGwg6YeM6LeR77ya5Lu75L2V5ZG95Luk6L+U5ZueCiMgICAg6Z2eIDAg6YO95Lya6K6pIGRpeS1wYXJ0Mi5zaCDlvZPlnLrpgIDlh7rjgIHliankuIvnmoTml7bljLogLyBvcy1yZWxlYXNlIOetieatpemqpOWFqOS4jeaJp+ihjOOAggojICAgIOaJgOS7peWPr+iDveWksei0peeahOWRveS7pOmDveimgeaUvui/myBpZi98fCDmiJbljIXov5vlh73mlbAgcmV0dXJuIDDvvIzmnKvlsL7mmL7lvI8gcmV0dXJuIDDjgIIKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCiMg6L+95Yqg6aG25bGCIC5jb25maWcg55qE5YyF5byA5YWz77ya5YWI5Yig5ZCM5ZCN5pen6KGM77yI5ZCrICIjIFggaXMgbm90IHNldCLvvInlho3ov73liqDjgIIKIyDku5PlupMgY29uZmlncy8qLmNvbmZpZyDph4zmnKzmnaXlsLHluKbkuoYgY2hhY2hhMjAgLyBsaWItY2hhY2hhMjAg562JIDMg5Liq5YyF77yMCiMg55u05o6lIGNhdCA+PiDkvJrnlZnkuIvph43lpI3ooYzvvIhkZWZjb25maWcg6Jm95Lul5pyA5ZCO5LiA6KGM5Li65YeG77yM5L2GIGRpZmZjb25maWcg6L6T5Ye6CiMg5ZKM5Lq65bel5o6S5p+l6YO95Lya6KKr5bmy5omw77yJ44CCCmFwcGVuZF9wa2coKSB7CiAgZm9yIGt2IGluICIkQCI7IGRvCiAgICBrPSIke2t2JSU9Kn0iCiAgICBzZWQgLWkgIi9eJHtrfT0vZDsgL14jICR7a30gaXMgbm90IHNldFwkL2QiIC5jb25maWcKICAgIHByaW50ZiAnJXNcbicgIiRrdiIgPj4gLmNvbmZpZwogIGRvbmUKfQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOW8gOWFs+m7mOiupOWAvAo6ICIke09QVF9DUllQVE9fQVJNNjRDRTo9MH0iCjogIiR7T1BUX0NSWVBUT19DSEFDSEE6PTB9Igo6ICIke09QVF9DUllQVE9fRUlQOTM6PTB9IgoKZWNobyAiOjpncm91cDo65Yqg5a+G5Yqg6YCf5Y+v6YCJ5YyFIChBUk02NENFPSRPUFRfQ1JZUFRPX0FSTTY0Q0UgQ0hBQ0hBPSRPUFRfQ1JZUFRPX0NIQUNIQSBFSVA5Mz0kT1BUX0NSWVBUT19FSVA5MykiCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDmjqLmtYsgU29DIC8g5py65Z6LCiMgQU43NTgxIOaXoCBBUk12OCBBRVMg5oyH5Luk77yM5Y+q6IO96LWwIE5FT04g5L2N5YiH54mH77ybQU43NTgzIOaciSBhZXMvcG11bGwvc2hhMS9zaGEy77yMCiMg5Y+v5Lul6LWwIENyeXB0byBFeHRlbnNpb25z44CCCiMKIyDimqAg5LyY5YWI57qn77ya5aSW6YOo5Lyg5YWl55qEIFNPQyA+IFNPQ19PVkVSUklERSA+IOiHquWKqOaOoua1i+OAggojICAg5L2g55qEIHdvcmtmbG93IOWcqCAiUmVzb2x2ZSBkZXZpY2UgcHJvZmlsZSIg5q2l6aqk6YeM5bey57uP5oyJ5py65Z6L5qCh5q2j6L+HIFNPQyDlubYKIyAgIOWGmei/myBHSVRIVUJfRU5W77yMZGl5LXBhcnQyLnNoIOaJp+ihjOaXtiAkU09DIOWwseaYr+WHhueahOOAguacrOaWh+S7tuaYr+iiqyBzb3VyY2Ug55qE77yMCiMgICDnm7TmjqXotYvlgLwgU09DPSDkvJrmlLnlhpnniLbohJrmnKznmoTlkIzlkI3lj5jph4/igJTigJTmiYDku6Xlv4XpobvlhYjorqTlpJbpg6jlgLzvvIzkuI3opoHnm7LnjJzjgIIKZGV0ZWN0X3NvYygpIHsKICBjYXNlICIke1NPQzotfSIgaW4KICAgIGFuNzU4MXxhbjc1ODMpIGVjaG8gIiRTT0MiOyByZXR1cm4gOzsKICBlc2FjCiAgaWYgWyAtbiAiJHtTT0NfT1ZFUlJJREU6LX0iIF07IHRoZW4KICAgIGVjaG8gIiRTT0NfT1ZFUlJJREUiCiAgICByZXR1cm4KICBmaQogIGlmIFsgLWYgLmNvbmZpZyBdOyB0aGVuCiAgICAjIOmmlumAiSBDT05GSUdfVEFSR0VUX1NVQlRBUkdFVO+8muWUr+S4gOS4lOaYjuehru+8jOS4jeS8muiiqyAiaXMgbm90IHNldCIg5bmy5omwCiAgICBpZiBncmVwIC1xICdeQ09ORklHX1RBUkdFVF9TVUJUQVJHRVQ9ImFuNzU4MyInIC5jb25maWc7IHRoZW4KICAgICAgZWNobyAiYW43NTgzIjsgcmV0dXJuCiAgICBmaQogICAgaWYgZ3JlcCAtcSAnXkNPTkZJR19UQVJHRVRfU1VCVEFSR0VUPSJhbjc1ODEiJyAuY29uZmlnOyB0aGVuCiAgICAgIGVjaG8gImFuNzU4MSI7IHJldHVybgogICAgZmkKICAgICMg5qyh6YCJ77ya5Y+q6K6kICI9eSLvvIzpgb/lhY3ljLnphY3liLAgIiMgQ09ORklHX1RBUkdFVF9haXJvaGFfYW43NTgzIGlzIG5vdCBzZXQiCiAgICBpZiBncmVwIC1xICdeQ09ORklHX1RBUkdFVF9haXJvaGFfYW43NTgzPXknIC5jb25maWc7IHRoZW4KICAgICAgZWNobyAiYW43NTgzIjsgcmV0dXJuCiAgICBmaQogICAgaWYgZ3JlcCAtcSAnXkNPTkZJR19UQVJHRVRfYWlyb2hhX2FuNzU4MT15JyAuY29uZmlnOyB0aGVuCiAgICAgIGVjaG8gImFuNzU4MSI7IHJldHVybgogICAgZmkKICAgICMg5py65Z6LIHByb2ZpbGUg5YWc5bqV77yaQU43NTgzIOebruWJjeWPquaciSBub2tpYV94Zy0wNDBnLW1mCiAgICBpZiBncmVwIC1xaSAnREVWSUNFX25va2lhX3hnLTA0MGctbWYnIC5jb25maWc7IHRoZW4KICAgICAgZWNobyAiYW43NTgzIjsgcmV0dXJuCiAgICBmaQogIGZpCiAgZWNobyAiYW43NTgxIgp9CgpTT0M9IiQoZGV0ZWN0X3NvYykiCmVjaG8gIuajgOa1i+WIsCBTb0M6ICRTT0MiCgojIOmhtuWxgiAuY29uZmlnIOW/hemhu+W3suWtmOWcqO+8iOeUsSBMb2FkIGN1c3RvbSBjb25maWd1cmF0aW9uIOatpemqpOeUn+aIkO+8ie+8jAojIOWQpuWImSBjYXQgPj4g5Lya5Yet56m65bu65Ye65LiA5Liq5Y+q5pyJ5Yeg6KGM5YyF55qE5q6L57y6IC5jb25maWfvvIzlkI7nu60gZGVmY29uZmlnIOaKigojIOaVtOS4quacuuWei+mFjee9ruWGsuaOieOAggppZiBbICEgLWYgLmNvbmZpZyBdOyB0aGVuCiAgZWNobyAiOjp3YXJuaW5nOjrlvZPliY3nm67lvZXmsqHmnIkgLmNvbmZpZ++8jOi3s+i/h+WPr+mAieWMhei/veWKoO+8iGN3ZD0kUFdE77yJIgogIGVjaG8gIjo6ZW5kZ3JvdXA6OiIKICByZXR1cm4gMCAyPi9kZXYvbnVsbCB8fCBleGl0IDAKZmkKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOWumuS9jSB0YXJnZXQg5YaF5qC4IGNvbmZpZwprZXJuZWxfY2ZnX3BhdGgoKSB7CiAgYmFzZT0idGFyZ2V0L2xpbnV4L2Fpcm9oYSIKICBbIC1kICIkYmFzZSIgXSB8fCB7IGVjaG8gIiI7IHJldHVybjsgfQogICMg5LyY5YWI57K+56Gu5Yy56YWN5a2Q55uu5qCH55uu5b2V77yM5YaN6YCA5Zue5Lu75oSPIGFuNzU4eCDnm67lvZUKICBmb3IgZCBpbiAiJGJhc2UvJFNPQyIgIiRiYXNlL2FuNzU4MSIgIiRiYXNlL2FuNzU4MyI7IGRvCiAgICBpZiBbIC1kICIkZCIgXTsgdGhlbgogICAgICBmPSIkKGxzICIkZCIvY29uZmlnLSogMj4vZGV2L251bGwgfCBoZWFkIC0xKSIKICAgICAgaWYgWyAtbiAiJGYiIF07IHRoZW4gZWNobyAiJGYiOyByZXR1cm47IGZpCiAgICBmaQogIGRvbmUKICAjIOWFnOW6le+8mmdlbmVyaWMg55uu5b2VCiAgZj0iJChscyAiJGJhc2UiL2dlbmVyaWMvY29uZmlnLSogMj4vZGV2L251bGwgfCBoZWFkIC0xKSIKICBlY2hvICIke2Y6LX0iCn0KCktDRkc9IiQoa2VybmVsX2NmZ19wYXRoKSIKCiMg5YaZ5YWl5YaF5qC4IGNvbmZpZ++8muWFiOWIoOaOieWQjOWQjeaXp+ihjO+8iOWQqyAiIyBYIGlzIG5vdCBzZXQi77yJ77yM5YaN6L+95Yqg77yM6YG/5YWN6YeN5aSNCnNldF9rY2ZnKCkgewogIGZpbGU9IiQxIjsgc2hpZnQKICBpZiBbIC16ICIkZmlsZSIgXSB8fCBbICEgLWYgIiRmaWxlIiBdOyB0aGVuCiAgICBlY2hvICI6Ondhcm5pbmc6OuaJvuS4jeWIsCB0YXJnZXQg5YaF5qC4IGNvbmZpZ++8jOi3s+i/hzogJCoiCiAgICByZXR1cm4KICBmaQogIGZvciBrdiBpbiAiJEAiOyBkbwogICAgaz0iJHtrdiUlPSp9IgogICAgc2VkIC1pICIvXiR7a309L2Q7IC9eIyAke2t9IGlzIG5vdCBzZXRcJC9kIiAiJGZpbGUiCiAgICBwcmludGYgJyVzXG4nICIka3YiID4+ICIkZmlsZSIKICBkb25lCn0KCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IOKRoCDlhoXmoLjnrKblj7fvvJphcm02NCDmsYfnvJblrp7njrAgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CmlmIFsgIiRPUFRfQ1JZUFRPX0FSTTY0Q0UiID0gIjEiIF07IHRoZW4KICBlY2hvICLlhpnlhaUgYXJtNjQg5rGH57yW5Yqg5a+G5a6e546wIChTb0M9JFNPQykgLT4gJHtLQ0ZHOi3mnKrmib7liLB9IgoKICAjIOeUqCBmb3Ig55u05o6l5p6a5Li+77yM5LiN55SoIElGUyArIHNldCAtLeOAggogICMg5pys5paH5Lu26KKrIHNvdXJjZSDml7Ygc2V0IC0tIOS8muaKiueItuiEmuacrCBkaXktcGFydDIuc2gg55qE5L2N572u5Y+C5pWw5riF56m644CCCiAgQ09NTU9OX0tDRkc9IgpDT05GSUdfQVJNNjRfQ1JZUFRPPXkKQ09ORklHX0NSWVBUT19TSU1EPXkKQ09ORklHX0NSWVBUT19DUllQVEQ9eQpDT05GSUdfQ1JZUFRPX0FFU19BUk02ND15CkNPTkZJR19DUllQVE9fU0hBMjU2X0FSTTY0PXkKQ09ORklHX0NSWVBUT19TSEE1MTJfQVJNNjQ9eSIKCiAgaWYgWyAiJFNPQyIgPSAiYW43NTgzIiBdOyB0aGVuCiAgICAjIEFONzU4MzogL3Byb2MvY3B1aW5mbyDmnIkgYWVzIHBtdWxsIHNoYTEgc2hhMu+8jOi1sCBDcnlwdG8gRXh0ZW5zaW9ucwogICAgU09DX0tDRkc9IgpDT05GSUdfQ1JZUFRPX0FFU19BUk02NF9DRT15CkNPTkZJR19DUllQVE9fQUVTX0FSTTY0X0NFX0JMSz15CkNPTkZJR19DUllQVE9fQUVTX0FSTTY0X0NFX0NDTT15CkNPTkZJR19DUllQVE9fR0hBU0hfQVJNNjRfQ0U9eQpDT05GSUdfQ1JZUFRPX1NIQTFfQVJNNjRfQ0U9eQpDT05GSUdfQ1JZUFRPX1NIQTJfQVJNNjRfQ0U9eQpDT05GSUdfQ1JZUFRPX1NIQTUxMl9BUk02NF9DRT15IgogIGVsc2UKICAgICMgQU43NTgxOiDml6AgQUVTIOaMh+S7pO+8jOi1sCBORU9OIOS9jeWIh+eJh++8iGJpdHNsaWNlZCBORU9OIOWcqCBBNTMg5LiK57qmIDIyIGMvQu+8jAogICAgIyDov5zlpb3kuo7moIfph48gYWVzLWdlbmVyaWPvvIkKICAgIFNPQ19LQ0ZHPSIKQ09ORklHX0NSWVBUT19BRVNfQVJNNjRfQlM9eQpDT05GSUdfQ1JZUFRPX0FFU19BUk02NF9ORU9OX0JMSz15IgogIGZpCgogIGlmIFsgLW4gIiRLQ0ZHIiBdOyB0aGVuCiAgICBmb3Iga3YgaW4gJENPTU1PTl9LQ0ZHICRTT0NfS0NGRzsgZG8KICAgICAgc2V0X2tjZmcgIiRLQ0ZHIiAiJGt2IgogICAgZG9uZQogIGVsc2UKICAgIGVjaG8gIjo6d2FybmluZzo6T1BUX0NSWVBUT19BUk02NENFPTEg5L2G5pyq5a6a5L2N5Yiw5YaF5qC4IGNvbmZpZ++8jOW3sui3s+i/hyIKICBmaQpmaQoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0g4pGhIOWPr+mAieWMhe+8mkNoYUNoYTIwLVBvbHkxMzA1ID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQppZiBbICIkT1BUX0NSWVBUT19DSEFDSEEiID0gIjEiIF07IHRoZW4KICBlY2hvICLov73liqDlj6/pgInljIU6IENoYUNoYTIwLVBvbHkxMzA1IgogICMgYWFyY2g2NCDkuIoga21vZC1jcnlwdG8tbGliLWNoYWNoYTIwIOS8muiHquWKqOW4piBDT05GSUdfQ1JZUFRPX0NIQUNIQTIwX05FT07vvIwKICAjIGNoYWNoYTIwcG9seTEzMDUg5ZCM55CG77yMTkVPTiDniYjml6DpnIDmiYvlhpnlhoXmoLjnrKblj7fjgIIKICBhcHBlbmRfcGtnIFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0by1saWItY2hhY2hhMjA9eSBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8tbGliLWNoYWNoYTIwcG9seTEzMDU9eSBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8tY2hhY2hhMjBwb2x5MTMwNT15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0by1saWItcG9seTEzMDU9eSBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8tbGliLWN1cnZlMjU1MTk9eSBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8ta3BwPXkgXAogIENPTkZJR19QQUNLQUdFX2ttb2QtY3J5cHRvLWVjZGg9eSBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8tZ2NtPXkgXAogIENPTkZJR19QQUNLQUdFX2ttb2QtY3J5cHRvLWNjbT15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0by1jdHI9eSBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8tY2JjPXkgXAogIENPTkZJR19QQUNLQUdFX2ttb2QtY3J5cHRvLXh0cz15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0by1zZXFpdj15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0by1lY2hhaW5pdj15CmZpCgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSDikaIg5Y+v6YCJ5YyF77yaRUlQOTMg56Gs5Lu25byV5pOOID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQppZiBbICIkT1BUX0NSWVBUT19FSVA5MyIgPSAiMSIgXTsgdGhlbgogIGVjaG8gIui/veWKoOWPr+mAieWMhTogRUlQOTMg56Gs5Lu25Yqg5a+G5byV5pOOIgogICMg6K+05piO77yaQU43NTgxIOWGhee9riBFSVA5MyAoY3J5cHRvQDFlMDA0MDAwLCBjb21wYXRpYmxlIGFpcm9oYSxlbjc1ODEtZWlwOTMp44CCCiAgIyDkvYblroPlj6rlnKjlpKfljIXkuIrliJLnrpfvvJrlrp7mtYsgQUVTIOmcgCDiiaU1MTIg5a2X6IqC5omN5b+r6L+H6L2v5Lu277yMTUQ1L1NIQTEvU0hBMiDlhajlsLrlr7gKICAjIOmDveaYr+i9r+S7tuabtOW/q+OAguS7o+eQhuexu+Wwj+WMheWcuuaZr+W8gOedgOWPjeiAjOabtOaFou+8jOaJgOS7pem7mOiupOWFs+OAggogIGFwcGVuZF9wa2cgXAogIENPTkZJR19QQUNLQUdFX2ttb2QtY3J5cHRvLWh3LWVpcDkzPXkgXAogIENPTkZJR19QQUNLQUdFX2ttb2QtY3J5cHRvLWF1dGhlbmM9eSBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8tZGVzPXkgXAogIENPTkZJR19QQUNLQUdFX2ttb2QtY3J5cHRvLW1kNT15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0by1zaGExPXkgXAogIENPTkZJR19QQUNLQUdFX2ttb2QtY3J5cHRvLXNoYTI1Nj15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0by1zaGE1MTI9eSBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8taG1hYz15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0by1tYW5hZ2VyPXkgXAogIENPTkZJR19QQUNLQUdFX2ttb2QtY3J5cHRvLWhhc2g9eSBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8tYWVhZD15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0by1udWxsPXkgXAogIENPTkZJR19QQUNLQUdFX2ttb2QtY3J5cHRvLXJuZz15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLXJhbmRvbS1jb3JlPXkKCiAgIyDlhoXmoLjkvqfvvJrnoa7kv50gQ09ORklHX0NSWVBUT19IVyDmiZPlvIDvvIzlkKbliJkga21vZCDnvJbkuI3lh7rmnaUKICBzZXRfa2NmZyAiJEtDRkciICJDT05GSUdfQ1JZUFRPX0hXPXkiCmZpCgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSDikaMg55So5oi35oCBIC9kZXYvY3J5cHRvIOaOpeWPo++8iOmaj+S7u+S4gOW8gOWFs+W8gO+8iSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KaWYgWyAiJE9QVF9DUllQVE9fRUlQOTMiID0gIjEiIF0gfHwgWyAiJE9QVF9DUllQVE9fQ0hBQ0hBIiA9ICIxIiBdOyB0aGVuCiAgYXBwZW5kX3BrZyBcCiAgQ09ORklHX1BBQ0tBR0Vfa21vZC1jcnlwdG8tdXNlcj15IFwKICBDT05GSUdfUEFDS0FHRV9rbW9kLWNyeXB0b2Rldj15IFwKICBDT05GSUdfUEFDS0FHRV9saWJvcGVuc3NsLWRldmNyeXB0bz15CmZpCgplY2hvICI6OmVuZGdyb3VwOjoiCgojIOato+W4uOi3r+W+hOS5n+imgeaYvuW8jyByZXR1cm4gMO+8mueItuiEmuacrCBzZXQgLWUg5LiL77yM5pyr5bC+6Iul5q6L55WZ5LiK5LiA5p2h5ZG95Luk55qECiMg6Z2eIDAg54q25oCB5Lya6K6pIGRpeS1wYXJ0Mi5zaCDlvZPlnLrpgIDlh7rjgIIgc291cmNlZCDml7YgcmV0dXJu77yM55u05o6l5omn6KGM5pe2IGV4aXTjgIIKcmV0dXJuIDAgMj4vZGV2L251bGwgfHwgZXhpdCAwCg==
+#!/bin/sh
+# ==============================================================================
+#  AN758X (Airoha AN7581 / AN7583) 加密加速 —— 可选增强补丁
+#  被 diy-part2.sh 用 ". ./scripts/diy-part2-crypto.sh" source 进去。
+#
+#  ⚠ 父脚本开头是 `set -euo pipefail`，本文件在它的 shell 里跑：任何命令返回
+#    非 0 都会让 diy-part2.sh 当场退出、剩下的时区 / os-release 等步骤全不执行。
+#    所以可能失败的命令都要放进 if/|| 或包进函数 return 0，末尾显式 return 0。
+# ==============================================================================
+
+# 追加顶层 .config 的包开关：先删同名旧行（含 "# X is not set"）再追加。
+# 仓库 configs/*.config 里本来就带了 chacha20 / lib-chacha20 等 3 个包，
+# 直接 cat >> 会留下重复行（defconfig 虽以最后一行为准，但 diffconfig 输出
+# 和人工排查都会被干扰）。
+append_pkg() {
+  for kv in "$@"; do
+    k="${kv%%=*}"
+    sed -i "/^${k}=/d; /^# ${k} is not set\$/d" .config
+    printf '%s\n' "$kv" >> .config
+  done
+}
+
+# ---------------------------------------------------------------- 开关默认值
+: "${OPT_CRYPTO_ARM64CE:=0}"
+: "${OPT_CRYPTO_CHACHA:=0}"
+: "${OPT_CRYPTO_EIP93:=0}"
+
+echo "::group::加密加速可选包 (ARM64CE=$OPT_CRYPTO_ARM64CE CHACHA=$OPT_CRYPTO_CHACHA EIP93=$OPT_CRYPTO_EIP93)"
+
+# ------------------------------------------------------------ 探测 SoC / 机型
+# AN7581 无 ARMv8 AES 指令，只能走 NEON 位切片；AN7583 有 aes/pmull/sha1/sha2，
+# 可以走 Crypto Extensions。
+#
+# ⚠ 优先级：外部传入的 SOC > SOC_OVERRIDE > 自动探测。
+#   你的 workflow 在 "Resolve device profile" 步骤里已经按机型校正过 SOC 并
+#   写进 GITHUB_ENV，diy-part2.sh 执行时 $SOC 就是准的。本文件是被 source 的，
+#   直接赋值 SOC= 会改写父脚本的同名变量——所以必须先认外部值，不要盲猜。
+detect_soc() {
+  case "${SOC:-}" in
+    an7581|an7583) echo "$SOC"; return ;;
+  esac
+  if [ -n "${SOC_OVERRIDE:-}" ]; then
+    echo "$SOC_OVERRIDE"
+    return
+  fi
+  if [ -f .config ]; then
+    # 首选 CONFIG_TARGET_SUBTARGET：唯一且明确，不会被 "is not set" 干扰
+    if grep -q '^CONFIG_TARGET_SUBTARGET="an7583"' .config; then
+      echo "an7583"; return
+    fi
+    if grep -q '^CONFIG_TARGET_SUBTARGET="an7581"' .config; then
+      echo "an7581"; return
+    fi
+    # 次选：只认 "=y"，避免匹配到 "# CONFIG_TARGET_airoha_an7583 is not set"
+    if grep -q '^CONFIG_TARGET_airoha_an7583=y' .config; then
+      echo "an7583"; return
+    fi
+    if grep -q '^CONFIG_TARGET_airoha_an7581=y' .config; then
+      echo "an7581"; return
+    fi
+    # 机型 profile 兜底：AN7583 目前只有 nokia_xg-040g-mf
+    if grep -qi 'DEVICE_nokia_xg-040g-mf' .config; then
+      echo "an7583"; return
+    fi
+  fi
+  echo "an7581"
+}
+
+SOC="$(detect_soc)"
+echo "检测到 SoC: $SOC"
+
+# 顶层 .config 必须已存在（由 Load custom configuration 步骤生成），
+# 否则 cat >> 会凭空建出一个只有几行包的残缺 .config，后续 defconfig 把
+# 整个机型配置冲掉。
+if [ ! -f .config ]; then
+  echo "::warning::当前目录没有 .config，跳过可选包追加（cwd=$PWD）"
+  echo "::endgroup::"
+  return 0 2>/dev/null || exit 0
+fi
+
+# --------------------------------------------------- 定位 target 内核 config
+kernel_cfg_path() {
+  base="target/linux/airoha"
+  [ -d "$base" ] || { echo ""; return; }
+  # 优先精确匹配子目标目录，再退回任意 an758x 目录
+  for d in "$base/$SOC" "$base/an7581" "$base/an7583"; do
+    if [ -d "$d" ]; then
+      f="$(ls "$d"/config-* 2>/dev/null | head -1)"
+      if [ -n "$f" ]; then echo "$f"; return; fi
+    fi
+  done
+  # 兜底：generic 目录
+  f="$(ls "$base"/generic/config-* 2>/dev/null | head -1)"
+  echo "${f:-}"
+}
+
+KCFG="$(kernel_cfg_path)"
+
+# 写入内核 config：先删掉同名旧行（含 "# X is not set"），再追加，避免重复
+set_kcfg() {
+  file="$1"; shift
+  if [ -z "$file" ] || [ ! -f "$file" ]; then
+    echo "::warning::找不到 target 内核 config，跳过: $*"
+    return
+  fi
+  for kv in "$@"; do
+    k="${kv%%=*}"
+    sed -i "/^${k}=/d; /^# ${k} is not set\$/d" "$file"
+    printf '%s\n' "$kv" >> "$file"
+  done
+}
+
+# ============================== ① 内核符号：arm64 汇编实现 ==============================
+if [ "$OPT_CRYPTO_ARM64CE" = "1" ]; then
+  echo "写入 arm64 汇编加密实现 (SoC=$SOC) -> ${KCFG:-未找到}"
+
+  # 用 for 直接枚举，不用 IFS + set --。
+  # 本文件被 source 时 set -- 会把父脚本 diy-part2.sh 的位置参数清空。
+  COMMON_KCFG="
+CONFIG_ARM64_CRYPTO=y
+CONFIG_CRYPTO_SIMD=y
+CONFIG_CRYPTO_CRYPTD=y
+CONFIG_CRYPTO_AES_ARM64=y
+CONFIG_CRYPTO_SHA256_ARM64=y
+CONFIG_CRYPTO_SHA512_ARM64=y"
+
+  if [ "$SOC" = "an7583" ]; then
+    # AN7583: /proc/cpuinfo 有 aes pmull sha1 sha2，走 Crypto Extensions
+    SOC_KCFG="
+CONFIG_CRYPTO_AES_ARM64_CE=y
+CONFIG_CRYPTO_AES_ARM64_CE_BLK=y
+CONFIG_CRYPTO_AES_ARM64_CE_CCM=y
+CONFIG_CRYPTO_GHASH_ARM64_CE=y
+CONFIG_CRYPTO_SHA1_ARM64_CE=y
+CONFIG_CRYPTO_SHA2_ARM64_CE=y
+CONFIG_CRYPTO_SHA512_ARM64_CE=y"
+  else
+    # AN7581: 无 AES 指令，走 NEON 位切片（bitsliced NEON 在 A53 上约 22 c/B，
+    # 远好于标量 aes-generic）
+    SOC_KCFG="
+CONFIG_CRYPTO_AES_ARM64_BS=y
+CONFIG_CRYPTO_AES_ARM64_NEON_BLK=y"
+  fi
+
+  if [ -n "$KCFG" ]; then
+    for kv in $COMMON_KCFG $SOC_KCFG; do
+      set_kcfg "$KCFG" "$kv"
+    done
+  else
+    echo "::warning::OPT_CRYPTO_ARM64CE=1 但未定位到内核 config，已跳过"
+  fi
+fi
+
+# ============================== ② 可选包：ChaCha20-Poly1305 ==============================
+if [ "$OPT_CRYPTO_CHACHA" = "1" ]; then
+  echo "追加可选包: ChaCha20-Poly1305"
+  # aarch64 上 kmod-crypto-lib-chacha20 会自动带 CONFIG_CRYPTO_CHACHA20_NEON，
+  # chacha20poly1305 同理，NEON 版无需手写内核符号。
+  append_pkg \
+  CONFIG_PACKAGE_kmod-crypto-lib-chacha20=y \
+  CONFIG_PACKAGE_kmod-crypto-lib-chacha20poly1305=y \
+  CONFIG_PACKAGE_kmod-crypto-chacha20poly1305=y \
+  CONFIG_PACKAGE_kmod-crypto-lib-poly1305=y \
+  CONFIG_PACKAGE_kmod-crypto-lib-curve25519=y \
+  CONFIG_PACKAGE_kmod-crypto-kpp=y \
+  CONFIG_PACKAGE_kmod-crypto-ecdh=y \
+  CONFIG_PACKAGE_kmod-crypto-gcm=y \
+  CONFIG_PACKAGE_kmod-crypto-ccm=y \
+  CONFIG_PACKAGE_kmod-crypto-ctr=y \
+  CONFIG_PACKAGE_kmod-crypto-cbc=y \
+  CONFIG_PACKAGE_kmod-crypto-xts=y \
+  CONFIG_PACKAGE_kmod-crypto-seqiv=y \
+  CONFIG_PACKAGE_kmod-crypto-echainiv=y
+fi
+
+# ============================== ③ 可选包：EIP93 硬件引擎 ==============================
+if [ "$OPT_CRYPTO_EIP93" = "1" ]; then
+  echo "追加可选包: EIP93 硬件加密引擎"
+  # 说明：AN7581 内置 EIP93 (crypto@1e004000, compatible airoha,en7581-eip93)。
+  # 但它只在大包上划算：实测 AES 需 ≥512 字节才快过软件，MD5/SHA1/SHA2 全尺寸
+  # 都是软件更快。代理类小包场景开着反而更慢，所以默认关。
+  append_pkg \
+  CONFIG_PACKAGE_kmod-crypto-hw-eip93=y \
+  CONFIG_PACKAGE_kmod-crypto-authenc=y \
+  CONFIG_PACKAGE_kmod-crypto-des=y \
+  CONFIG_PACKAGE_kmod-crypto-md5=y \
+  CONFIG_PACKAGE_kmod-crypto-sha1=y \
+  CONFIG_PACKAGE_kmod-crypto-sha256=y \
+  CONFIG_PACKAGE_kmod-crypto-sha512=y \
+  CONFIG_PACKAGE_kmod-crypto-hmac=y \
+  CONFIG_PACKAGE_kmod-crypto-manager=y \
+  CONFIG_PACKAGE_kmod-crypto-hash=y \
+  CONFIG_PACKAGE_kmod-crypto-aead=y \
+  CONFIG_PACKAGE_kmod-crypto-null=y \
+  CONFIG_PACKAGE_kmod-crypto-rng=y \
+  CONFIG_PACKAGE_kmod-random-core=y
+
+  # 内核侧：确保 CONFIG_CRYPTO_HW 打开，否则 kmod 编不出来
+  set_kcfg "$KCFG" "CONFIG_CRYPTO_HW=y"
+fi
+
+# ============================== ④ 用户态 /dev/crypto 接口（随任一开关开） ==============================
+if [ "$OPT_CRYPTO_EIP93" = "1" ] || [ "$OPT_CRYPTO_CHACHA" = "1" ]; then
+  append_pkg \
+  CONFIG_PACKAGE_kmod-crypto-user=y \
+  CONFIG_PACKAGE_kmod-cryptodev=y \
+  CONFIG_PACKAGE_libopenssl-devcrypto=y
+fi
+
+echo "::endgroup::"
+
+# 正常路径也要显式 return 0：父脚本 set -e 下，末尾若残留上一条命令的
+# 非 0 状态会让 diy-part2.sh 当场退出。 sourced 时 return，直接执行时 exit。
+return 0 2>/dev/null || exit 0
