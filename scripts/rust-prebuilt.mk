@@ -1,1 +1,30 @@
-IyBTUERYLUxpY2Vuc2UtSWRlbnRpZmllcjogTUlUCiMg5Y+C54WnIFZJS0lOR1lGWS9PcGVuV1JULUNJIOeahCBydXN0LXByZWJ1aWx0Lm1rCiMKIyDkv53nlZkgT3BlbldydCDmraPluLjnmoQgaG9zdCBzdGFtcO+8jOS9huS4jeS4i+i9vea6kOeggeOAgeS4jeiHquS4vuOAggojIEhvc3QvQ29tcGlsZSDlj6rmiZPljbDniYjmnKzvvIxIb3N0L0luc3RhbGwg5Y+q5YGa5LiJ5Liq56ym5Y+36ZO+5o6l44CCCiMg6L+Z5qC3IHJ1c3RjIOeahCAzMH42MCDliIbpkp/oh6rkuL7lj5jmiJDlh6Dnp5LjgIIKClBLR19TT1VSQ0U6PQpQS0dfU09VUkNFX1VSTDo9CgpkZWZpbmUgSG9zdC9QcmVwYXJlCmVuZGVmCgpkZWZpbmUgSG9zdC9Db25maWd1cmUKZW5kZWYKCmRlZmluZSBIb3N0L0NvbXBpbGUKCSIkKENJX1JVU1RfUk9PVCkvYmluL3J1c3RjIiAtLXZlcnNpb24KZW5kZWYKCmRlZmluZSBIb3N0L0luc3RhbGwKCSQoSU5TVEFMTF9ESVIpICQoU1RBR0lOR19ESVIpL2hvc3QvYmluCglsbiAtc2ZuICIkKENJX1JVU1RfUk9PVCkvYmluL2NhcmdvIiAiJChTVEFHSU5HX0RJUikvaG9zdC9iaW4vY2FyZ28iCglsbiAtc2ZuICIkKENJX1JVU1RfUk9PVCkvYmluL3J1c3RjIiAiJChTVEFHSU5HX0RJUikvaG9zdC9iaW4vcnVzdGMiCglsbiAtc2ZuICIkKENJX1JVU1RfUk9PVCkvYmluL3J1c3Rkb2MiICIkKFNUQUdJTkdfRElSKS9ob3N0L2Jpbi9ydXN0ZG9jIgplbmRlZgoKZGVmaW5lIEhvc3QvVW5pbnN0YWxsCglybSAtZiAkKGFkZHByZWZpeCAkKFNUQUdJTkdfRElSKS9ob3N0L2Jpbi8sY2FyZ28gcnVzdGMgcnVzdGRvYykKZW5kZWYK
+# SPDX-License-Identifier: MIT
+# 参照 VIKINGYFY/OpenWRT-CI 的 rust-prebuilt.mk
+#
+# 保留 OpenWrt 正常的 host stamp，但不下载源码、不自举。
+# Host/Compile 只打印版本，Host/Install 只做三个符号链接。
+# 这样 rustc 的 30~60 分钟自举变成几秒。
+
+PKG_SOURCE:=
+PKG_SOURCE_URL:=
+
+define Host/Prepare
+endef
+
+define Host/Configure
+endef
+
+define Host/Compile
+	"$(CI_RUST_ROOT)/bin/rustc" --version
+endef
+
+define Host/Install
+	$(INSTALL_DIR) $(STAGING_DIR)/host/bin
+	ln -sfn "$(CI_RUST_ROOT)/bin/cargo" "$(STAGING_DIR)/host/bin/cargo"
+	ln -sfn "$(CI_RUST_ROOT)/bin/rustc" "$(STAGING_DIR)/host/bin/rustc"
+	ln -sfn "$(CI_RUST_ROOT)/bin/rustdoc" "$(STAGING_DIR)/host/bin/rustdoc"
+endef
+
+define Host/Uninstall
+	rm -f $(addprefix $(STAGING_DIR)/host/bin/,cargo rustc rustdoc)
+endef
