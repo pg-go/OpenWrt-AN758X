@@ -1,1 +1,35 @@
-IyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgY2FjaGUtcm9sbC5qcSDigJTigJQg5LuOIGdoIGNhY2hlIGxpc3Qg55qEIEpTT04g6YeM5oyR5Ye644CM6K+l5Yig55qE5pen5Luj44CNCiMKIyAgIOeUqOazle+8mmdoIGNhY2hlIGxpc3QgLVIgPHJlcG8+IC0tbGltaXQgMjAwIC0tanNvbiBpZCxrZXksY3JlYXRlZEF0ID4gYWxsLmpzb24KIyAgICAgICAgIGpxIC1yIC1mIHNjcmlwdHMvY2FjaGUtcm9sbC5qcSBhbGwuanNvbiAgICAgIOKGkiDmr4/ooYwgIjxpZD4JPGtleT4iCiMKIyAgIOS4ieexuyBrZXkg55qE5YiG57uE5pa55byP77yaCiMgICAgIOW3peWFt+mTvue8k+WtmCAgcG9ud3J0LTzmupA+LTzliIbmlK8+LTxzb2M+LTxtb2RlPi08c2hhNDA+ICAgICAg5Yml5pyr5bC+IDQwIOS9jSBzaGEKIyAgICAg5bel5YW36ZO+5pep5pyfICDlkIzkuIogKyAiLWVhcmx5IiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDlhYjliaUgLWVhcmx5IOWGjeWJpSBzaGEKIyAgICAgZGwg57yT5a2YICAgICBwb253cnQtZGwtPOa6kD4tPOWIhuaUrz4tPFlZWVlXVz4gICAgICAgICAgICAgICDliaXmnKvlsL4gNiDkvY3lkajlj7cKIyAgIOS4ieasoSBzdWIg5Liy6LW35p2l6ICM5LiN5piv5q2j5YiZ5oup5LiA77yIYXxi77yJ77yM5Y+q5Li65bCR5LiA5Liq5Ye66ZSZ6Z2i44CCCiMKIyAgIOKYhSDmr4/nu4TkvJjlhYjkv53nlZnjgIzkuI3luKYgLWVhcmx5IOeahOato+W8jyBrZXnjgI3vvJrmraPlvI/niYjlkKvnvJbor5HpmLbmrrXmiY3luKblh7rmnaXnmoQKIyAgICAgaG9zdHBrZ++8jC1lYXJseSDlj6rmnIkgdG9vbHMvdG9vbGNoYWlu77yM5LuF5Zyo6LaF5pe26KKrIGNhbmNlbCDml7bkv53lupXjgIIKIyAgICAg5LiN6IO95Y+q5oyJIGNyZWF0ZWRBdCDlj5bmnIDmlrAg4oCU4oCUIOWQjOaPkOS6pOWPt+mHjei3keaXtiAtZWFybHkg5Y+N6ICM5pu05paw77yM5Lya5oqK5a6M5pW055qECiMgICAgIOato+W8j+eJiOWIoOaOieOAgue7hOWGheS4gOadoeato+W8jyBrZXkg6YO95rKh5pyJ5pe277yM5omN5L+d55WZIC1lYXJseeOAggojICAg4piFIGRsIOWPqueVmeacgOaWsOS4gOS7o++8muWug+WPquWinuS4jeWHj++8jOaWsOS4gOS7o+aYr+aXp+S4gOS7o+eahOi2hembhuOAggojICAgICDvvIjliY3mj5DvvJrlj6rlnKggbWFrZSBkb3dubG9hZCDmiJDlip/lkI7miY3lrZjvvIzop4EgYnVpbGQtcG9ud3J0LnltbOOAgu+8iQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KWyAuW10KICB8IHNlbGVjdCgua2V5IHwgc3RhcnRzd2l0aCgicG9ud3J0LSIpKQpdCnwgZ3JvdXBfYnkoLmtleQogICAgfCBzdWIoIi1lYXJseSQiOyAiIikKICAgIHwgc3ViKCItWzAtOWEtZl17NDB9JCI7ICIiKQogICAgfCBzdWIoIi1bMC05XXs2fSQiOyAiIikpCnwgbWFwKAogICAgKHNvcnRfYnkoLmNyZWF0ZWRBdCkgfCByZXZlcnNlKSBhcyAkZwogICAgfCAoJGcgfCBtYXAoc2VsZWN0KC5rZXkgfCBlbmRzd2l0aCgiLWVhcmx5IikgfCBub3QpKSB8IGZpcnN0KSBhcyAka2VlcAogICAgfCBpZiAka2VlcCB0aGVuICgkZyB8IG1hcChzZWxlY3QoLmtleSAhPSAka2VlcC5rZXkpKSkKICAgICAgZWxzZSAoJGcgfCAuWzE6XSkKICAgICAgZW5kCiAgKQp8IGZsYXR0ZW4KfCAuW10gfCBbLmlkLCAua2V5XSB8IEB0c3YK
+# =============================================================
+# cache-roll.jq —— 从 gh cache list 的 JSON 里挑出「该删的旧代」
+#
+#   用法：gh cache list -R <repo> --limit 200 --json id,key,createdAt > all.json
+#         jq -r -f scripts/cache-roll.jq all.json      → 每行 "<id>	<key>"
+#
+#   三类 key 的分组方式：
+#     工具链缓存  ponwrt-<源>-<分支>-<soc>-<mode>-<sha40>      剥末尾 40 位 sha
+#     工具链早期  同上 + "-early"                               先剥 -early 再剥 sha
+#     dl 缓存     ponwrt-dl-<源>-<分支>-<YYYYWW>               剥末尾 6 位周号
+#   三次 sub 串起来而不是正则择一（a|b），只为少一个出错面。
+#
+#   ★ 每组优先保留「不带 -early 的正式 key」：正式版含编译阶段才带出来的
+#     hostpkg，-early 只有 tools/toolchain，仅在超时被 cancel 时保底。
+#     不能只按 createdAt 取最新 —— 同提交号重跑时 -early 反而更新，会把完整的
+#     正式版删掉。组内一条正式 key 都没有时，才保留 -early。
+#   ★ dl 只留最新一代：它只增不减，新一代是旧一代的超集。
+#     （前提：只在 make download 成功后才存，见 build-ponwrt.yml。）
+# =============================================================
+[ .[]
+  | select(.key | startswith("ponwrt-"))
+]
+| group_by(.key
+    | sub("-early$"; "")
+    | sub("-[0-9a-f]{40}$"; "")
+    | sub("-[0-9]{6}$"; ""))
+| map(
+    (sort_by(.createdAt) | reverse) as $g
+    | ($g | map(select(.key | endswith("-early") | not)) | first) as $keep
+    | if $keep then ($g | map(select(.key != $keep.key)))
+      else ($g | .[1:])
+      end
+  )
+| flatten
+| .[] | [.id, .key] | @tsv
