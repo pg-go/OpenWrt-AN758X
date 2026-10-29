@@ -43,7 +43,8 @@ ADD_POWEROFF=false     # luci-app-poweroffdevice（关机）
 ADD_OWQ_WOL=false      # luci-app-owq-wol（网络唤醒，依赖 etherwake）
 ADD_WATCHDOG=false     # luci-app-watchdog（看门狗，包在子目录，需特殊处理）
 ADD_TASKPLAN=false     # luci-app-taskplan（定时任务）
-ADD_OAF=false          # luci-app-oaf（应用过滤，含内核模块，高风险）ADD_LUCI_APP=true       # qwe-qaq/luci-app 仓库（monorepo）
+ADD_OAF=false          # luci-app-oaf（应用过滤，含内核模块，高风险）
+ADD_LUCI_APP=true      # qwe-qaq/luci-app 仓库（monorepo）
                         #   ├─ luci-app-natmode     NAT 类型三选一（网络 → NAT 类型）
                         #   └─ luci-app-pon-status  PON 光模块卡片（概览页「系统」下一格）
 # 下面这几个开关都能被环境变量覆盖（: ${VAR:=默认} 的写法）：
