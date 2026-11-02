@@ -36,7 +36,11 @@ ADD_LUCKY=true         # luci-app-lucky（DDNS + socat）
 ADD_TAILSCALE=true     # luci-app-tailscale（本体只用 feeds 的 tailscale）
 ADD_OPENLIST=true      # luci-app-openlist2（alist/openlist 挂载）
 ADD_SMARTDNS=true      # luci-app-smartdns（本体只用 feeds 的 smartdns）
-ADD_EASYTIER=true      # luci-app-easytier（另需 kmod-tun + easytier 本体，Rust 编译较慢）
+ADD_EASYTIER=true      # easytier-noweb（预编译二进制）+ luci-app-easytier（子目录拷，不走整仓）
+ADD_HOMI=true          # Homi（用户自有项目）：mihomo 内核 + homi 服务 + luci-app-homi 界面
+ADD_PARTEXP=true       # luci-app-partexp：一键分区扩容/自动挂载（含中文）
+ADD_AURORA=true        # Aurora 主题 + 设置页（eamonxg，预编译产物，整仓拷）
+ADD_HARBOR=true        # luci-app-harbor-file-pro：HarborFile Pro 文件管理（ucode，子目录拷）
 ADD_POWEROFF=true      # luci-app-poweroffdevice（关机）
 ADD_OWQ_WOL=true       # luci-app-owq-wol（网络唤醒，依赖 etherwake）
 ADD_WATCHDOG=true      # luci-app-watchdog（看门狗，包在子目录，需特殊处理）
@@ -318,7 +322,110 @@ if [ "$ADD_FLUENT" = "true" ] || [ "$ADD_FLUENT_LITE" = "true" ] || [ "$ADD_FLUE
 fi
 
 if [ "$ADD_EASYTIER" = "true" ]; then
-  clone https://github.com/EasyTier/luci-app-easytier "$PKG_DIR/luci-app-easytier" main
+  # easytier-noweb：EasyTier 核心的 noweb 变体。Makefile 在编译时直接下载
+  # GitHub Releases 的预编译二进制（aarch64），不走 Rust 源码编译，速度快。
+  # 仓库是 monorepo（easytier/ + easytier-noweb/ + luci-app-easytier/），
+  # 只要 noweb 版 + LuCI 界面，拷出子目录（整仓丢进 package/custom 会让
+  # 包名对不上，参考 luci-app-watchdog 的注释）。
+  ET_TMP="$(mktemp -d)/easytier"
+  if ! clone https://github.com/EasyTier/luci-app-easytier "$ET_TMP" main; then
+    echo "::error::EasyTier/luci-app-easytier 拉取失败，easytier-noweb / luci-app-easytier 会被 defconfig 剔除"
+    exit 1
+  fi
+  for p in easytier-noweb luci-app-easytier; do
+    if [ ! -f "$ET_TMP/$p/Makefile" ]; then
+      echo "::error::$ET_TMP/$p/Makefile 不存在（上游改结构了？）"
+      exit 1
+    fi
+    rm -rf "$PKG_DIR/$p"
+    cp -a "$ET_TMP/$p" "$PKG_DIR/"
+    echo "✅ 已拷贝: $p"
+  done
+  rm -rf "$ET_TMP"
+fi
+
+# --- Homi（用户自有项目：Mihomo 极简 LuCI 应用）---
+# 源：pg-go/Homi。包在三个子目录：mihomo（内核，Go 源码编译 MetaCubeX/mihomo）、
+# homi（服务，DEPENDS +mihomo +yq +curl）、luci-app-homi（界面，中文原生无 po）。
+# 必须拷出子目录。注意 mihomo 是 Go 编译，会给固件构建增加约 10 分钟。
+if [ "$ADD_HOMI" = "true" ]; then
+  HOMI_TMP="$(mktemp -d)/homi"
+  if ! clone https://github.com/pg-go/Homi "$HOMI_TMP" main; then
+    echo "::error::pg-go/Homi 拉取失败，mihomo / homi / luci-app-homi 会被 defconfig 剔除"
+    exit 1
+  fi
+  for p in mihomo homi luci-app-homi; do
+    if [ ! -f "$HOMI_TMP/$p/Makefile" ]; then
+      echo "::error::$HOMI_TMP/$p/Makefile 不存在（上游改结构了？）"
+      exit 1
+    fi
+    rm -rf "$PKG_DIR/$p"
+    cp -a "$HOMI_TMP/$p" "$PKG_DIR/"
+    echo "✅ 已拷贝: $p"
+  done
+  rm -rf "$HOMI_TMP"
+fi
+
+# --- luci-app-partexp（一键分区扩容 / 自动挂载）---
+# 源：sirpdboy/luci-app-partexp。包在子目录 luci-app-partexp/，拷出子目录；
+# 自带 po/zh_Hans 中文（LUCI_BASENAME=partexp → luci-i18n-partexp-zh-cn）。
+if [ "$ADD_PARTEXP" = "true" ]; then
+  PE_TMP="$(mktemp -d)/partexp"
+  if ! clone https://github.com/sirpdboy/luci-app-partexp "$PE_TMP" main; then
+    echo "::error::sirpdboy/luci-app-partexp 拉取失败，luci-app-partexp 会被 defconfig 剔除"
+    exit 1
+  fi
+  if [ ! -f "$PE_TMP/luci-app-partexp/Makefile" ]; then
+    echo "::error::$PE_TMP/luci-app-partexp/Makefile 不存在（上游改结构了？）"
+    exit 1
+  fi
+  rm -rf "$PKG_DIR/luci-app-partexp"
+  cp -a "$PE_TMP/luci-app-partexp" "$PKG_DIR/"
+  echo "✅ 已拷贝: luci-app-partexp"
+  rm -rf "$PE_TMP"
+fi
+
+# --- Aurora 主题 + 设置页 ---
+# 源：eamonxg/luci-theme-aurora（主题，htdocs 已预编译）与
+# eamonxg/luci-app-aurora-config（设置页，要求主题 ≥1.2.0，主题现为 1.4.1）。
+# 两个仓库根目录就是包体（Makefile 在根目录），整仓拷（去掉 .git）。
+# 注意：两仓默认分支是 master，不是 main。
+if [ "$ADD_AURORA" = "true" ]; then
+  for repo in luci-theme-aurora luci-app-aurora-config; do
+    AU_TMP="$(mktemp -d)/aurora"
+    if ! clone "https://github.com/eamonxg/$repo" "$AU_TMP" master; then
+      echo "::error::eamonxg/$repo 拉取失败，$repo 会被 defconfig 剔除"
+      exit 1
+    fi
+    if [ ! -f "$AU_TMP/Makefile" ]; then
+      echo "::error::$AU_TMP/Makefile 不存在（上游改结构了？）"
+      exit 1
+    fi
+    rm -rf "$PKG_DIR/$repo"
+    cp -a "$AU_TMP" "$PKG_DIR/$repo"
+    rm -rf "$PKG_DIR/$repo/.git"
+    echo "✅ 已拷贝: $repo"
+    rm -rf "$AU_TMP"
+  done
+fi
+
+# --- luci-app-harbor-file-pro（HarborFile Pro 文件管理）---
+# 源：whzhni1/luci-app-harbor-file-pro。包在子目录 luci-app-harbor-file-pro/，
+# 拷出子目录；纯 ucode 应用无编译，依赖 rpcd/ucode 系列标准包。
+if [ "$ADD_HARBOR" = "true" ]; then
+  HB_TMP="$(mktemp -d)/harbor"
+  if ! clone https://github.com/whzhni1/luci-app-harbor-file-pro "$HB_TMP" main; then
+    echo "::error::whzhni1/luci-app-harbor-file-pro 拉取失败，luci-app-harbor-file-pro 会被 defconfig 剔除"
+    exit 1
+  fi
+  if [ ! -f "$HB_TMP/luci-app-harbor-file-pro/Makefile" ]; then
+    echo "::error::$HB_TMP/luci-app-harbor-file-pro/Makefile 不存在（上游改结构了？）"
+    exit 1
+  fi
+  rm -rf "$PKG_DIR/luci-app-harbor-file-pro"
+  cp -a "$HB_TMP/luci-app-harbor-file-pro" "$PKG_DIR/"
+  echo "✅ 已拷贝: luci-app-harbor-file-pro"
+  rm -rf "$HB_TMP"
 fi
 if [ "$ADD_POWEROFF" = "true" ]; then
   clone https://github.com/sirpdboy/luci-app-poweroffdevice "$PKG_DIR/luci-app-poweroffdevice" master
@@ -528,6 +635,11 @@ if [ -n "$(ls -A "$PKG_DIR" 2>/dev/null)" ]; then
   [ "$ADD_OPENLIST"  = "true" ] && REQUIRED="$REQUIRED luci-app-openlist2"
   [ "$ADD_SMARTDNS"  = "true" ] && REQUIRED="$REQUIRED luci-app-smartdns"
   [ "$ADD_EASYTIER"  = "true" ] && REQUIRED="$REQUIRED luci-app-easytier"
+  [ "$ADD_EASYTIER"  = "true" ] && REQUIRED="$REQUIRED easytier-noweb"
+  [ "$ADD_HOMI"      = "true" ] && REQUIRED="$REQUIRED mihomo homi luci-app-homi"
+  [ "$ADD_PARTEXP"   = "true" ] && REQUIRED="$REQUIRED luci-app-partexp"
+  [ "$ADD_AURORA"    = "true" ] && REQUIRED="$REQUIRED luci-theme-aurora luci-app-aurora-config"
+  [ "$ADD_HARBOR"    = "true" ] && REQUIRED="$REQUIRED luci-app-harbor-file-pro"
   [ "$ADD_POWEROFF"  = "true" ] && REQUIRED="$REQUIRED luci-app-poweroffdevice"
   [ "$ADD_OWQ_WOL"   = "true" ] && REQUIRED="$REQUIRED luci-app-owq-wol"
   [ "$ADD_WATCHDOG"  = "true" ] && REQUIRED="$REQUIRED luci-app-watchdog"
