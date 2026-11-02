@@ -41,6 +41,7 @@ ADD_HOMI=true          # Homi（用户自有项目）：mihomo 内核 + homi 服
 ADD_PARTEXP=true       # luci-app-partexp：一键分区扩容/自动挂载（含中文）
 ADD_AURORA=true        # Aurora 主题 + 设置页（eamonxg，预编译产物，整仓拷）
 ADD_HARBOR=true        # luci-app-harbor-file-pro：HarborFile Pro 文件管理（ucode，子目录拷）
+ADD_DUFS=true          # luci-app-dufs：DUFS 文件服务器 LuCI 界面（用户自有项目，整仓拷，内嵌 aarch64 二进制）
 ADD_POWEROFF=true      # luci-app-poweroffdevice（关机）
 ADD_OWQ_WOL=true       # luci-app-owq-wol（网络唤醒，依赖 etherwake）
 ADD_WATCHDOG=true      # luci-app-watchdog（看门狗，包在子目录，需特殊处理）
@@ -427,6 +428,23 @@ if [ "$ADD_HARBOR" = "true" ]; then
   echo "✅ 已拷贝: luci-app-harbor-file-pro"
   rm -rf "$HB_TMP"
 fi
+
+if [ "$ADD_DUFS" = "true" ]; then
+  DF_TMP="$(mktemp -d)/dufs"
+  if ! clone https://github.com/pg-go/luci-app-dufs "$DF_TMP" main; then
+    echo "::error::pg-go/luci-app-dufs 拉取失败，luci-app-dufs 会被 defconfig 剔除"
+    exit 1
+  fi
+  if [ ! -f "$DF_TMP/Makefile" ]; then
+    echo "::error::$DF_TMP/Makefile 不存在（上游改结构了？）"
+    exit 1
+  fi
+  rm -rf "$PKG_DIR/luci-app-dufs"
+  cp -a "$DF_TMP" "$PKG_DIR/luci-app-dufs"
+  rm -rf "$PKG_DIR/luci-app-dufs/.git"
+  echo "✅ 已拷贝: luci-app-dufs"
+  rm -rf "$DF_TMP"
+fi
 if [ "$ADD_POWEROFF" = "true" ]; then
   clone https://github.com/sirpdboy/luci-app-poweroffdevice "$PKG_DIR/luci-app-poweroffdevice" master
 fi
@@ -640,6 +658,7 @@ if [ -n "$(ls -A "$PKG_DIR" 2>/dev/null)" ]; then
   [ "$ADD_PARTEXP"   = "true" ] && REQUIRED="$REQUIRED luci-app-partexp"
   [ "$ADD_AURORA"    = "true" ] && REQUIRED="$REQUIRED luci-theme-aurora luci-app-aurora-config"
   [ "$ADD_HARBOR"    = "true" ] && REQUIRED="$REQUIRED luci-app-harbor-file-pro"
+  [ "$ADD_DUFS"      = "true" ] && REQUIRED="$REQUIRED luci-app-dufs"
   [ "$ADD_POWEROFF"  = "true" ] && REQUIRED="$REQUIRED luci-app-poweroffdevice"
   [ "$ADD_OWQ_WOL"   = "true" ] && REQUIRED="$REQUIRED luci-app-owq-wol"
   [ "$ADD_WATCHDOG"  = "true" ] && REQUIRED="$REQUIRED luci-app-watchdog"
