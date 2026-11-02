@@ -2,7 +2,7 @@
 # 97-custom-init — 首次开机初始化（uci-defaults，成功执行后自动删除，仅运行一次）
 #
 # 内容：[1] 2.4G/5G WiFi（SSID + WPA2 密钥）→ [2] 清 IPv6 ULA / 关 packet steering →
-#       [3] lan1~lan4 随机 MAC → [4] LAN IP 改为 172.16.6.1/24
+#       [3] lan1~lan4 随机 MAC → [4] LAN IP 改为 172.16.6.1/24 → [5] lan1 改作 WAN
 #
 # ⚠ 含 WiFi 密钥：本仓库是公开 fork，密钥会明文躺在仓库里，请自行评估。
 #    如介意可把下面的 WIFI_KEY 改成占位符，刷机后进 LuCI 再改。
@@ -24,7 +24,7 @@ WIFI_5_DEV='radio1';          WIFI_5_IFACE='default_radio1'    # 5G
 
 log() { logger -t custom-init "$@"; }
 
-echo "=== [1/4] 正在配置 2.4G 与 5G Wi-Fi ==="
+echo "=== [1/5] 正在配置 2.4G 与 5G Wi-Fi ==="
 
 # 按频段找 wifi-device（兼容新旧两种命名）
 find_radio() { # $1: 2g|5g → 输出 device 名
@@ -76,7 +76,7 @@ else
 	log "未找到 /etc/config/wireless，跳过 WiFi 配置"
 fi
 
-echo "=== [2/4] 正在清空 IPv6 ULA 前缀并禁用数据包引导 ==="
+echo "=== [2/5] 正在清空 IPv6 ULA 前缀并禁用数据包引导 ==="
 rm -f /etc/uci-defaults/*network-generate-ula* /rom/etc/uci-defaults/*network-generate-ula* 2>/dev/null
 sed -i "/ula_prefix/d" /etc/config/network
 sed -i "/packet_steering/d" /etc/config/network
@@ -87,7 +87,7 @@ uci commit network
 for rps in /sys/class/net/*/queues/rx-*/rps_cpus; do echo 0 > "$rps" 2>/dev/null; done
 for xps in /sys/class/net/*/queues/tx-*/xps_cpus; do echo 0 > "$xps" 2>/dev/null; done
 
-echo "=== [3/4] 正在生成并校验 lan1~lan4 随机 MAC 地址 ==="
+echo "=== [3/5] 正在生成并校验 lan1~lan4 随机 MAC 地址 ==="
 # 1. 获取 lan1 的原 MAC 地址（若不存在则回退读取 br-lan）
 orig_mac=$(cat /sys/class/net/lan1/address 2>/dev/null)
 [ -z "$orig_mac" ] && orig_mac=$(cat /sys/class/net/br-lan/address 2>/dev/null)
@@ -150,11 +150,44 @@ else
     echo "错误：读取到的 lan1 MAC 前缀 ($prefix) 不合理，为保障安全已跳过修改！"
 fi
 
-echo "=== [4/4] 正在将 LAN IP 修改为 $LAN_IP ==="
+echo "=== [4/5] 正在将 LAN IP 修改为 $LAN_IP ==="
 LAN_IP='172.16.6.1'
 LAN_NETMASK='255.255.255.0'
 uci set network.lan.ipaddr="$LAN_IP"
 uci set network.lan.netmask="$LAN_NETMASK"
+uci commit network
+
+echo "=== [5/5] 正在把 lan1 从 br-lan 移出并新建 wan1/wan1_6 ==="
+# 1) 从 br-lan 的端口列表里去掉 lan1（兼容 list 型 ports 与字符串型 ports）
+brsec=$(uci show network 2>/dev/null | grep -E "network\.@?device[^.]*\.name='br-lan'" | cut -d. -f2 | head -n 1)
+if [ -n "$brsec" ]; then
+    uci del_list network.$brsec.ports='lan1' 2>/dev/null
+    # 字符串型 ports 时 del_list 无效，再用字符串方式去掉（先把换行统一成空格）
+    ports=$(uci get network.$brsec.ports 2>/dev/null | tr '\n' ' ')
+    case " $ports " in
+        *" lan1 "*)
+            newports=""
+            for p in $ports; do [ "$p" != "lan1" ] && newports="$newports $p"; done
+            uci set network.$brsec.ports="$(echo $newports)"
+            ;;
+    esac
+fi
+# 旧式 lan 接口 ifname 型（lan 直接挂 ifname、无独立 br-lan device 段时）
+ifname=$(uci get network.lan.ifname 2>/dev/null | tr '\n' ' ')
+case " $ifname " in
+    *" lan1 "*)
+        newif=""
+        for p in $ifname; do [ "$p" != "lan1" ] && newif="$newif $p"; done
+        uci set network.lan.ifname="$(echo $newif)"
+        ;;
+esac
+# 2) 新建 wan1（IPv4 DHCP）与 wan1_6（IPv6 DHCPv6），设备均为 lan1；原 pon0 的 wan 不动
+uci set network.wan1='interface'
+uci set network.wan1.device='lan1'
+uci set network.wan1.proto='dhcp'
+uci set network.wan1_6='interface'
+uci set network.wan1_6.device='lan1'
+uci set network.wan1_6.proto='dhcpv6'
 uci commit network
 
 # 让已提交的无线配置立即生效（首启时多为兜底）
