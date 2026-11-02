@@ -444,6 +444,13 @@ if [ "$ADD_DUFS" = "true" ]; then
   rm -rf "$PKG_DIR/luci-app-dufs/.git"
   echo "✅ 已拷贝: luci-app-dufs"
   rm -rf "$DF_TMP"
+
+  # feed 里已有同名 luci-app-dufs（ImmortalWrt luci feed），且 feeds install 在 diy-part1 之前跑，
+  # 所以构建时 custom 版与 feed 版同名并存，构建实际用了 feed 版（界面无 https、无 ipv6 列表，
+  # 描述串与 feed 的 po 逐字一致，已实证）。必须删掉 feed 版，只留 custom 版。
+  # 注意：package/feeds/luci/luci-app-dufs 是 feeds install 建的软链，rm -rf 不带尾斜杠只删链本身，不动 feed 源码。
+  rm -rf "package/feeds/luci/luci-app-dufs"
+  echo "✅ 已删除 feed 版 luci-app-dufs（只留 custom 版）"
 fi
 if [ "$ADD_POWEROFF" = "true" ]; then
   clone https://github.com/sirpdboy/luci-app-poweroffdevice "$PKG_DIR/luci-app-poweroffdevice" master
