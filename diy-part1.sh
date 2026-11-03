@@ -38,7 +38,6 @@ ADD_OPENLIST=true      # luci-app-openlist2（alist/openlist 挂载）
 ADD_SMARTDNS=true      # luci-app-smartdns（本体只用 feeds 的 smartdns）
 ADD_EASYTIER=true      # easytier-noweb（预编译二进制）+ luci-app-easytier（子目录拷，不走整仓）
 ADD_HOMI=true          # Homi（用户自有项目）：mihomo 内核 + homi 服务 + luci-app-homi 界面
-ADD_PARTEXP=true       # luci-app-partexp：一键分区扩容/自动挂载（含中文）
 ADD_AURORA=true        # Aurora 主题 + 设置页（eamonxg，预编译产物，整仓拷）
 ADD_HARBOR=true        # luci-app-harbor-file-pro：HarborFile Pro 文件管理（ucode，子目录拷）
 ADD_DUFS=true          # luci-app-dufs：DUFS 文件服务器 LuCI 界面（用户自有项目，整仓拷，内嵌 aarch64 二进制）
@@ -367,25 +366,6 @@ if [ "$ADD_HOMI" = "true" ]; then
   rm -rf "$HOMI_TMP"
 fi
 
-# --- luci-app-partexp（一键分区扩容 / 自动挂载）---
-# 源：sirpdboy/luci-app-partexp。包在子目录 luci-app-partexp/，拷出子目录；
-# 自带 po/zh_Hans 中文（LUCI_BASENAME=partexp → luci-i18n-partexp-zh-cn）。
-if [ "$ADD_PARTEXP" = "true" ]; then
-  PE_TMP="$(mktemp -d)/partexp"
-  if ! clone https://github.com/sirpdboy/luci-app-partexp "$PE_TMP" main; then
-    echo "::error::sirpdboy/luci-app-partexp 拉取失败，luci-app-partexp 会被 defconfig 剔除"
-    exit 1
-  fi
-  if [ ! -f "$PE_TMP/luci-app-partexp/Makefile" ]; then
-    echo "::error::$PE_TMP/luci-app-partexp/Makefile 不存在（上游改结构了？）"
-    exit 1
-  fi
-  rm -rf "$PKG_DIR/luci-app-partexp"
-  cp -a "$PE_TMP/luci-app-partexp" "$PKG_DIR/"
-  echo "✅ 已拷贝: luci-app-partexp"
-  rm -rf "$PE_TMP"
-fi
-
 # --- Aurora 主题 + 设置页 ---
 # 源：eamonxg/luci-theme-aurora（主题，htdocs 已预编译）与
 # eamonxg/luci-app-aurora-config（设置页，要求主题 ≥1.2.0，主题现为 1.4.1）。
@@ -662,7 +642,6 @@ if [ -n "$(ls -A "$PKG_DIR" 2>/dev/null)" ]; then
   [ "$ADD_EASYTIER"  = "true" ] && REQUIRED="$REQUIRED luci-app-easytier"
   [ "$ADD_EASYTIER"  = "true" ] && REQUIRED="$REQUIRED easytier-noweb"
   [ "$ADD_HOMI"      = "true" ] && REQUIRED="$REQUIRED mihomo homi luci-app-homi"
-  [ "$ADD_PARTEXP"   = "true" ] && REQUIRED="$REQUIRED luci-app-partexp"
   [ "$ADD_AURORA"    = "true" ] && REQUIRED="$REQUIRED luci-theme-aurora luci-app-aurora-config"
   [ "$ADD_HARBOR"    = "true" ] && REQUIRED="$REQUIRED luci-app-harbor-file-pro"
   [ "$ADD_DUFS"      = "true" ] && REQUIRED="$REQUIRED luci-app-dufs"
