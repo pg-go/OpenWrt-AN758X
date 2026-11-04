@@ -38,7 +38,7 @@ ADD_OPENLIST=true      # luci-app-openlist2（alist/openlist 挂载）
 ADD_SMARTDNS=true      # luci-app-smartdns（本体只用 feeds 的 smartdns）
 ADD_EASYTIER=true      # easytier-noweb（预编译二进制）+ luci-app-easytier（子目录拷，不走整仓）
 ADD_HOMI=true          # Homi（用户自有项目）：mihomo 内核 + homi 服务 + luci-app-homi 界面
-ADD_VANTAGE=true       # luci-theme-vantage：Vantage 主题（子目录拷，默认分支 main）
+ADD_VANTAGE=true       # luci-theme-vantage + luci-app-vantage：Vantage 主题 + 仪表盘（子目录拷，默认分支 main）
 ADD_HARBOR=true        # luci-app-harbor-file-pro：HarborFile Pro 文件管理（ucode，子目录拷）
 ADD_DUFS=true          # luci-app-dufs：DUFS 文件服务器 LuCI 界面（用户自有项目，整仓拷，内嵌 aarch64 二进制）
 ADD_POWEROFF=true      # luci-app-poweroffdevice（关机）
@@ -366,22 +366,26 @@ if [ "$ADD_HOMI" = "true" ]; then
   rm -rf "$HOMI_TMP"
 fi
 
-# --- luci-theme-vantage（Vantage 主题）---
-# 源：anothaDev/luci-theme-vantage。包在子目录 luci-theme-vantage/，拷出子目录；
-# 默认分支 main；中文包 luci-i18n-vantage-theme-zh-cn（LUCI_BASENAME=vantage-theme）。
+# --- luci-theme-vantage（Vantage 主题 + 仪表盘）---
+# 源：anothaDev/luci-theme-vantage。两个包都在子目录里（luci-theme-vantage/ 与
+# luci-app-vantage/），拷出子目录；默认分支 main；中文包分别为
+# luci-i18n-vantage-theme-zh-cn（主题，LUCI_BASENAME=vantage-theme）与
+# luci-i18n-vantage-zh-cn（仪表盘，默认名）。
 if [ "$ADD_VANTAGE" = "true" ]; then
   VA_TMP="$(mktemp -d)/vantage"
   if ! clone https://github.com/anothaDev/luci-theme-vantage "$VA_TMP" main; then
-    echo "::error::anothaDev/luci-theme-vantage 拉取失败，luci-theme-vantage 会被 defconfig 剔除"
+    echo "::error::anothaDev/luci-theme-vantage 拉取失败，luci-theme-vantage / luci-app-vantage 会被 defconfig 剔除"
     exit 1
   fi
-  if [ ! -f "$VA_TMP/luci-theme-vantage/Makefile" ]; then
-    echo "::error::$VA_TMP/luci-theme-vantage/Makefile 不存在（上游改结构了？）"
-    exit 1
-  fi
-  rm -rf "$PKG_DIR/luci-theme-vantage"
-  cp -a "$VA_TMP/luci-theme-vantage" "$PKG_DIR/"
-  echo "✅ 已拷贝: luci-theme-vantage"
+  for pkg in luci-theme-vantage luci-app-vantage; do
+    if [ ! -f "$VA_TMP/$pkg/Makefile" ]; then
+      echo "::error::$VA_TMP/$pkg/Makefile 不存在（上游改结构了？）"
+      exit 1
+    fi
+    rm -rf "$PKG_DIR/$pkg"
+    cp -a "$VA_TMP/$pkg" "$PKG_DIR/"
+    echo "✅ 已拷贝: $pkg"
+  done
   rm -rf "$VA_TMP"
 fi
 
@@ -637,7 +641,7 @@ if [ -n "$(ls -A "$PKG_DIR" 2>/dev/null)" ]; then
   [ "$ADD_EASYTIER"  = "true" ] && REQUIRED="$REQUIRED luci-app-easytier"
   [ "$ADD_EASYTIER"  = "true" ] && REQUIRED="$REQUIRED easytier-noweb"
   [ "$ADD_HOMI"      = "true" ] && REQUIRED="$REQUIRED mihomo homi luci-app-homi"
-  [ "$ADD_VANTAGE"   = "true" ] && REQUIRED="$REQUIRED luci-theme-vantage"
+  [ "$ADD_VANTAGE"   = "true" ] && REQUIRED="$REQUIRED luci-theme-vantage luci-app-vantage"
   [ "$ADD_HARBOR"    = "true" ] && REQUIRED="$REQUIRED luci-app-harbor-file-pro"
   [ "$ADD_DUFS"      = "true" ] && REQUIRED="$REQUIRED luci-app-dufs"
   [ "$ADD_POWEROFF"  = "true" ] && REQUIRED="$REQUIRED luci-app-poweroffdevice"
