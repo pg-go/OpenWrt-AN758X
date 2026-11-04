@@ -345,13 +345,13 @@ if [ "$ADD_EASYTIER" = "true" ]; then
 fi
 
 # --- Homi（用户自有项目：Mihomo 极简 LuCI 应用）---
-# 源：pg-go/Homi。包在三个子目录：mihomo（内核，Go 源码编译 MetaCubeX/mihomo）、
+# 源：pg-go/luci-app-homi。包在三个子目录：mihomo（内核，Go 源码编译 MetaCubeX/mihomo）、
 # homi（服务，DEPENDS +mihomo +yq +curl）、luci-app-homi（界面，中文原生无 po）。
 # 必须拷出子目录。注意 mihomo 是 Go 编译，会给固件构建增加约 10 分钟。
 if [ "$ADD_HOMI" = "true" ]; then
   HOMI_TMP="$(mktemp -d)/homi"
-  if ! clone https://github.com/pg-go/Homi "$HOMI_TMP" main; then
-    echo "::error::pg-go/Homi 拉取失败，mihomo / homi / luci-app-homi 会被 defconfig 剔除"
+  if ! clone https://github.com/pg-go/luci-app-homi "$HOMI_TMP" main; then
+    echo "::error::pg-go/luci-app-homi 拉取失败，mihomo / homi / luci-app-homi 会被 defconfig 剔除"
     exit 1
   fi
   for p in mihomo homi luci-app-homi; do
