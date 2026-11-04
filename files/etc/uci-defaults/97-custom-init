@@ -3,7 +3,7 @@
 #
 # 内容：[1] 2.4G/5G WiFi（SSID + WPA2 密钥）→ [2] 清 IPv6 ULA / 关 packet steering →
 #       [3] lan1~lan4 随机 MAC → [4] LAN IP 改为 172.16.6.1/24 → [5] lan1 改作 WAN →
-#       [6] wan1/wan1_6 进 wan zone
+#       [6] wan1/wan1_6 进 wan zone → [7] LuCI 默认主题设为 Vantage
 #
 # ⚠ 含 WiFi 密钥：本仓库是公开 fork，密钥会明文躺在仓库里，请自行评估。
 #    如介意可把下面的 WIFI_KEY 改成占位符，刷机后进 LuCI 再改。
@@ -25,7 +25,7 @@ WIFI_5_DEV='radio1';          WIFI_5_IFACE='default_radio1'    # 5G
 
 log() { logger -t custom-init "$@"; }
 
-echo "=== [1/6] 正在配置 2.4G 与 5G Wi-Fi ==="
+echo "=== [1/7] 正在配置 2.4G 与 5G Wi-Fi ==="
 
 # 按频段找 wifi-device（兼容新旧两种命名）
 find_radio() { # $1: 2g|5g → 输出 device 名
@@ -77,7 +77,7 @@ else
 	log "未找到 /etc/config/wireless，跳过 WiFi 配置"
 fi
 
-echo "=== [2/6] 正在清空 IPv6 ULA 前缀并禁用数据包引导 ==="
+echo "=== [2/7] 正在清空 IPv6 ULA 前缀并禁用数据包引导 ==="
 rm -f /etc/uci-defaults/*network-generate-ula* /rom/etc/uci-defaults/*network-generate-ula* 2>/dev/null
 sed -i "/ula_prefix/d" /etc/config/network
 sed -i "/packet_steering/d" /etc/config/network
@@ -88,7 +88,7 @@ uci commit network
 for rps in /sys/class/net/*/queues/rx-*/rps_cpus; do echo 0 > "$rps" 2>/dev/null; done
 for xps in /sys/class/net/*/queues/tx-*/xps_cpus; do echo 0 > "$xps" 2>/dev/null; done
 
-echo "=== [3/6] 正在生成并校验 lan1~lan4 随机 MAC 地址 ==="
+echo "=== [3/7] 正在生成并校验 lan1~lan4 随机 MAC 地址 ==="
 # 1. 获取 lan1 的原 MAC 地址（若不存在则回退读取 br-lan）
 orig_mac=$(cat /sys/class/net/lan1/address 2>/dev/null)
 [ -z "$orig_mac" ] && orig_mac=$(cat /sys/class/net/br-lan/address 2>/dev/null)
@@ -151,14 +151,14 @@ else
     echo "错误：读取到的 lan1 MAC 前缀 ($prefix) 不合理，为保障安全已跳过修改！"
 fi
 
-echo "=== [4/6] 正在将 LAN IP 修改为 $LAN_IP ==="
+echo "=== [4/7] 正在将 LAN IP 修改为 $LAN_IP ==="
 LAN_IP='172.16.6.1'
 LAN_NETMASK='255.255.255.0'
 uci set network.lan.ipaddr="$LAN_IP"
 uci set network.lan.netmask="$LAN_NETMASK"
 uci commit network
 
-echo "=== [5/6] 正在把 lan1 从 br-lan 移出并新建 wan1/wan1_6 ==="
+echo "=== [5/7] 正在把 lan1 从 br-lan 移出并新建 wan1/wan1_6 ==="
 # 1) 从 br-lan 的端口列表里去掉 lan1（兼容 list 型 ports 与字符串型 ports）
 brsec=$(uci show network 2>/dev/null | grep -E "network\.@?device[^.]*\.name='br-lan'" | cut -d. -f2 | head -n 1)
 if [ -n "$brsec" ]; then
@@ -191,7 +191,7 @@ uci set network.wan1_6.device='lan1'
 uci set network.wan1_6.proto='dhcpv6'
 uci commit network
 
-echo "=== [6/6] 正在把 wan1 与 wan1_6 加进防火墙 wan zone ==="
+echo "=== [6/7] 正在把 wan1 与 wan1_6 加进防火墙 wan zone ==="
 # 找出 name='wan' 的 zone 段（兼容具名与匿名段）
 wanzone=""
 for sec in $(uci show firewall 2>/dev/null | sed -n 's/^firewall\.\(.*\)=zone$/\1/p'); do
@@ -212,6 +212,11 @@ if [ -n "$wanzone" ]; then
 else
     log "未找到 name='wan' 的防火墙 zone，跳过 wan1/wan1_6 入 zone"
 fi
+
+echo "=== [7/7] 正在把 LuCI 默认主题设为 Vantage ==="
+uci set luci.main.mediaurlbase='/luci-static/vantage' 2>/dev/null
+uci commit luci 2>/dev/null
+log "LuCI 默认主题已设为 Vantage"
 
 # 让已提交的无线配置立即生效（首启时多为兜底）
 command -v wifi >/dev/null 2>&1 && wifi reload >/dev/null 2>&1 || true
