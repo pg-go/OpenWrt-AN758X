@@ -3,7 +3,7 @@
 #
 # 内容：[1] 2.4G/5G WiFi（SSID + WPA2 密钥）→ [2] 清 IPv6 ULA / 关 packet steering →
 #       [3] lan1~lan4 随机 MAC → [4] LAN IP 改为 172.16.6.1/24 → [5] lan1 改作 WAN →
-#       [6] wan1/wan1_6 进 wan zone → [7] LuCI 默认主题设为 Vantage
+#       [6] wan1/wan1_6 进 wan zone → [7] LuCI 默认主题设为 Aurora
 #
 # ⚠ 含 WiFi 密钥：本仓库是公开 fork，密钥会明文躺在仓库里，请自行评估。
 #    如介意可把下面的 WIFI_KEY 改成占位符，刷机后进 LuCI 再改。
@@ -213,10 +213,10 @@ else
     log "未找到 name='wan' 的防火墙 zone，跳过 wan1/wan1_6 入 zone"
 fi
 
-echo "=== [7/7] 正在把 LuCI 默认主题设为 Vantage ==="
-uci set luci.main.mediaurlbase='/luci-static/vantage' 2>/dev/null
+echo "=== [7/7] 正在把 LuCI 默认主题设为 Aurora ==="
+uci set luci.main.mediaurlbase='/luci-static/aurora' 2>/dev/null
 uci commit luci 2>/dev/null
-log "LuCI 默认主题已设为 Vantage"
+log "LuCI 默认主题已设为 Aurora"
 
 # 让已提交的无线配置立即生效（首启时多为兜底）
 command -v wifi >/dev/null 2>&1 && wifi reload >/dev/null 2>&1 || true
