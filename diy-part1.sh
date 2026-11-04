@@ -38,7 +38,8 @@ ADD_OPENLIST=true      # luci-app-openlist2（alist/openlist 挂载）
 ADD_SMARTDNS=true      # luci-app-smartdns（本体只用 feeds 的 smartdns）
 ADD_EASYTIER=true      # easytier-noweb（预编译二进制）+ luci-app-easytier（子目录拷，不走整仓）
 ADD_HOMI=true          # Homi（用户自有项目）：mihomo 内核 + homi 服务 + luci-app-homi 界面
-ADD_VANTAGE=true       # luci-theme-vantage + luci-app-vantage：Vantage 主题 + 仪表盘（子目录拷，默认分支 main）
+ADD_AURORA=true        # Aurora 主题 + 设置页（eamonxg，预编译产物，整仓拷）
+ADD_NETPATH=true       # luci-app-netpath：NetPath 仪表盘（用户自有项目，子目录拷，默认分支 main）
 ADD_HARBOR=true        # luci-app-harbor-file-pro：HarborFile Pro 文件管理（ucode，子目录拷）
 ADD_DUFS=true          # luci-app-dufs：DUFS 文件服务器 LuCI 界面（用户自有项目，整仓拷，内嵌 aarch64 二进制）
 ADD_POWEROFF=true      # luci-app-poweroffdevice（关机）
@@ -366,27 +367,47 @@ if [ "$ADD_HOMI" = "true" ]; then
   rm -rf "$HOMI_TMP"
 fi
 
-# --- luci-theme-vantage（Vantage 主题 + 仪表盘）---
-# 源：anothaDev/luci-theme-vantage。两个包都在子目录里（luci-theme-vantage/ 与
-# luci-app-vantage/），拷出子目录；默认分支 main；中文包分别为
-# luci-i18n-vantage-theme-zh-cn（主题，LUCI_BASENAME=vantage-theme）与
-# luci-i18n-vantage-zh-cn（仪表盘，默认名）。
-if [ "$ADD_VANTAGE" = "true" ]; then
-  VA_TMP="$(mktemp -d)/vantage"
-  if ! clone https://github.com/anothaDev/luci-theme-vantage "$VA_TMP" main; then
-    echo "::error::anothaDev/luci-theme-vantage 拉取失败，luci-theme-vantage / luci-app-vantage 会被 defconfig 剔除"
-    exit 1
-  fi
-  for pkg in luci-theme-vantage luci-app-vantage; do
-    if [ ! -f "$VA_TMP/$pkg/Makefile" ]; then
-      echo "::error::$VA_TMP/$pkg/Makefile 不存在（上游改结构了？）"
+# --- Aurora 主题 + 设置页 ---
+# 源：eamonxg/luci-theme-aurora（主题，htdocs 已预编译）与
+# eamonxg/luci-app-aurora-config（设置页，要求主题 ≥1.2.0）。
+# 两个仓库根目录就是包体（Makefile 在根目录），整仓拷（去掉 .git）。
+# 注意：两仓默认分支是 master，不是 main。
+if [ "$ADD_AURORA" = "true" ]; then
+  for repo in luci-theme-aurora luci-app-aurora-config; do
+    AU_TMP="$(mktemp -d)/aurora"
+    if ! clone "https://github.com/eamonxg/$repo" "$AU_TMP" master; then
+      echo "::error::eamonxg/$repo 拉取失败，$repo 会被 defconfig 剔除"
       exit 1
     fi
-    rm -rf "$PKG_DIR/$pkg"
-    cp -a "$VA_TMP/$pkg" "$PKG_DIR/"
-    echo "✅ 已拷贝: $pkg"
+    if [ ! -f "$AU_TMP/Makefile" ]; then
+      echo "::error::$AU_TMP/Makefile 不存在（上游改结构了？）"
+      exit 1
+    fi
+    rm -rf "$PKG_DIR/$repo"
+    cp -a "$AU_TMP" "$PKG_DIR/$repo"
+    rm -rf "$PKG_DIR/$repo/.git"
+    echo "✅ 已拷贝: $repo"
+    rm -rf "$AU_TMP"
   done
-  rm -rf "$VA_TMP"
+fi
+
+# --- luci-app-netpath（NetPath 仪表盘）---
+# 源：pg-go/luci-app-netpath（用户自有项目）。
+# 包在子目录 luci-app-netpath/，拷出子目录；默认分支 main。
+if [ "$ADD_NETPATH" = "true" ]; then
+  NP_TMP="$(mktemp -d)/netpath"
+  if ! clone https://github.com/pg-go/luci-app-netpath "$NP_TMP" main; then
+    echo "::error::pg-go/luci-app-netpath 拉取失败，luci-app-netpath 会被 defconfig 剔除"
+    exit 1
+  fi
+  if [ ! -f "$NP_TMP/luci-app-netpath/Makefile" ]; then
+    echo "::error::$NP_TMP/luci-app-netpath/Makefile 不存在（上游改结构了？）"
+    exit 1
+  fi
+  rm -rf "$PKG_DIR/luci-app-netpath"
+  cp -a "$NP_TMP/luci-app-netpath" "$PKG_DIR/"
+  echo "✅ 已拷贝: luci-app-netpath"
+  rm -rf "$NP_TMP"
 fi
 
 # --- luci-app-harbor-file-pro（HarborFile Pro 文件管理）---
@@ -641,7 +662,8 @@ if [ -n "$(ls -A "$PKG_DIR" 2>/dev/null)" ]; then
   [ "$ADD_EASYTIER"  = "true" ] && REQUIRED="$REQUIRED luci-app-easytier"
   [ "$ADD_EASYTIER"  = "true" ] && REQUIRED="$REQUIRED easytier-noweb"
   [ "$ADD_HOMI"      = "true" ] && REQUIRED="$REQUIRED mihomo homi luci-app-homi"
-  [ "$ADD_VANTAGE"   = "true" ] && REQUIRED="$REQUIRED luci-theme-vantage luci-app-vantage"
+  [ "$ADD_AURORA"    = "true" ] && REQUIRED="$REQUIRED luci-theme-aurora luci-app-aurora-config"
+  [ "$ADD_NETPATH"   = "true" ] && REQUIRED="$REQUIRED luci-app-netpath"
   [ "$ADD_HARBOR"    = "true" ] && REQUIRED="$REQUIRED luci-app-harbor-file-pro"
   [ "$ADD_DUFS"      = "true" ] && REQUIRED="$REQUIRED luci-app-dufs"
   [ "$ADD_POWEROFF"  = "true" ] && REQUIRED="$REQUIRED luci-app-poweroffdevice"
