@@ -2,7 +2,8 @@
 # 97-custom-init — 首次开机初始化（uci-defaults，成功执行后自动删除，仅运行一次）
 #
 # 内容：[1] 2.4G/5G WiFi（SSID + WPA2 密钥）→ [2] 清 IPv6 ULA / 关 packet steering →
-#       [3] lan1~lan4 随机 MAC → [4] LAN IP 改为 172.16.9.1/24 → [5] LuCI 默认主题设为 Aurora
+#       [3] lan1~lan4 随机 MAC → [4] LAN IP 改为 172.16.9.1/24 → [5] LuCI 默认主题设为 Aurora →
+#       [6] 自动挂载未配置的磁盘分区
 #
 # ⚠ 含 WiFi 密钥：本仓库是公开 fork，密钥会明文躺在仓库里，请自行评估。
 #    如介意可把下面的 WIFI_KEY 改成占位符，刷机后进 LuCI 再改。
@@ -161,6 +162,14 @@ echo "=== [5/5] 正在把 LuCI 默认主题设为 Aurora ==="
 uci set luci.main.mediaurlbase='/luci-static/aurora' 2>/dev/null
 uci commit luci 2>/dev/null
 log "LuCI 默认主题已设为 Aurora"
+
+echo "=== [6/6] 正在开启自动挂载未配置的磁盘分区 ==="
+# fstab global 段的 anon_mount：LuCI「挂载点」→「自动挂载未配置的磁盘分区」
+# 默认是 0（不勾）；设为 1 后插 U 盘/硬盘会自动挂到 /mnt 下
+uci -q get fstab.@global[0] >/dev/null 2>&1 || uci add fstab global >/dev/null 2>&1
+uci set fstab.@global[0].anon_mount='1'
+uci commit fstab
+log "自动挂载未配置的磁盘分区已开启（fstab anon_mount=1）"
 
 # 让已提交的无线配置立即生效（首启时多为兜底）
 command -v wifi >/dev/null 2>&1 && wifi reload >/dev/null 2>&1 || true
